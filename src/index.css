@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 210 20% 98%;
+    --foreground: 220 25% 15%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 220 25% 15%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 220 25% 15%;
+
+    --primary: 166 72% 40%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 220 14% 96%;
+    --secondary-foreground: 220 25% 25%;
+
+    --muted: 220 14% 96%;
+    --muted-foreground: 220 10% 50%;
+
+    --accent: 262 83% 58%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 220 13% 91%;
+    --input: 220 13% 91%;
+    --ring: 166 72% 40%;
+
+    --radius: 0.75rem;
+
+    /* Custom tokens */
+    --gradient-primary: linear-gradient(135deg, hsl(166 72% 40%), hsl(166 72% 50%));
+    --gradient-accent: linear-gradient(135deg, hsl(262 83% 58%), hsl(280 83% 58%));
+    --gradient-warm: linear-gradient(135deg, hsl(25 95% 53%), hsl(45 95% 53%));
+    --gradient-blue: linear-gradient(135deg, hsl(210 90% 50%), hsl(230 90% 60%));
+    --gradient-success: linear-gradient(135deg, hsl(142 70% 45%), hsl(166 72% 40%));
+    
+    --shadow-sm: 0 1px 2px 0 hsl(220 25% 15% / 0.05);
+    --shadow-md: 0 4px 6px -1px hsl(220 25% 15% / 0.07), 0 2px 4px -2px hsl(220 25% 15% / 0.07);
+    --shadow-lg: 0 10px 15px -3px hsl(220 25% 15% / 0.08), 0 4px 6px -4px hsl(220 25% 15% / 0.08);
+    --shadow-xl: 0 20px 25px -5px hsl(220 25% 15% / 0.1), 0 8px 10px -6px hsl(220 25% 15% / 0.1);
+    --shadow-glow: 0 0 40px hsl(166 72% 40% / 0.2);
+    
+    --font-heading: 'Poppins', sans-serif;
+    --font-body: 'Inter', sans-serif;
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 166 72% 40%;
+  }
+
+  .dark {
+    --background: 220 25% 10%;
+    --foreground: 210 20% 98%;
+
+    --card: 220 25% 13%;
+    --card-foreground: 210 20% 98%;
+
+    --popover: 220 25% 13%;
+    --popover-foreground: 210 20% 98%;
+
+    --primary: 166 72% 45%;
+    --primary-foreground: 220 25% 10%;
+
+    --secondary: 220 20% 18%;
+    --secondary-foreground: 210 20% 98%;
+
+    --muted: 220 20% 18%;
+    --muted-foreground: 220 10% 60%;
+
+    --accent: 262 83% 65%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 62% 50%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 220 20% 20%;
+    --input: 220 20% 20%;
+    --ring: 166 72% 45%;
+
+    --sidebar-background: 220 25% 10%;
+    --sidebar-foreground: 210 20% 98%;
+    --sidebar-primary: 166 72% 45%;
+    --sidebar-primary-foreground: 220 25% 10%;
+    --sidebar-accent: 220 20% 18%;
+    --sidebar-accent-foreground: 210 20% 98%;
+    --sidebar-border: 220 20% 20%;
+    --sidebar-ring: 166 72% 45%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-body antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+  }
+}
+
+@layer components {
+  .card-hover {
+    @apply transition-all duration-300 hover:shadow-xl hover:-translate-y-1;
+  }
+
+  .gradient-text {
+    @apply bg-clip-text text-transparent;
+    background-image: var(--gradient-primary);
+  }
+
+  .gradient-bg-primary {
+    background: var(--gradient-primary);
+  }
+
+  .gradient-bg-accent {
+    background: var(--gradient-accent);
+  }
+
+  .gradient-bg-warm {
+    background: var(--gradient-warm);
+  }
+
+  .gradient-bg-blue {
+    background: var(--gradient-blue);
+  }
+
+  .gradient-bg-success {
+    background: var(--gradient-success);
+  }
+
+  .glass-effect {
+    @apply backdrop-blur-md bg-card/80 border border-border/50;
+  }
+
+  .avatar-card {
+    @apply relative overflow-hidden rounded-xl transition-all duration-300;
+  }
+
+  .avatar-card:hover {
+    @apply transform scale-105 shadow-xl;
+  }
+
+  .avatar-card.selected {
+    @apply ring-2 ring-primary ring-offset-2;
+  }
+
+  .character-badge {
+    @apply absolute top-1 left-1 px-1.5 py-0.5 rounded text-[8px] font-bold shadow-sm;
+  }
+
+  .character-badge.marvel {
+    @apply bg-red-500 text-white;
+  }
+
+  .character-badge.dc {
+    @apply bg-blue-500 text-white;
+  }
+
+  .character-badge.anime {
+    @apply bg-pink-500 text-white;
+  }
+
+  .character-badge.transformers {
+    @apply bg-yellow-500 text-black;
+  }
+}
+
+@layer utilities {
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+
+  .animate-pulse-slow {
+    animation: pulse 3s ease-in-out infinite;
+  }
+
+  .animate-slide-up {
+    animation: slideUp 0.5s ease-out forwards;
+  }
+
+  .animate-fade-in {
+    animation: fadeIn 0.6s ease-out forwards;
+  }
+
+  @keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+  }
+
+  @keyframes slideUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+}
