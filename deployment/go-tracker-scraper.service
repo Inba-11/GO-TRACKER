@@ -1,0 +1,39 @@
+[Unit]
+Description=Go Tracker Python Scraper Scheduler
+Documentation=file:///var/www/go-tracker/PRODUCTION_SYSTEM_GUIDE.md
+After=network.target mongodb.service
+Wants=mongodb.service
+
+[Service]
+Type=simple
+User=www-data
+Group=www-data
+WorkingDirectory=/var/www/go-tracker/scraper
+
+# Environment variables
+EnvironmentFile=/var/www/go-tracker/scraper/.env
+
+# Start command
+ExecStart=/usr/bin/python3 /var/www/go-tracker/scraper/production_scheduler.py
+
+# Restart policy
+Restart=always
+RestartSec=10
+StartLimitInterval=60s
+StartLimitBurst=3
+
+# Logging
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=go-tracker-scraper
+
+# Security
+NoNewPrivileges=true
+PrivateTmp=true
+
+# Resource limits
+MemoryLimit=512M
+CPUQuota=50%
+
+[Install]
+WantedBy=multi-user.target

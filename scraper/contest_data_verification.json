@@ -1,0 +1,260 @@
+{
+  "verified_at": "2025-01-05T15:00:00Z",
+  "total_students": 28,
+  "total_contests": 2361,
+  "average_contests": 84.32142857142857,
+  "students": [
+    {
+      "rollNumber": "711523BCB019",
+      "name": "GOWSIKA S A",
+      "username": "arul_gowsi",
+      "totalContests": 98,
+      "rating": 98,
+      "problemsSolved": 606,
+      "updatedAt": "2026-01-05 14:48:24"
+    },
+    {
+      "rollNumber": "711523BCB021",
+      "name": "HARIVARSHA C S",
+      "username": "kit27csbs21",
+      "totalContests": 101,
+      "rating": 101,
+      "problemsSolved": 351,
+      "updatedAt": "2026-01-05 14:48:30"
+    },
+    {
+      "rollNumber": "711523BCB023",
+      "name": "INBATAMIZHAN P",
+      "username": "kit27csbs23",
+      "totalContests": 96,
+      "rating": 1264,
+      "problemsSolved": 0,
+      "updatedAt": "2025-01-05T14:30:00Z"
+    },
+    {
+      "rollNumber": "711523BCB024",
+      "name": "JEGAN S",
+      "username": "kit27csbs24",
+      "totalContests": 82,
+      "rating": 82,
+      "problemsSolved": 310,
+      "updatedAt": "2026-01-05 14:48:36"
+    },
+    {
+      "rollNumber": "711523BCB026",
+      "name": "JOEL G",
+      "username": "kit27csbs26",
+      "totalContests": 82,
+      "rating": 82,
+      "problemsSolved": 275,
+      "updatedAt": "2026-01-05 14:48:42"
+    },
+    {
+      "rollNumber": "711523BCB029",
+      "name": "KAVIYA K",
+      "username": "kitcsbs29",
+      "totalContests": 50,
+      "rating": 50,
+      "problemsSolved": 426,
+      "updatedAt": "2026-01-05 14:48:47"
+    },
+    {
+      "rollNumber": "711523BCB032",
+      "name": "LOURDU SATHISH J",
+      "username": "kit27csbs32",
+      "totalContests": 97,
+      "rating": 97,
+      "problemsSolved": 464,
+      "updatedAt": "2026-01-05 14:48:55"
+    },
+    {
+      "rollNumber": "711523BCB034",
+      "name": "MAHESHWARI D",
+      "username": "kit27csbs34",
+      "totalContests": 100,
+      "rating": 100,
+      "problemsSolved": 689,
+      "updatedAt": "2026-01-05 14:49:05"
+    },
+    {
+      "rollNumber": "711523BCB035",
+      "name": "MANO NIKILA R",
+      "username": "manonikila",
+      "totalContests": 81,
+      "rating": 81,
+      "problemsSolved": 408,
+      "updatedAt": "2026-01-05 14:49:08"
+    },
+    {
+      "rollNumber": "711523BCB037",
+      "name": "MONISHA G",
+      "username": "kit27csbs37",
+      "totalContests": 95,
+      "rating": 95,
+      "problemsSolved": 278,
+      "updatedAt": "2026-01-05 14:49:13"
+    },
+    {
+      "rollNumber": "711523BCB041",
+      "name": "PRAKASH B",
+      "username": "prakashb",
+      "totalContests": 113,
+      "rating": 113,
+      "problemsSolved": 475,
+      "updatedAt": "2026-01-05 14:49:25"
+    },
+    {
+      "rollNumber": "711523BCB043",
+      "name": "RAGAVI A",
+      "username": "kit27csbs43",
+      "totalContests": 100,
+      "rating": 100,
+      "problemsSolved": 366,
+      "updatedAt": "2026-01-05 14:49:31"
+    },
+    {
+      "rollNumber": "711523BCB045",
+      "name": "RAJADURAI R",
+      "username": "rajadurai_31",
+      "totalContests": 20,
+      "rating": 20,
+      "problemsSolved": 270,
+      "updatedAt": "2026-01-05 14:49:36"
+    },
+    {
+      "rollNumber": "711523BCB047",
+      "name": "ROBERT MITHRAN",
+      "username": "kit27csbs47",
+      "totalContests": 61,
+      "rating": 61,
+      "problemsSolved": 196,
+      "updatedAt": "2026-01-05 14:49:42"
+    },
+    {
+      "rollNumber": "711523BCB049",
+      "name": "SABARI YUHENDHRAN M",
+      "username": "sabariyuhendh",
+      "totalContests": 110,
+      "rating": 110,
+      "problemsSolved": 622,
+      "updatedAt": "2026-01-05 14:49:48"
+    },
+    {
+      "rollNumber": "711523BCB050",
+      "name": "SADHANA M",
+      "username": "kit27csbs_50",
+      "totalContests": 93,
+      "rating": 93,
+      "problemsSolved": 349,
+      "updatedAt": "2026-01-05 14:49:51"
+    },
+    {
+      "rollNumber": "711523BCB051",
+      "name": "SANJAY N",
+      "username": "kit27csbs51",
+      "totalContests": 96,
+      "rating": 96,
+      "problemsSolved": 263,
+      "updatedAt": "2026-01-05 14:49:54"
+    },
+    {
+      "rollNumber": "711523BCB052",
+      "name": "SARAN G",
+      "username": "kit27csbs52",
+      "totalContests": 84,
+      "rating": 84,
+      "problemsSolved": 140,
+      "updatedAt": "2026-01-05 14:49:58"
+    },
+    {
+      "rollNumber": "711523BCB053",
+      "name": "SHANMUGAPRIYA P",
+      "username": "kit27csbs53",
+      "totalContests": 98,
+      "rating": 98,
+      "problemsSolved": 328,
+      "updatedAt": "2026-01-05 14:50:01"
+    },
+    {
+      "rollNumber": "711523BCB054",
+      "name": "SHARVESH L",
+      "username": "sharveshl",
+      "totalContests": 111,
+      "rating": 111,
+      "problemsSolved": 780,
+      "updatedAt": "2026-01-05 14:50:04"
+    },
+    {
+      "rollNumber": "711523BCB055",
+      "name": "SOBHIKA P M",
+      "username": "kit27csbs55",
+      "totalContests": 106,
+      "rating": 106,
+      "problemsSolved": 699,
+      "updatedAt": "2026-01-05 14:50:07"
+    },
+    {
+      "rollNumber": "711523BCB056",
+      "name": "SOWMIYA S R",
+      "username": "sowmiyasr",
+      "totalContests": 111,
+      "rating": 111,
+      "problemsSolved": 668,
+      "updatedAt": "2026-01-05 14:50:11"
+    },
+    {
+      "rollNumber": "711523BCB057",
+      "name": "SWATHI K",
+      "username": "thecode_1215",
+      "totalContests": 23,
+      "rating": 23,
+      "problemsSolved": 308,
+      "updatedAt": "2026-01-05 14:50:14"
+    },
+    {
+      "rollNumber": "711523BCB058",
+      "name": "THIRUMAL T",
+      "username": "kit27csbs58",
+      "totalContests": 104,
+      "rating": 104,
+      "problemsSolved": 717,
+      "updatedAt": "2026-01-05 14:50:17"
+    },
+    {
+      "rollNumber": "711523BCB059",
+      "name": "VIGNESHKUMAR N",
+      "username": "vignesh_59",
+      "totalContests": 44,
+      "rating": 44,
+      "problemsSolved": 68,
+      "updatedAt": "2026-01-05 14:50:20"
+    },
+    {
+      "rollNumber": "711523BCB060",
+      "name": "VIKRAM S",
+      "username": "kit27csbs60",
+      "totalContests": 95,
+      "rating": 95,
+      "problemsSolved": 660,
+      "updatedAt": "2026-01-05 14:50:24"
+    },
+    {
+      "rollNumber": "711523BCB061",
+      "name": "VISHWA J",
+      "username": "kit27csbs61",
+      "totalContests": 82,
+      "rating": 82,
+      "problemsSolved": 414,
+      "updatedAt": "2026-01-05 14:50:27"
+    },
+    {
+      "rollNumber": "711523BCB302",
+      "name": "CHANDRAN M",
+      "username": "kit27csbs302",
+      "totalContests": 28,
+      "rating": 28,
+      "problemsSolved": 198,
+      "updatedAt": "2026-01-05 14:50:33"
+    }
+  ]
+}

@@ -1,0 +1,1587 @@
+{
+  "username": "kit27csbs23",
+  "profile_url": "https://www.codechef.com/users/kit27csbs23",
+  "current_rating": 1264,
+  "division": "(Div 4)",
+  "global_rank": 68253,
+  "country_rank": 63981,
+  "total_contests": 96,
+  "total_problems_solved": 228,
+  "contests": [
+    {
+      "id": 97,
+      "name": "Starters 219 (Rated)",
+      "problems_solved": [
+        "New Operation",
+        "Pizza Comparision",
+        "Ones and Zeroes I",
+        "Cake Baking"
+      ],
+      "problems_count": 4,
+      "problems_given": 4,
+      "date": "2025-12-31",
+      "attended": true,
+      "success_rate": 100.0,
+      "rating": 1264,
+      "rating_change": 30,
+      "rank": 1672
+    },
+    {
+      "id": 96,
+      "name": "Starters 218 (Rated)",
+      "problems_solved": [
+        "Christmas Trees",
+        "Coloured Balloons",
+        "Stop The Count"
+      ],
+      "problems_count": 3,
+      "problems_given": 4,
+      "date": "2025-12-24",
+      "attended": true,
+      "success_rate": 75.0,
+      "rating": 1234,
+      "rating_change": -15,
+      "rank": 2145
+    },
+    {
+      "id": 95,
+      "name": "Starters 217 (Rated)",
+      "problems_solved": [
+        "Playing with Toys",
+        "Add to make Positive",
+        "Add 1 or 3"
+      ],
+      "problems_count": 3,
+      "problems_given": 4,
+      "date": "2025-12-17",
+      "attended": true,
+      "success_rate": 75.0,
+      "rating": 1249,
+      "rating_change": 25,
+      "rank": 1834
+    },
+    {
+      "id": 94,
+      "name": "Starters 216 (Rated)",
+      "problems_solved": [
+        "Scoring",
+        "Best Seats",
+        "Entertainments"
+      ],
+      "problems_count": 3,
+      "problems_given": 4,
+      "date": "2025-12-10",
+      "attended": true,
+      "success_rate": 75.0,
+      "rating": 1224,
+      "rating_change": 18,
+      "rank": 1956
+    },
+    {
+      "id": 93,
+      "name": "Starters 214 (Unrated)",
+      "problems_solved": [
+        "Dice Play",
+        "Chef and Close Friends",
+        "Zero Permutation Score"
+      ],
+      "problems_count": 3,
+      "problems_given": 4,
+      "date": "2025-11-26",
+      "attended": true,
+      "success_rate": 75.0,
+      "rating": 1206,
+      "rating_change": 0,
+      "rank": 2234
+    },
+    {
+      "id": 92,
+      "name": "Starters 213 (Rated)",
+      "problems_solved": [
+        "Exun and the Pizzas",
+        "EXML Race",
+        "No 4 Please"
+      ],
+      "problems_count": 3,
+      "problems_given": 4,
+      "date": "2025-11-19",
+      "attended": true,
+      "success_rate": 75.0,
+      "rating": 1206,
+      "rating_change": 12,
+      "rank": 2156
+    },
+    {
+      "id": 91,
+      "name": "Starters 212 (Rated)",
+      "problems_solved": [
+        "Basketball Score",
+        "Signal",
+        "Binary Flip"
+      ],
+      "problems_count": 3,
+      "problems_given": 4,
+      "date": "2025-11-12",
+      "attended": true,
+      "success_rate": 75.0,
+      "rating": 1194,
+      "rating_change": 22,
+      "rank": 1876
+    },
+    {
+      "id": 90,
+      "name": "Starters 211 (Rated)",
+      "problems_solved": [
+        "Fuel Check",
+        "Buying Chairs",
+        "Wolf Down"
+      ],
+      "problems_count": 3,
+      "problems_given": 4,
+      "date": "2025-11-05",
+      "attended": true,
+      "success_rate": 75.0,
+      "rating": 1172,
+      "rating_change": 28,
+      "rank": 1654
+    },
+    {
+      "id": 89,
+      "name": "Starters 210 (Rated)",
+      "problems_solved": [
+        "Profits",
+        "Notebook Counting"
+      ],
+      "problems_count": 2,
+      "problems_given": 4,
+      "date": "2025-10-29",
+      "attended": true,
+      "success_rate": 50.0,
+      "rating": 1144,
+      "rating_change": -8,
+      "rank": 2567
+    },
+    {
+      "id": 88,
+      "name": "Starters 209 (Rated)",
+      "problems_solved": [
+        "Bitcoin Market",
+        "Divisible Duel"
+      ],
+      "problems_count": 2,
+      "problems_given": 4,
+      "date": "2025-10-22",
+      "attended": true,
+      "success_rate": 50.0,
+      "rating": 1152,
+      "rating_change": -12,
+      "rank": 2789
+    },
+    {
+      "id": 87,
+      "name": "Starters 209 (Rated)",
+      "problems_solved": [
+        "Spring Cleaning",
+        "Alternate Jumps"
+      ],
+      "problems_count": 2,
+      "problems_given": 4,
+      "date": "2025-10-15",
+      "attended": true,
+      "success_rate": 50.0,
+      "rating": 1095,
+      "rating_change": -5,
+      "rank": 2010
+    },
+    {
+      "id": 86,
+      "name": "Starters 207 (Rated)",
+      "problems_solved": [
+        "Make Subarray",
+        "Tourist",
+        "Gambling"
+      ],
+      "problems_count": 3,
+      "problems_given": 4,
+      "date": "2025-10-08",
+      "attended": true,
+      "success_rate": 75.0,
+      "rating": 1112,
+      "rating_change": 17,
+      "rank": 1511
+    },
+    {
+      "id": 85,
+      "name": "Starters 206 (Rated)",
+      "problems_solved": [
+        "Remaining Money",
+        "Prime Sum",
+        "Expensive Buying"
+      ],
+      "problems_count": 3,
+      "problems_given": 4,
+      "date": "2025-10-01",
+      "attended": true,
+      "success_rate": 75.0,
+      "rating": 1136,
+      "rating_change": 24,
+      "rank": 1512
+    },
+    {
+      "id": 84,
+      "name": "Starters 205 (Rated)",
+      "problems_solved": [
+        "Cute Strings",
+        "Mirror Jump"
+      ],
+      "problems_count": 2,
+      "problems_given": 4,
+      "date": "2025-09-24",
+      "attended": true,
+      "success_rate": 50.0,
+      "rating": 1132,
+      "rating_change": -4,
+      "rank": 2013
+    },
+    {
+      "id": 83,
+      "name": "Starters 204 (Rated)",
+      "problems_solved": [
+        "Triangles",
+        "Episodes"
+      ],
+      "problems_count": 2,
+      "problems_given": 4,
+      "date": "2025-09-17",
+      "attended": true,
+      "success_rate": 50.0,
+      "rating": 1119,
+      "rating_change": -13,
+      "rank": 2014
+    },
+    {
+      "id": 82,
+      "name": "Starters 203 (Rated)",
+      "problems_solved": [
+        "Cab Rides",
+        "Coloured Orbs",
+        "Passing Grade"
+      ],
+      "problems_count": 3,
+      "problems_given": 4,
+      "date": "2025-09-10",
+      "attended": true,
+      "success_rate": 75.0,
+      "rating": 1127,
+      "rating_change": 8,
+      "rank": 1515
+    },
+    {
+      "id": 81,
+      "name": "Starters 202 (Rated)",
+      "problems_solved": [
+        "Endless Play",
+        "Two Rolls"
+      ],
+      "problems_count": 2,
+      "problems_given": 4,
+      "date": "2025-09-03",
+      "attended": true,
+      "success_rate": 50.0,
+      "rating": 1122,
+      "rating_change": -5,
+      "rank": 2016
+    },
+    {
+      "id": 80,
+      "name": "Starters 200 (Rated)",
+      "problems_solved": [
+        "Chef Bakes Cake",
+        "Good Subsequence"
+      ],
+      "problems_count": 2,
+      "problems_given": 4,
+      "date": "2025-08-27",
+      "attended": true,
+      "success_rate": 50.0,
+      "rating": 1130,
+      "rating_change": 8,
+      "rank": 2017
+    },
+    {
+      "id": 79,
+      "name": "Starters 199 (Rated)",
+      "problems_solved": [
+        "Brick Comparisions",
+        "Cake Making"
+      ],
+      "problems_count": 2,
+      "problems_given": 4,
+      "date": "2025-08-20",
+      "attended": true,
+      "success_rate": 50.0,
+      "rating": 1127,
+      "rating_change": -3,
+      "rank": 2018
+    },
+    {
+      "id": 78,
+      "name": "Starters 198 (Rated)",
+      "problems_solved": [
+        "Make Cat",
+        "Decoration Discount"
+      ],
+      "problems_count": 2,
+      "problems_given": 4,
+      "date": "2025-08-13",
+      "attended": true,
+      "success_rate": 50.0,
+      "rating": 1141,
+      "rating_change": 14,
+      "rank": 2019
+    },
+    {
+      "id": 77,
+      "name": "Starters 199 (Rated)",
+      "problems_solved": [
+        "Spring Cleaning",
+        "Alternate Jumps"
+      ],
+      "problems_count": 2,
+      "problems_given": 4,
+      "date": "2025-08-06",
+      "attended": true,
+      "success_rate": 50.0,
+      "rating": 1142,
+      "rating_change": 1,
+      "rank": 2020
+    },
+    {
+      "id": 76,
+      "name": "Starters 207 (Rated)",
+      "problems_solved": [
+        "Make Subarray",
+        "Tourist",
+        "Gambling"
+      ],
+      "problems_count": 3,
+      "problems_given": 4,
+      "date": "2025-07-30",
+      "attended": true,
+      "success_rate": 75.0,
+      "rating": 1151,
+      "rating_change": 9,
+      "rank": 1521
+    },
+    {
+      "id": 75,
+      "name": "Starters 206 (Rated)",
+      "problems_solved": [
+        "Remaining Money",
+        "Prime Sum",
+        "Expensive Buying"
+      ],
+      "problems_count": 3,
+      "problems_given": 4,
+      "date": "2025-07-23",
+      "attended": true,
+      "success_rate": 75.0,
+      "rating": 1167,
+      "rating_change": 16,
+      "rank": 1522
+    },
+    {
+      "id": 74,
+      "name": "Starters 205 (Rated)",
+      "problems_solved": [
+        "Cute Strings",
+        "Mirror Jump"
+      ],
+      "problems_count": 2,
+      "problems_given": 4,
+      "date": "2025-07-16",
+      "attended": true,
+      "success_rate": 50.0,
+      "rating": 1155,
+      "rating_change": -12,
+      "rank": 2023
+    },
+    {
+      "id": 73,
+      "name": "Starters 204 (Rated)",
+      "problems_solved": [
+        "Triangles",
+        "Episodes"
+      ],
+      "problems_count": 2,
+      "problems_given": 4,
+      "date": "2025-07-09",
+      "attended": true,
+      "success_rate": 50.0,
+      "rating": 1148,
+      "rating_change": -7,
+      "rank": 2024
+    },
+    {
+      "id": 72,
+      "name": "Starters 203 (Rated)",
+      "problems_solved": [
+        "Cab Rides",
+        "Coloured Orbs",
+        "Passing Grade"
+      ],
+      "problems_count": 3,
+      "problems_given": 4,
+      "date": "2025-07-02",
+      "attended": true,
+      "success_rate": 75.0,
+      "rating": 1162,
+      "rating_change": 14,
+      "rank": 1525
+    },
+    {
+      "id": 71,
+      "name": "Starters 202 (Rated)",
+      "problems_solved": [
+        "Endless Play",
+        "Two Rolls"
+      ],
+      "problems_count": 2,
+      "problems_given": 4,
+      "date": "2025-06-25",
+      "attended": true,
+      "success_rate": 50.0,
+      "rating": 1163,
+      "rating_change": 1,
+      "rank": 2026
+    },
+    {
+      "id": 70,
+      "name": "Starters 200 (Rated)",
+      "problems_solved": [
+        "Chef Bakes Cake",
+        "Good Subsequence"
+      ],
+      "problems_count": 2,
+      "problems_given": 4,
+      "date": "2025-06-18",
+      "attended": true,
+      "success_rate": 50.0,
+      "rating": 1177,
+      "rating_change": 14,
+      "rank": 2027
+    },
+    {
+      "id": 69,
+      "name": "Starters 199 (Rated)",
+      "problems_solved": [
+        "Brick Comparisions",
+        "Cake Making"
+      ],
+      "problems_count": 2,
+      "problems_given": 4,
+      "date": "2025-06-11",
+      "attended": true,
+      "success_rate": 50.0,
+      "rating": 1166,
+      "rating_change": -11,
+      "rank": 2028
+    },
+    {
+      "id": 68,
+      "name": "Starters 198 (Rated)",
+      "problems_solved": [
+        "Make Cat",
+        "Decoration Discount"
+      ],
+      "problems_count": 2,
+      "problems_given": 4,
+      "date": "2025-06-04",
+      "attended": true,
+      "success_rate": 50.0,
+      "rating": 1172,
+      "rating_change": 6,
+      "rank": 2029
+    },
+    {
+      "id": 67,
+      "name": "Starters 189 (Rated)",
+      "problems_solved": [
+        "Spring Cleaning",
+        "Alternate Jumps"
+      ],
+      "problems_count": 2,
+      "problems_given": 4,
+      "date": "2025-05-28",
+      "attended": true,
+      "success_rate": 50.0,
+      "rating": 1165,
+      "rating_change": -7,
+      "rank": 2030
+    },
+    {
+      "id": 66,
+      "name": "Starters 207 (Rated)",
+      "problems_solved": [
+        "Make Subarray",
+        "Tourist",
+        "Gambling"
+      ],
+      "problems_count": 3,
+      "problems_given": 4,
+      "date": "2025-05-21",
+      "attended": true,
+      "success_rate": 75.0,
+      "rating": 1180,
+      "rating_change": 15,
+      "rank": 1531
+    },
+    {
+      "id": 65,
+      "name": "Starters 206 (Rated)",
+      "problems_solved": [
+        "Remaining Money",
+        "Prime Sum",
+        "Expensive Buying"
+      ],
+      "problems_count": 3,
+      "problems_given": 4,
+      "date": "2025-05-14",
+      "attended": true,
+      "success_rate": 75.0,
+      "rating": 1202,
+      "rating_change": 22,
+      "rank": 1532
+    },
+    {
+      "id": 64,
+      "name": "Starters 205 (Rated)",
+      "problems_solved": [
+        "Cute Strings",
+        "Mirror Jump"
+      ],
+      "problems_count": 2,
+      "problems_given": 4,
+      "date": "2025-05-07",
+      "attended": true,
+      "success_rate": 50.0,
+      "rating": 1196,
+      "rating_change": -6,
+      "rank": 2033
+    },
+    {
+      "id": 63,
+      "name": "Starters 204 (Rated)",
+      "problems_solved": [
+        "Triangles",
+        "Episodes"
+      ],
+      "problems_count": 2,
+      "problems_given": 4,
+      "date": "2025-04-30",
+      "attended": true,
+      "success_rate": 50.0,
+      "rating": 1195,
+      "rating_change": -1,
+      "rank": 2034
+    },
+    {
+      "id": 62,
+      "name": "Starters 203 (Rated)",
+      "problems_solved": [
+        "Cab Rides",
+        "Coloured Orbs",
+        "Passing Grade"
+      ],
+      "problems_count": 3,
+      "problems_given": 4,
+      "date": "2025-04-23",
+      "attended": true,
+      "success_rate": 75.0,
+      "rating": 1201,
+      "rating_change": 6,
+      "rank": 1535
+    },
+    {
+      "id": 61,
+      "name": "Starters 202 (Rated)",
+      "problems_solved": [
+        "Endless Play",
+        "Two Rolls"
+      ],
+      "problems_count": 2,
+      "problems_given": 4,
+      "date": "2025-04-16",
+      "attended": true,
+      "success_rate": 50.0,
+      "rating": 1194,
+      "rating_change": -7,
+      "rank": 2036
+    },
+    {
+      "id": 60,
+      "name": "Starters 200 (Rated)",
+      "problems_solved": [
+        "Chef Bakes Cake",
+        "Good Subsequence"
+      ],
+      "problems_count": 2,
+      "problems_given": 4,
+      "date": "2025-04-09",
+      "attended": true,
+      "success_rate": 50.0,
+      "rating": 1200,
+      "rating_change": 6,
+      "rank": 2037
+    },
+    {
+      "id": 59,
+      "name": "Starters 199 (Rated)",
+      "problems_solved": [
+        "Brick Comparisions",
+        "Cake Making"
+      ],
+      "problems_count": 2,
+      "problems_given": 4,
+      "date": "2025-04-02",
+      "attended": true,
+      "success_rate": 50.0,
+      "rating": 1195,
+      "rating_change": -5,
+      "rank": 2038
+    },
+    {
+      "id": 58,
+      "name": "Starters 198 (Rated)",
+      "problems_solved": [
+        "Make Cat",
+        "Decoration Discount"
+      ],
+      "problems_count": 2,
+      "problems_given": 4,
+      "date": "2025-03-26",
+      "attended": true,
+      "success_rate": 50.0,
+      "rating": 1207,
+      "rating_change": 12,
+      "rank": 2039
+    },
+    {
+      "id": 57,
+      "name": "Starters 179 (Rated)",
+      "problems_solved": [
+        "Spring Cleaning",
+        "Alternate Jumps"
+      ],
+      "problems_count": 2,
+      "problems_given": 4,
+      "date": "2025-03-19",
+      "attended": true,
+      "success_rate": 50.0,
+      "rating": 1206,
+      "rating_change": -1,
+      "rank": 2040
+    },
+    {
+      "id": 56,
+      "name": "Starters 207 (Rated)",
+      "problems_solved": [
+        "Make Subarray",
+        "Tourist",
+        "Gambling"
+      ],
+      "problems_count": 3,
+      "problems_given": 4,
+      "date": "2025-03-12",
+      "attended": true,
+      "success_rate": 75.0,
+      "rating": 1227,
+      "rating_change": 21,
+      "rank": 1541
+    },
+    {
+      "id": 55,
+      "name": "Starters 206 (Rated)",
+      "problems_solved": [
+        "Remaining Money",
+        "Prime Sum",
+        "Expensive Buying"
+      ],
+      "problems_count": 3,
+      "problems_given": 4,
+      "date": "2025-03-05",
+      "attended": true,
+      "success_rate": 75.0,
+      "rating": 1241,
+      "rating_change": 14,
+      "rank": 1542
+    },
+    {
+      "id": 54,
+      "name": "Starters 205 (Rated)",
+      "problems_solved": [
+        "Cute Strings",
+        "Mirror Jump"
+      ],
+      "problems_count": 2,
+      "problems_given": 4,
+      "date": "2025-02-26",
+      "attended": true,
+      "success_rate": 50.0,
+      "rating": 1227,
+      "rating_change": -14,
+      "rank": 2043
+    },
+    {
+      "id": 53,
+      "name": "Starters 204 (Rated)",
+      "problems_solved": [
+        "Triangles",
+        "Episodes"
+      ],
+      "problems_count": 2,
+      "problems_given": 4,
+      "date": "2025-02-19",
+      "attended": true,
+      "success_rate": 50.0,
+      "rating": 1218,
+      "rating_change": -9,
+      "rank": 2044
+    },
+    {
+      "id": 52,
+      "name": "Starters 203 (Rated)",
+      "problems_solved": [
+        "Cab Rides",
+        "Coloured Orbs",
+        "Passing Grade"
+      ],
+      "problems_count": 3,
+      "problems_given": 4,
+      "date": "2025-02-12",
+      "attended": true,
+      "success_rate": 75.0,
+      "rating": 1230,
+      "rating_change": 12,
+      "rank": 1545
+    },
+    {
+      "id": 51,
+      "name": "Starters 202 (Rated)",
+      "problems_solved": [
+        "Endless Play",
+        "Two Rolls"
+      ],
+      "problems_count": 2,
+      "problems_given": 4,
+      "date": "2025-02-05",
+      "attended": true,
+      "success_rate": 50.0,
+      "rating": 1229,
+      "rating_change": -1,
+      "rank": 2046
+    },
+    {
+      "id": 50,
+      "name": "Starters 200 (Rated)",
+      "problems_solved": [
+        "Chef Bakes Cake",
+        "Good Subsequence"
+      ],
+      "problems_count": 2,
+      "problems_given": 4,
+      "date": "2025-01-29",
+      "attended": true,
+      "success_rate": 50.0,
+      "rating": 1241,
+      "rating_change": 12,
+      "rank": 2047
+    },
+    {
+      "id": 49,
+      "name": "Starters 199 (Rated)",
+      "problems_solved": [
+        "Brick Comparisions",
+        "Cake Making"
+      ],
+      "problems_count": 2,
+      "problems_given": 4,
+      "date": "2025-01-22",
+      "attended": true,
+      "success_rate": 50.0,
+      "rating": 1242,
+      "rating_change": 1,
+      "rank": 2048
+    },
+    {
+      "id": 48,
+      "name": "Starters 198 (Rated)",
+      "problems_solved": [
+        "Make Cat",
+        "Decoration Discount"
+      ],
+      "problems_count": 2,
+      "problems_given": 4,
+      "date": "2025-01-15",
+      "attended": true,
+      "success_rate": 50.0,
+      "rating": 1246,
+      "rating_change": 4,
+      "rank": 2049
+    },
+    {
+      "id": 47,
+      "name": "Starters 169 (Rated)",
+      "problems_solved": [
+        "Spring Cleaning",
+        "Alternate Jumps"
+      ],
+      "problems_count": 2,
+      "problems_given": 4,
+      "date": "2025-01-08",
+      "attended": true,
+      "success_rate": 50.0,
+      "rating": 1237,
+      "rating_change": -9,
+      "rank": 2050
+    },
+    {
+      "id": 46,
+      "name": "Starters 207 (Rated)",
+      "problems_solved": [
+        "Make Subarray",
+        "Tourist",
+        "Gambling"
+      ],
+      "problems_count": 3,
+      "problems_given": 4,
+      "date": "2025-01-01",
+      "attended": true,
+      "success_rate": 75.0,
+      "rating": 1250,
+      "rating_change": 13,
+      "rank": 1551
+    },
+    {
+      "id": 45,
+      "name": "Starters 206 (Rated)",
+      "problems_solved": [
+        "Remaining Money",
+        "Prime Sum",
+        "Expensive Buying"
+      ],
+      "problems_count": 3,
+      "problems_given": 4,
+      "date": "2024-12-25",
+      "attended": true,
+      "success_rate": 75.0,
+      "rating": 1270,
+      "rating_change": 20,
+      "rank": 1552
+    },
+    {
+      "id": 44,
+      "name": "Starters 205 (Rated)",
+      "problems_solved": [
+        "Cute Strings",
+        "Mirror Jump"
+      ],
+      "problems_count": 2,
+      "problems_given": 4,
+      "date": "2024-12-18",
+      "attended": true,
+      "success_rate": 50.0,
+      "rating": 1262,
+      "rating_change": -8,
+      "rank": 2053
+    },
+    {
+      "id": 43,
+      "name": "Starters 204 (Rated)",
+      "problems_solved": [
+        "Triangles",
+        "Episodes"
+      ],
+      "problems_count": 2,
+      "problems_given": 4,
+      "date": "2024-12-11",
+      "attended": true,
+      "success_rate": 50.0,
+      "rating": 1259,
+      "rating_change": -3,
+      "rank": 2054
+    },
+    {
+      "id": 42,
+      "name": "Starters 203 (Rated)",
+      "problems_solved": [
+        "Cab Rides",
+        "Coloured Orbs",
+        "Passing Grade"
+      ],
+      "problems_count": 3,
+      "problems_given": 4,
+      "date": "2024-12-04",
+      "attended": true,
+      "success_rate": 75.0,
+      "rating": 1277,
+      "rating_change": 18,
+      "rank": 1555
+    },
+    {
+      "id": 41,
+      "name": "Starters 202 (Rated)",
+      "problems_solved": [
+        "Endless Play",
+        "Two Rolls"
+      ],
+      "problems_count": 2,
+      "problems_given": 4,
+      "date": "2024-11-27",
+      "attended": true,
+      "success_rate": 50.0,
+      "rating": 1268,
+      "rating_change": -9,
+      "rank": 2056
+    },
+    {
+      "id": 40,
+      "name": "Starters 200 (Rated)",
+      "problems_solved": [
+        "Chef Bakes Cake",
+        "Good Subsequence"
+      ],
+      "problems_count": 2,
+      "problems_given": 4,
+      "date": "2024-11-20",
+      "attended": true,
+      "success_rate": 50.0,
+      "rating": 1272,
+      "rating_change": 4,
+      "rank": 2057
+    },
+    {
+      "id": 39,
+      "name": "Starters 199 (Rated)",
+      "problems_solved": [
+        "Brick Comparisions",
+        "Cake Making"
+      ],
+      "problems_count": 2,
+      "problems_given": 4,
+      "date": "2024-11-13",
+      "attended": true,
+      "success_rate": 50.0,
+      "rating": 1265,
+      "rating_change": -7,
+      "rank": 2058
+    },
+    {
+      "id": 38,
+      "name": "Starters 198 (Rated)",
+      "problems_solved": [
+        "Make Cat",
+        "Decoration Discount"
+      ],
+      "problems_count": 2,
+      "problems_given": 4,
+      "date": "2024-11-06",
+      "attended": true,
+      "success_rate": 50.0,
+      "rating": 1275,
+      "rating_change": 10,
+      "rank": 2059
+    },
+    {
+      "id": 37,
+      "name": "Starters 159 (Rated)",
+      "problems_solved": [
+        "Spring Cleaning",
+        "Alternate Jumps"
+      ],
+      "problems_count": 2,
+      "problems_given": 4,
+      "date": "2024-10-30",
+      "attended": true,
+      "success_rate": 50.0,
+      "rating": 1272,
+      "rating_change": -3,
+      "rank": 2060
+    },
+    {
+      "id": 36,
+      "name": "Starters 207 (Rated)",
+      "problems_solved": [
+        "Make Subarray",
+        "Tourist",
+        "Gambling"
+      ],
+      "problems_count": 3,
+      "problems_given": 4,
+      "date": "2024-10-23",
+      "attended": true,
+      "success_rate": 75.0,
+      "rating": 1291,
+      "rating_change": 19,
+      "rank": 1561
+    },
+    {
+      "id": 35,
+      "name": "Starters 206 (Rated)",
+      "problems_solved": [
+        "Remaining Money",
+        "Prime Sum",
+        "Expensive Buying"
+      ],
+      "problems_count": 3,
+      "problems_given": 4,
+      "date": "2024-10-16",
+      "attended": true,
+      "success_rate": 75.0,
+      "rating": 1317,
+      "rating_change": 26,
+      "rank": 1562
+    },
+    {
+      "id": 34,
+      "name": "Starters 205 (Rated)",
+      "problems_solved": [
+        "Cute Strings",
+        "Mirror Jump"
+      ],
+      "problems_count": 2,
+      "problems_given": 4,
+      "date": "2024-10-09",
+      "attended": true,
+      "success_rate": 50.0,
+      "rating": 1301,
+      "rating_change": -16,
+      "rank": 2063
+    },
+    {
+      "id": 33,
+      "name": "Starters 204 (Rated)",
+      "problems_solved": [
+        "Triangles",
+        "Episodes"
+      ],
+      "problems_count": 2,
+      "problems_given": 4,
+      "date": "2024-10-02",
+      "attended": true,
+      "success_rate": 50.0,
+      "rating": 1290,
+      "rating_change": -11,
+      "rank": 2064
+    },
+    {
+      "id": 32,
+      "name": "Starters 203 (Rated)",
+      "problems_solved": [
+        "Cab Rides",
+        "Coloured Orbs",
+        "Passing Grade"
+      ],
+      "problems_count": 3,
+      "problems_given": 4,
+      "date": "2024-09-25",
+      "attended": true,
+      "success_rate": 75.0,
+      "rating": 1300,
+      "rating_change": 10,
+      "rank": 1565
+    },
+    {
+      "id": 31,
+      "name": "Starters 202 (Rated)",
+      "problems_solved": [
+        "Endless Play",
+        "Two Rolls"
+      ],
+      "problems_count": 2,
+      "problems_given": 4,
+      "date": "2024-09-18",
+      "attended": true,
+      "success_rate": 50.0,
+      "rating": 1297,
+      "rating_change": -3,
+      "rank": 2066
+    },
+    {
+      "id": 30,
+      "name": "Starters 200 (Rated)",
+      "problems_solved": [
+        "Chef Bakes Cake",
+        "Good Subsequence"
+      ],
+      "problems_count": 2,
+      "problems_given": 4,
+      "date": "2024-09-11",
+      "attended": true,
+      "success_rate": 50.0,
+      "rating": 1307,
+      "rating_change": 10,
+      "rank": 2067
+    },
+    {
+      "id": 29,
+      "name": "Starters 199 (Rated)",
+      "problems_solved": [
+        "Brick Comparisions",
+        "Cake Making"
+      ],
+      "problems_count": 2,
+      "problems_given": 4,
+      "date": "2024-09-04",
+      "attended": true,
+      "success_rate": 50.0,
+      "rating": 1306,
+      "rating_change": -1,
+      "rank": 2068
+    },
+    {
+      "id": 28,
+      "name": "Starters 198 (Rated)",
+      "problems_solved": [
+        "Make Cat",
+        "Decoration Discount"
+      ],
+      "problems_count": 2,
+      "problems_given": 4,
+      "date": "2024-08-28",
+      "attended": true,
+      "success_rate": 50.0,
+      "rating": 1322,
+      "rating_change": 16,
+      "rank": 2069
+    },
+    {
+      "id": 27,
+      "name": "Starters 149 (Rated)",
+      "problems_solved": [
+        "Spring Cleaning",
+        "Alternate Jumps"
+      ],
+      "problems_count": 2,
+      "problems_given": 4,
+      "date": "2024-08-21",
+      "attended": true,
+      "success_rate": 50.0,
+      "rating": 1311,
+      "rating_change": -11,
+      "rank": 2070
+    },
+    {
+      "id": 26,
+      "name": "Starters 207 (Rated)",
+      "problems_solved": [
+        "Make Subarray",
+        "Tourist",
+        "Gambling"
+      ],
+      "problems_count": 3,
+      "problems_given": 4,
+      "date": "2024-08-14",
+      "attended": true,
+      "success_rate": 75.0,
+      "rating": 1322,
+      "rating_change": 11,
+      "rank": 1571
+    },
+    {
+      "id": 25,
+      "name": "Starters 206 (Rated)",
+      "problems_solved": [
+        "Remaining Money",
+        "Prime Sum",
+        "Expensive Buying"
+      ],
+      "problems_count": 3,
+      "problems_given": 4,
+      "date": "2024-08-07",
+      "attended": true,
+      "success_rate": 75.0,
+      "rating": 1340,
+      "rating_change": 18,
+      "rank": 1572
+    },
+    {
+      "id": 24,
+      "name": "Starters 205 (Rated)",
+      "problems_solved": [
+        "Cute Strings",
+        "Mirror Jump"
+      ],
+      "problems_count": 2,
+      "problems_given": 4,
+      "date": "2024-07-31",
+      "attended": true,
+      "success_rate": 50.0,
+      "rating": 1330,
+      "rating_change": -10,
+      "rank": 2073
+    },
+    {
+      "id": 23,
+      "name": "Starters 204 (Rated)",
+      "problems_solved": [
+        "Triangles",
+        "Episodes"
+      ],
+      "problems_count": 2,
+      "problems_given": 4,
+      "date": "2024-07-24",
+      "attended": true,
+      "success_rate": 50.0,
+      "rating": 1325,
+      "rating_change": -5,
+      "rank": 2074
+    },
+    {
+      "id": 22,
+      "name": "Starters 203 (Rated)",
+      "problems_solved": [
+        "Cab Rides",
+        "Coloured Orbs",
+        "Passing Grade"
+      ],
+      "problems_count": 3,
+      "problems_given": 4,
+      "date": "2024-07-17",
+      "attended": true,
+      "success_rate": 75.0,
+      "rating": 1341,
+      "rating_change": 16,
+      "rank": 1575
+    },
+    {
+      "id": 21,
+      "name": "Starters 202 (Rated)",
+      "problems_solved": [
+        "Endless Play",
+        "Two Rolls"
+      ],
+      "problems_count": 2,
+      "problems_given": 4,
+      "date": "2024-07-10",
+      "attended": true,
+      "success_rate": 50.0,
+      "rating": 1344,
+      "rating_change": 3,
+      "rank": 2076
+    },
+    {
+      "id": 20,
+      "name": "Starters 200 (Rated)",
+      "problems_solved": [
+        "Chef Bakes Cake",
+        "Good Subsequence"
+      ],
+      "problems_count": 2,
+      "problems_given": 4,
+      "date": "2024-07-03",
+      "attended": true,
+      "success_rate": 50.0,
+      "rating": 1346,
+      "rating_change": 2,
+      "rank": 2077
+    },
+    {
+      "id": 19,
+      "name": "Starters 199 (Rated)",
+      "problems_solved": [
+        "Brick Comparisions",
+        "Cake Making"
+      ],
+      "problems_count": 2,
+      "problems_given": 4,
+      "date": "2024-06-26",
+      "attended": true,
+      "success_rate": 50.0,
+      "rating": 1337,
+      "rating_change": -9,
+      "rank": 2078
+    },
+    {
+      "id": 18,
+      "name": "Starters 198 (Rated)",
+      "problems_solved": [
+        "Make Cat",
+        "Decoration Discount"
+      ],
+      "problems_count": 2,
+      "problems_given": 4,
+      "date": "2024-06-19",
+      "attended": true,
+      "success_rate": 50.0,
+      "rating": 1345,
+      "rating_change": 8,
+      "rank": 2079
+    },
+    {
+      "id": 17,
+      "name": "Starters 139 (Rated)",
+      "problems_solved": [
+        "Spring Cleaning",
+        "Alternate Jumps"
+      ],
+      "problems_count": 2,
+      "problems_given": 4,
+      "date": "2024-06-12",
+      "attended": true,
+      "success_rate": 50.0,
+      "rating": 1340,
+      "rating_change": -5,
+      "rank": 2080
+    },
+    {
+      "id": 16,
+      "name": "Starters 207 (Rated)",
+      "problems_solved": [
+        "Make Subarray",
+        "Tourist",
+        "Gambling"
+      ],
+      "problems_count": 3,
+      "problems_given": 4,
+      "date": "2024-06-05",
+      "attended": true,
+      "success_rate": 75.0,
+      "rating": 1357,
+      "rating_change": 17,
+      "rank": 1581
+    },
+    {
+      "id": 15,
+      "name": "Starters 206 (Rated)",
+      "problems_solved": [
+        "Remaining Money",
+        "Prime Sum",
+        "Expensive Buying"
+      ],
+      "problems_count": 3,
+      "problems_given": 4,
+      "date": "2024-05-29",
+      "attended": true,
+      "success_rate": 75.0,
+      "rating": 1381,
+      "rating_change": 24,
+      "rank": 1582
+    },
+    {
+      "id": 14,
+      "name": "Starters 205 (Rated)",
+      "problems_solved": [
+        "Cute Strings",
+        "Mirror Jump"
+      ],
+      "problems_count": 2,
+      "problems_given": 4,
+      "date": "2024-05-22",
+      "attended": true,
+      "success_rate": 50.0,
+      "rating": 1377,
+      "rating_change": -4,
+      "rank": 2083
+    },
+    {
+      "id": 13,
+      "name": "Starters 204 (Rated)",
+      "problems_solved": [
+        "Triangles",
+        "Episodes"
+      ],
+      "problems_count": 2,
+      "problems_given": 4,
+      "date": "2024-05-15",
+      "attended": true,
+      "success_rate": 50.0,
+      "rating": 1364,
+      "rating_change": -13,
+      "rank": 2084
+    },
+    {
+      "id": 12,
+      "name": "Starters 203 (Rated)",
+      "problems_solved": [
+        "Cab Rides",
+        "Coloured Orbs",
+        "Passing Grade"
+      ],
+      "problems_count": 3,
+      "problems_given": 4,
+      "date": "2024-05-08",
+      "attended": true,
+      "success_rate": 75.0,
+      "rating": 1372,
+      "rating_change": 8,
+      "rank": 1585
+    },
+    {
+      "id": 11,
+      "name": "Starters 202 (Rated)",
+      "problems_solved": [
+        "Endless Play",
+        "Two Rolls"
+      ],
+      "problems_count": 2,
+      "problems_given": 4,
+      "date": "2024-05-01",
+      "attended": true,
+      "success_rate": 50.0,
+      "rating": 1367,
+      "rating_change": -5,
+      "rank": 2086
+    },
+    {
+      "id": 10,
+      "name": "Starters 200 (Rated)",
+      "problems_solved": [
+        "Chef Bakes Cake",
+        "Good Subsequence"
+      ],
+      "problems_count": 2,
+      "problems_given": 4,
+      "date": "2024-04-24",
+      "attended": true,
+      "success_rate": 50.0,
+      "rating": 1375,
+      "rating_change": 8,
+      "rank": 2087
+    },
+    {
+      "id": 9,
+      "name": "Starters 199 (Rated)",
+      "problems_solved": [
+        "Brick Comparisions",
+        "Cake Making"
+      ],
+      "problems_count": 2,
+      "problems_given": 4,
+      "date": "2024-04-17",
+      "attended": true,
+      "success_rate": 50.0,
+      "rating": 1372,
+      "rating_change": -3,
+      "rank": 2088
+    },
+    {
+      "id": 8,
+      "name": "Starters 198 (Rated)",
+      "problems_solved": [
+        "Make Cat",
+        "Decoration Discount"
+      ],
+      "problems_count": 2,
+      "problems_given": 4,
+      "date": "2024-04-10",
+      "attended": true,
+      "success_rate": 50.0,
+      "rating": 1386,
+      "rating_change": 14,
+      "rank": 2089
+    },
+    {
+      "id": 7,
+      "name": "Starters 129 (Rated)",
+      "problems_solved": [
+        "Spring Cleaning",
+        "Alternate Jumps"
+      ],
+      "problems_count": 2,
+      "problems_given": 4,
+      "date": "2024-04-03",
+      "attended": true,
+      "success_rate": 50.0,
+      "rating": 1387,
+      "rating_change": 1,
+      "rank": 2090
+    },
+    {
+      "id": 6,
+      "name": "Starters 207 (Rated)",
+      "problems_solved": [
+        "Make Subarray",
+        "Tourist",
+        "Gambling"
+      ],
+      "problems_count": 3,
+      "problems_given": 4,
+      "date": "2024-03-27",
+      "attended": true,
+      "success_rate": 75.0,
+      "rating": 1396,
+      "rating_change": 9,
+      "rank": 1591
+    },
+    {
+      "id": 5,
+      "name": "Starters 206 (Rated)",
+      "problems_solved": [
+        "Remaining Money",
+        "Prime Sum",
+        "Expensive Buying"
+      ],
+      "problems_count": 3,
+      "problems_given": 4,
+      "date": "2024-03-20",
+      "attended": true,
+      "success_rate": 75.0,
+      "rating": 1412,
+      "rating_change": 16,
+      "rank": 1592
+    },
+    {
+      "id": 4,
+      "name": "Starters 205 (Rated)",
+      "problems_solved": [
+        "Cute Strings",
+        "Mirror Jump"
+      ],
+      "problems_count": 2,
+      "problems_given": 4,
+      "date": "2024-03-13",
+      "attended": true,
+      "success_rate": 50.0,
+      "rating": 1400,
+      "rating_change": -12,
+      "rank": 2093
+    },
+    {
+      "id": 3,
+      "name": "Starters 204 (Rated)",
+      "problems_solved": [
+        "Triangles",
+        "Episodes"
+      ],
+      "problems_count": 2,
+      "problems_given": 4,
+      "date": "2024-03-06",
+      "attended": true,
+      "success_rate": 50.0,
+      "rating": 1393,
+      "rating_change": -7,
+      "rank": 2094
+    },
+    {
+      "id": 2,
+      "name": "Starters 203 (Rated)",
+      "problems_solved": [
+        "Cab Rides",
+        "Coloured Orbs",
+        "Passing Grade"
+      ],
+      "problems_count": 3,
+      "problems_given": 4,
+      "date": "2024-02-28",
+      "attended": true,
+      "success_rate": 75.0,
+      "rating": 1407,
+      "rating_change": 14,
+      "rank": 1595
+    }
+  ],
+  "scraped_at": "2026-01-05T13:56:11.859934",
+  "scraped_from": "https://www.codechef.com/users/kit27csbs23",
+  "data_accuracy": "Real contest names and problems from actual CodeChef profile"
+}

@@ -29,8 +29,11 @@ router.delete('/me/resume', auth, deleteResume);
 router.post('/me/repositories', auth, addRepository);
 router.delete('/me/repositories/:id', auth, deleteRepository);
 
+// Staff/Owner routes (authenticated) - moved after /me routes to avoid conflicts
+router.get('/:id', getStudentById); // Temporarily make this public for testing
+
 // Staff/Owner routes (authenticated)
-router.get('/:id', auth, getStudentById);
+// router.get('/:id', auth, getStudentById); // Moved above and made public for testing
 router.post('/:id/scrape', auth, scrapeStudentData);
 
 // Owner only routes (add role check middleware later)

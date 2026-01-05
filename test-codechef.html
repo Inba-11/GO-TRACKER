@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeChef Service Test</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        .container { max-width: 600px; margin: 0 auto; }
+        .card { border: 1px solid #ddd; padding: 20px; margin: 10px 0; border-radius: 8px; }
+        .button { background: #007bff; color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer; }
+        .button:hover { background: #0056b3; }
+        .data { background: #f8f9fa; padding: 15px; border-radius: 4px; margin: 10px 0; }
+        pre { white-space: pre-wrap; word-wrap: break-word; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>CodeChef Service Test</h1>
+        
+        <div class="card">
+            <h3>Service Status</h3>
+            <div id="status">Loading...</div>
+        </div>
+        
+        <div class="card">
+            <h3>Current Data</h3>
+            <button class="button" onclick="loadData()">Load CodeChef Data</button>
+            <div id="data" class="data"></div>
+        </div>
+        
+        <div class="card">
+            <h3>Update Test</h3>
+            <button class="button" onclick="forceUpdate()">Force Update</button>
+            <div id="updateResult" class="data"></div>
+        </div>
+    </div>
+
+    <script>
+        // Simulate the CodeChef service (since we can't import ES modules in HTML)
+        class CodeChefService {
+            constructor() {
+                this.STORAGE_KEY = 'codechef_data_inbatamizhan';
+                this.UPDATE_INTERVAL = 24 * 60 * 60 * 1000; // 24 hours
+            }
+
+            getCodeChefData() {
+                const stored = localStorage.getItem(this.STORAGE_KEY);
+                
+                if (stored) {
+                    const data = JSON.parse(stored);
+                    const lastUpdated = new Date(data.lastUpdated);
+                    const now = new Date();
+                    const timeDiff = now.getTime() - lastUpdated.getTime();
+                    
+                    if (timeDiff < this.UPDATE_INTERVAL) {
+                        return data;
+                    }
+                }
+
+                return this.getDefaultData();
+            }
+
+            async updateCodeChefData() {
+                const updatedData = this.getDefaultData();
+                updatedData.lastUpdated = new Date().toISOString();
+                
+                localStorage.setItem(this.STORAGE_KEY, JSON.stringify(updatedData));
+                return updatedData;
+            }
+
+            needsUpdate() {
+                const stored = localStorage.getItem(this.STORAGE_KEY);
+                
+                if (!stored) return true;
+                
+                const data = JSON.parse(stored);
+                const lastUpdated = new Date(data.lastUpdated);
+                const now = new Date();
+                const timeDiff = now.getTime() - lastUpdated.getTime();
+                
+                return timeDiff >= this.UPDATE_INTERVAL;
+            }
+
+            getTimeUntilNextUpdate() {
+                const stored = localStorage.getItem(this.STORAGE_KEY);
+                
+                if (!stored) return 'Update available now';
+                
+                const data = JSON.parse(stored);
+                const lastUpdated = new Date(data.lastUpdated);
+                const nextUpdate = new Date(lastUpdated.getTime() + this.UPDATE_INTERVAL);
+                const now = new Date();
+                
+                if (now >= nextUpdate) return 'Update available now';
+                
+                const timeDiff = nextUpdate.getTime() - now.getTime();
+                const hours = Math.floor(timeDiff / (1000 * 60 * 60));
+                const minutes = Math.floor((timeDiff % (1000 * 60 * 60)) / (1000 * 60));
+                
+                return `${hours}h ${minutes}m`;
+            }
+
+            getDefaultData() {
+                return {
+                    username: 'kit27csbs23',
+                    rating: 1264,
+                    division: 'Div 4',
+                    globalRank: 68253,
+                    countryRank: 63981,
+                    contestsParticipated: 96,
+                    totalSolved: 500,
+                    stars: 1,
+                    league: 'Bronze',
+                    recentActivity: {
+                        lastSubmission: '2 days ago',
+                        problemsSolvedRecently: 3
+                    },
+                    profileUrl: 'https://www.codechef.com/users/kit27csbs23',
+                    lastUpdated: new Date().toISOString()
+                };
+            }
+        }
+
+        const service = new CodeChefService();
+
+        function updateStatus() {
+            const needsUpdate = service.needsUpdate();
+            const timeUntilNext = service.getTimeUntilNextUpdate();
+            
+            document.getElementById('status').innerHTML = `
+                <p><strong>Needs Update:</strong> ${needsUpdate ? 'Yes' : 'No'}</p>
+                <p><strong>Next Update:</strong> ${timeUntilNext}</p>
+            `;
+        }
+
+        function loadData() {
+            const data = service.getCodeChefData();
+            document.getElementById('data').innerHTML = `<pre>${JSON.stringify(data, null, 2)}</pre>`;
+        }
+
+        async function forceUpdate() {
+            document.getElementById('updateResult').innerHTML = 'Updating...';
+            try {
+                const updatedData = await service.updateCodeChefData();
+                document.getElementById('updateResult').innerHTML = `
+                    <p style="color: green;">✅ Update successful!</p>
+                    <pre>${JSON.stringify(updatedData, null, 2)}</pre>
+                `;
+                updateStatus();
+            } catch (error) {
+                document.getElementById('updateResult').innerHTML = `
+                    <p style="color: red;">❌ Update failed: ${error.message}</p>
+                `;
+            }
+        }
+
+        // Initialize
+        updateStatus();
+        loadData();
+    </script>
+</body>
+</html>

@@ -129,6 +129,8 @@ export interface PlatformStats {
   lastWeekRating: number;
   contests: number;
   contestsAttended: number;
+  totalContests?: number; // Total contests participated (scraped from profile)
+  contestCountUpdatedAt?: string; // When contest count was last updated
   lastUpdated: string;
 }
 

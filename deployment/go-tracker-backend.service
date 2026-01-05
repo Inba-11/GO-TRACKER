@@ -1,0 +1,40 @@
+[Unit]
+Description=Go Tracker Node.js Backend API
+Documentation=file:///var/www/go-tracker/PRODUCTION_SYSTEM_GUIDE.md
+After=network.target mongodb.service
+Wants=mongodb.service
+
+[Service]
+Type=simple
+User=www-data
+Group=www-data
+WorkingDirectory=/var/www/go-tracker/backend
+
+# Environment variables
+EnvironmentFile=/var/www/go-tracker/backend/.env
+Environment="NODE_ENV=production"
+
+# Start command
+ExecStart=/usr/bin/npm start
+
+# Restart policy
+Restart=always
+RestartSec=10
+StartLimitInterval=60s
+StartLimitBurst=3
+
+# Logging
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=go-tracker-backend
+
+# Security
+NoNewPrivileges=true
+PrivateTmp=true
+
+# Resource limits
+MemoryLimit=1G
+CPUQuota=100%
+
+[Install]
+WantedBy=multi-user.target

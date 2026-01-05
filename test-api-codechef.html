@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeChef API Test</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; max-width: 800px; margin: 0 auto; }
+        .card { border: 1px solid #ddd; padding: 20px; margin: 10px 0; border-radius: 8px; background: #f9f9f9; }
+        .button { background: #007bff; color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer; margin: 5px; }
+        .button:hover { background: #0056b3; }
+        .success { color: #28a745; }
+        .error { color: #dc3545; }
+        .data { background: #fff; padding: 15px; border-radius: 4px; margin: 10px 0; border-left: 4px solid #007bff; }
+        pre { white-space: pre-wrap; word-wrap: break-word; font-size: 12px; }
+        .codechef-card { 
+            background: linear-gradient(135deg, #fef7e0 0%, #fed7aa 50%, #fef7e0 100%);
+            border: 2px solid #f59e0b;
+            border-radius: 12px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .rating { font-size: 24px; font-weight: bold; color: #f59e0b; }
+        .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 15px; margin: 15px 0; }
+        .stat-item { background: rgba(255,255,255,0.7); padding: 10px; border-radius: 8px; text-align: center; }
+    </style>
+</head>
+<body>
+    <h1>🏆 CodeChef API Integration Test</h1>
+    <p>Testing the CodeChef data integration for INBATAMIZHAN P (711523BCB023)</p>
+    
+    <div class="card">
+        <h3>🔗 API Connection Test</h3>
+        <button class="button" onclick="testAPI()">Test API Connection</button>
+        <div id="apiResult"></div>
+    </div>
+    
+    <div class="card">
+        <h3>👤 Student Data Test</h3>
+        <button class="button" onclick="fetchStudentData()">Fetch INBATAMIZHAN P Data</button>
+        <div id="studentResult"></div>
+    </div>
+    
+    <div class="card">
+        <h3>🏅 CodeChef Card Preview</h3>
+        <button class="button" onclick="showCodeChefCard()">Show CodeChef Card</button>
+        <div id="codechefCard"></div>
+    </div>
+
+    <script>
+        const API_BASE = 'http://localhost:5000/api';
+
+        async function testAPI() {
+            const resultDiv = document.getElementById('apiResult');
+            resultDiv.innerHTML = '<p>Testing API connection...</p>';
+            
+            try {
+                const response = await fetch(`${API_BASE}/students`);
+                if (response.ok) {
+                    const data = await response.json();
+                    resultDiv.innerHTML = `
+                        <p class="success">✅ API Connection Successful!</p>
+                        <p>Total students: ${data.data ? data.data.length : 'Unknown'}</p>
+                    `;
+                } else {
+                    resultDiv.innerHTML = `<p class="error">❌ API Error: ${response.status}</p>`;
+                }
+            } catch (error) {
+                resultDiv.innerHTML = `<p class="error">❌ Connection Error: ${error.message}</p>`;
+            }
+        }
+
+        async function fetchStudentData() {
+            const resultDiv = document.getElementById('studentResult');
+            resultDiv.innerHTML = '<p>Fetching INBATAMIZHAN P data...</p>';
+            
+            try {
+                const response = await fetch(`${API_BASE}/students/roll/711523BCB023`);
+                if (response.ok) {
+                    const result = await response.json();
+                    if (result.success && result.data) {
+                        const student = result.data;
+                        const codechef = student.platforms?.codechef || {};
+                        
+                        resultDiv.innerHTML = `
+                            <p class="success">✅ Student Data Found!</p>
+                            <div class="data">
+                                <h4>${student.name} (${student.rollNumber})</h4>
+                                <p><strong>Batch:</strong> ${student.batch}</p>
+                                <p><strong>Department:</strong> ${student.department}</p>
+                                <h5>CodeChef Data:</h5>
+                                <pre>${JSON.stringify(codechef, null, 2)}</pre>
+                            </div>
+                        `;
+                    } else {
+                        resultDiv.innerHTML = `<p class="error">❌ Student not found in response</p>`;
+                    }
+                } else {
+                    resultDiv.innerHTML = `<p class="error">❌ API Error: ${response.status}</p>`;
+                }
+            } catch (error) {
+                resultDiv.innerHTML = `<p class="error">❌ Fetch Error: ${error.message}</p>`;
+            }
+        }
+
+        async function showCodeChefCard() {
+            const cardDiv = document.getElementById('codechefCard');
+            cardDiv.innerHTML = '<p>Loading CodeChef card...</p>';
+            
+            try {
+                const response = await fetch(`${API_BASE}/students/roll/711523BCB023`);
+                if (response.ok) {
+                    const result = await response.json();
+                    if (result.success && result.data && result.data.platforms?.codechef) {
+                        const codechef = result.data.platforms.codechef;
+                        
+                        cardDiv.innerHTML = `
+                            <div class="codechef-card">
+                                <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 15px;">
+                                    <div style="display: flex; align-items: center; gap: 10px;">
+                                        <div style="width: 40px; height: 40px; background: #f59e0b; border-radius: 8px; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold;">CC</div>
+                                        <div>
+                                            <h3 style="margin: 0; color: #1f2937;">CodeChef</h3>
+                                            <p style="margin: 0; color: #6b7280; font-size: 14px;">@${codechef.username}</p>
+                                        </div>
+                                    </div>
+                                    <a href="${codechef.profileUrl || '#'}" target="_blank" style="color: #f59e0b;">🔗</a>
+                                </div>
+                                
+                                <div style="background: rgba(255,255,255,0.8); padding: 15px; border-radius: 8px; margin-bottom: 15px;">
+                                    <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 10px;">
+                                        <span style="font-weight: 600; color: #374151;">Rating</span>
+                                        <div style="display: flex; align-items: center; gap: 5px;">
+                                            ${Array(codechef.stars || 1).fill('⭐').join('')}
+                                        </div>
+                                    </div>
+                                    <div style="display: flex; align-items: baseline; gap: 10px;">
+                                        <span class="rating">${codechef.rating || 0}</span>
+                                        <span style="color: #6b7280; font-size: 14px;">(${codechef.division || 'N/A'})</span>
+                                    </div>
+                                    <div style="margin-top: 5px;">
+                                        <span style="background: #fef3c7; color: #92400e; padding: 2px 8px; border-radius: 12px; font-size: 12px;">
+                                            ${codechef.league || 'Bronze'} League
+                                        </span>
+                                    </div>
+                                </div>
+                                
+                                <div class="stats-grid">
+                                    <div class="stat-item">
+                                        <div style="font-size: 18px; font-weight: bold; color: #059669;">${codechef.problemsSolved || 0}</div>
+                                        <div style="font-size: 12px; color: #6b7280;">Problems</div>
+                                    </div>
+                                    <div class="stat-item">
+                                        <div style="font-size: 18px; font-weight: bold; color: #2563eb;">${codechef.contests || 0}</div>
+                                        <div style="font-size: 12px; color: #6b7280;">Contests</div>
+                                    </div>
+                                    <div class="stat-item">
+                                        <div style="font-size: 16px; font-weight: bold; color: #7c3aed;">#${(codechef.globalRank || 0).toLocaleString()}</div>
+                                        <div style="font-size: 12px; color: #6b7280;">Global Rank</div>
+                                    </div>
+                                    <div class="stat-item">
+                                        <div style="font-size: 16px; font-weight: bold; color: #7c3aed;">#${(codechef.countryRank || 0).toLocaleString()}</div>
+                                        <div style="font-size: 12px; color: #6b7280;">Country Rank</div>
+                                    </div>
+                                </div>
+                                
+                                <div style="background: rgba(255,255,255,0.8); padding: 10px; border-radius: 8px; margin-top: 15px;">
+                                    <div style="display: flex; justify-content: space-between; align-items: center;">
+                                        <div>
+                                            <div style="font-size: 14px; font-weight: 600; color: #374151;">Recent Activity</div>
+                                            <div style="font-size: 12px; color: #6b7280;">${codechef.lastActive || 'N/A'}</div>
+                                        </div>
+                                        <div style="text-align: right;">
+                                            <div style="font-size: 16px; font-weight: bold; color: #f59e0b;">${codechef.recentSubmissions || 0}</div>
+                                            <div style="font-size: 12px; color: #6b7280;">Recent Solves</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div style="background: linear-gradient(90deg, #f59e0b 0%, #f97316 100%); height: 4px; border-radius: 2px; margin-top: 15px;">
+                                    <div style="background: linear-gradient(90deg, #ea580c 0%, #dc2626 100%); height: 100%; border-radius: 2px; width: ${Math.min((codechef.rating || 0) / 2000 * 100, 100)}%; transition: width 0.5s ease;"></div>
+                                </div>
+                            </div>
+                        `;
+                    } else {
+                        cardDiv.innerHTML = `<p class="error">❌ No CodeChef data found</p>`;
+                    }
+                } else {
+                    cardDiv.innerHTML = `<p class="error">❌ API Error: ${response.status}</p>`;
+                }
+            } catch (error) {
+                cardDiv.innerHTML = `<p class="error">❌ Error: ${error.message}</p>`;
+            }
+        }
+
+        // Auto-run tests on page load
+        window.onload = function() {
+            testAPI();
+        };
+    </script>
+</body>
+</html>

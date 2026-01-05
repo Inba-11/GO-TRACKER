@@ -20,6 +20,8 @@ const platformStatsSchema = new mongoose.Schema({
   lastWeekRating: { type: Number, default: 0 },
   contests: { type: Number, default: 0 },
   contestsAttended: { type: Number, default: 0 },
+  totalContests: { type: Number, default: 0 }, // Total contests participated (scraped from profile)
+  contestCountUpdatedAt: { type: String, default: '' }, // When contest count was last updated
   lastUpdated: { type: Date, default: Date.now }
 });
 

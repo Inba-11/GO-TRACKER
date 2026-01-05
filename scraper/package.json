@@ -1,0 +1,41 @@
+{
+  "name": "go-tracker-scraper",
+  "version": "1.0.0",
+  "description": "Production scraping system for GO Tracker with Node.js API backend",
+  "main": "api_server.js",
+  "scripts": {
+    "start": "node api_server.js",
+    "dev": "nodemon api_server.js",
+    "scraper": "python production_scheduler.py",
+    "production": "python start_production.py",
+    "install-python": "pip install pymongo requests beautifulsoup4 selenium schedule python-dotenv",
+    "test-api": "curl http://localhost:5001/api/health",
+    "logs": "tail -f production.log"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "mongodb": "^6.3.0",
+    "express-rate-limit": "^7.1.5",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "keywords": [
+    "scraping",
+    "mongodb",
+    "api",
+    "leetcode",
+    "codechef",
+    "codeforces",
+    "github",
+    "codolio"
+  ],
+  "author": "GO Tracker Team",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0",
+    "python": ">=3.8.0"
+  }
+}

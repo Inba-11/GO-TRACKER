@@ -1,0 +1,101 @@
+version: '3.8'
+
+services:
+  # MongoDB Database
+  mongodb:
+    image: mongo:7.0
+    container_name: go-tracker-mongodb
+    ports:
+      - "27017:27017"
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: admin
+      MONGO_INITDB_ROOT_PASSWORD: admin123
+      MONGO_INITDB_DATABASE: go-tracker
+    volumes:
+      - mongodb_data:/data/db
+      - mongodb_config:/data/configdb
+    networks:
+      - go-tracker-network
+    healthcheck:
+      test: echo 'db.runCommand("ping").ok' | mongosh localhost:27017/test --quiet
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    restart: unless-stopped
+
+  # Node.js Backend API
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: go-tracker-backend
+    ports:
+      - "5000:5000"
+    environment:
+      NODE_ENV: production
+      MONGO_URI: mongodb://admin:admin123@mongodb:27017/go-tracker?authSource=admin
+      PORT: 5000
+      GITHUB_TOKEN: ${GITHUB_TOKEN}
+      FRONTEND_URL: http://localhost:8084
+    depends_on:
+      mongodb:
+        condition: service_healthy
+    volumes:
+      - ./backend:/app
+      - /app/node_modules
+    networks:
+      - go-tracker-network
+    restart: unless-stopped
+    healthcheck:
+      test: curl -f http://localhost:5000/health || exit 1
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # React Frontend
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile.frontend
+    container_name: go-tracker-frontend
+    ports:
+      - "8084:8084"
+    environment:
+      VITE_API_URL: http://localhost:5000/api
+    depends_on:
+      - backend
+    volumes:
+      - ./src:/app/src
+      - ./public:/app/public
+    networks:
+      - go-tracker-network
+    restart: unless-stopped
+
+  # Python Scraper Scheduler
+  scraper:
+    build:
+      context: ./scraper
+      dockerfile: Dockerfile
+    container_name: go-tracker-scraper
+    environment:
+      MONGO_URI: mongodb://admin:admin123@mongodb:27017/go-tracker?authSource=admin
+      GITHUB_TOKEN: ${GITHUB_TOKEN}
+      LOG_LEVEL: INFO
+    depends_on:
+      mongodb:
+        condition: service_healthy
+    volumes:
+      - ./scraper:/app
+      - scraper_logs:/app/logs
+    networks:
+      - go-tracker-network
+    restart: unless-stopped
+
+networks:
+  go-tracker-network:
+    driver: bridge
+
+volumes:
+  mongodb_data:
+  mongodb_config:
+  scraper_logs:

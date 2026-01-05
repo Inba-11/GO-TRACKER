@@ -11,6 +11,7 @@ const authRoutes = require('./routes/authRoutes');
 const studentRoutes = require('./routes/studentRoutes');
 const statsRoutes = require('./routes/statsRoutes');
 const scrapingRoutes = require('./routes/scrapingRoutes');
+const adminRoutes = require('./routes/adminRoutes');
 const errorHandler = require('./middleware/errorHandler');
 const Student = require('./models/Student');
 const scraperService = require('./services/scraperService');
@@ -31,15 +32,20 @@ app.use(cors({
     // Allow non-browser clients (curl, server-to-server, etc.)
     if (!origin) return callback(null, true);
 
+    // Parse multiple frontend URLs from environment variable
+    const frontendUrls = process.env.FRONTEND_URL ? process.env.FRONTEND_URL.split(',').map(url => url.trim()) : [];
+    
     const allowedOrigins = new Set([
-      process.env.FRONTEND_URL,
+      ...frontendUrls,
       'http://localhost:5173',
       'http://localhost:8080',
       'http://localhost:8081',
       'http://localhost:8082',
+      'http://localhost:8084',
       'http://127.0.0.1:5173',
       'http://127.0.0.1:8080',
       'http://127.0.0.1:8081',
+      'http://127.0.0.1:8084',
     ].filter(Boolean));
 
     if (allowedOrigins.has(origin)) return callback(null, true);
@@ -48,6 +54,8 @@ app.use(cors({
     const privateIpOriginRegex = /^http:\/\/(?:10\.\d{1,3}\.\d{1,3}\.\d{1,3}|192\.168\.\d{1,3}\.\d{1,3}|172\.(?:1[6-9]|2\d|3[0-1])\.\d{1,3}\.\d{1,3})(?::\d+)?$/;
     if (privateIpOriginRegex.test(origin)) return callback(null, true);
 
+    console.log(`CORS blocked origin: ${origin}`);
+    console.log(`Allowed origins:`, Array.from(allowedOrigins));
     return callback(new Error(`Not allowed by CORS: ${origin}`));
   },
   credentials: true
@@ -83,6 +91,7 @@ app.use('/api/auth', authRoutes);
 app.use('/api/students', studentRoutes);
 app.use('/api/stats', statsRoutes);
 app.use('/api/scraping', scrapingRoutes);
+app.use('/api/admin', adminRoutes);
 
 // Root endpoint
 app.get('/', (req, res) => {

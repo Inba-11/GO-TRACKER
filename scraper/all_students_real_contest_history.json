@@ -1,0 +1,7734 @@
+{
+  "711523BCB001": {
+    "username": "kit27csbs01",
+    "rating": 958,
+    "division": "Div 4",
+    "stars": 1,
+    "league": "Rookie",
+    "global_rank": 9181,
+    "country_rank": 0,
+    "total_contests": 90,
+    "total_problems_solved": 335,
+    "contest_history": [
+      {
+        "name": "Starters 113 Division 4 (Rated)",
+        "problems_solved": [
+          "Thala For A Reason"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 114 Division 4 (Rated)",
+        "problems_solved": [
+          "Christmas Greetings"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 120 Division 4 (Rated)",
+        "problems_solved": [
+          "Valentines Contest"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 121 Division 4 (Rated)",
+        "problems_solved": [
+          "Leg Space"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 123 Division 4 (Rated)",
+        "problems_solved": [
+          "Algomaniac Finals"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 122 Division 4 (Rated)",
+        "problems_solved": [
+          "Healthy Sleep"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 124 Division 4 (Rated)",
+        "problems_solved": [
+          "Summer Time",
+          "Cricket Tournament"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 125 Division 4 (Rated)",
+        "problems_solved": [
+          "Overspeeding",
+          "50-50 Rule"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 126 Division 4 (Rated)",
+        "problems_solved": [
+          "AC Please"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 127 Division 4",
+        "problems_solved": [
+          "The Ides of March"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 128 Division 4 (Rated)",
+        "problems_solved": [
+          "Reach 5 Star"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 129 Division 4 (Rated)",
+        "problems_solved": [
+          "Football Training"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 130 Division 4 (Rated)",
+        "problems_solved": [
+          "Giant Wheel"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 131 Division 4 (Rated)",
+        "problems_solved": [
+          "Remaining Neighborhoods"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 132 Division 4 (Rated)",
+        "problems_solved": [
+          "ICE CREAM"
+        ],
+        "problems_count": 1
+      }
+    ],
+    "scraped_at": "2026-01-05T15:55:13.806137"
+  },
+  "711523BCB002": {
+    "username": "kit27csbs02",
+    "rating": 1293,
+    "division": "Div 4",
+    "stars": 1,
+    "league": "Bronze",
+    "global_rank": 1315,
+    "country_rank": 0,
+    "total_contests": 86,
+    "total_problems_solved": 359,
+    "contest_history": [
+      {
+        "name": "Starters 111 Division 4 (Rated)",
+        "problems_solved": [
+          "404 Not Found"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 113 Division 4 (Rated)",
+        "problems_solved": [
+          "Thala For A Reason"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 114 Division 4 (Rated)",
+        "problems_solved": [
+          "Christmas Greetings"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 115 Division 4 (Rated)",
+        "problems_solved": [
+          "Codechef Round"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 116 Division 4 (Rated)",
+        "problems_solved": [
+          "Minimum Wage"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 120 Division 4 (Rated)",
+        "problems_solved": [
+          "Valentines Contest"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 121 Division 4 (Rated)",
+        "problems_solved": [
+          "Leg Space"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 123 Division 4 (Rated)",
+        "problems_solved": [
+          "Algomaniac Finals"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 122 Division 4 (Rated)",
+        "problems_solved": [
+          "Healthy Sleep"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 124 Division 4 (Rated)",
+        "problems_solved": [
+          "Summer Time",
+          "Cricket Tournament"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 125 Division 4 (Rated)",
+        "problems_solved": [
+          "Overspeeding",
+          "50-50 Rule"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 126 Division 4 (Rated)",
+        "problems_solved": [
+          "AC Please"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 127 Division 4",
+        "problems_solved": [
+          "The Ides of March"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 128 Division 4 (Rated)",
+        "problems_solved": [
+          "Reach 5 Star"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 129 Division 4 (Rated)",
+        "problems_solved": [
+          "Football Training"
+        ],
+        "problems_count": 1
+      }
+    ],
+    "scraped_at": "2026-01-05T15:55:19.887029"
+  },
+  "711523BCB003": {
+    "username": "kit27csbs03",
+    "rating": 1032,
+    "division": "Div 4",
+    "stars": 1,
+    "league": "Silver",
+    "global_rank": 9778,
+    "country_rank": 0,
+    "total_contests": 97,
+    "total_problems_solved": 448,
+    "contest_history": [
+      {
+        "name": "Starters 112 Division 4 (Rated)",
+        "problems_solved": [
+          "Food Costs"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 113 Division 4 (Rated)",
+        "problems_solved": [
+          "Thala For A Reason"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 114 Division 4 (Rated)",
+        "problems_solved": [
+          "Christmas Greetings"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 116 Division 4 (Rated)",
+        "problems_solved": [
+          "Minimum Wage"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 120 Division 4 (Rated)",
+        "problems_solved": [
+          "Valentines Contest"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 121 Division 4 (Rated)",
+        "problems_solved": [
+          "Leg Space"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 123 Division 4 (Rated)",
+        "problems_solved": [
+          "Algomaniac Finals"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 122 Division 4 (Rated)",
+        "problems_solved": [
+          "Healthy Sleep"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 124 Division 4 (Rated)",
+        "problems_solved": [
+          "Summer Time"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 125 Division 4 (Rated)",
+        "problems_solved": [
+          "Overspeeding",
+          "50-50 Rule"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 126 Division 4 (Rated)",
+        "problems_solved": [
+          "AC Please"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 127 Division 4",
+        "problems_solved": [
+          "The Ides of March"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 128 Division 4 (Rated)",
+        "problems_solved": [
+          "Reach 5 Star"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 129 Division 4 (Rated)",
+        "problems_solved": [
+          "Football Training"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 130 Division 4 (Rated)",
+        "problems_solved": [
+          "Giant Wheel",
+          "Swapping Marks Digits"
+        ],
+        "problems_count": 2
+      }
+    ],
+    "scraped_at": "2026-01-05T15:55:26.042690"
+  },
+  "711523BCB004": {
+    "username": "kit27csbs04",
+    "rating": 1109,
+    "division": "Div 4",
+    "stars": 1,
+    "league": "Bronze",
+    "global_rank": 5886,
+    "country_rank": 0,
+    "total_contests": 83,
+    "total_problems_solved": 308,
+    "contest_history": [
+      {
+        "name": "Starters 113 Division 4 (Rated)",
+        "problems_solved": [
+          "Thala For A Reason"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 115 Division 4 (Rated)",
+        "problems_solved": [
+          "Codechef Round"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 123 Division 4 (Rated)",
+        "problems_solved": [
+          "Algomaniac Finals"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 122 Division 4 (Rated)",
+        "problems_solved": [
+          "Healthy Sleep"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 124 Division 4 (Rated)",
+        "problems_solved": [
+          "Summer Time"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 125 Division 4 (Rated)",
+        "problems_solved": [
+          "Overspeeding"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 126 Division 4 (Rated)",
+        "problems_solved": [
+          "AC Please"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 127 Division 4",
+        "problems_solved": [
+          "The Ides of March"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 128 Division 4 (Rated)",
+        "problems_solved": [
+          "Reach 5 Star"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 129 Division 4 (Rated)",
+        "problems_solved": [
+          "Football Training"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 130 Division 4 (Rated)",
+        "problems_solved": [
+          "Giant Wheel"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 131 Division 4 (Rated)",
+        "problems_solved": [
+          "Remaining Neighborhoods"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 133 Division 4 (Rated)",
+        "problems_solved": [
+          "Legs on a Farm",
+          "Devouring Donuts"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 134 Division 4 (Rated)",
+        "problems_solved": [
+          "Morning Run",
+          "Money Double"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 135 Division 4 (Rated)",
+        "problems_solved": [
+          "Football Ties",
+          "RCB vs CSK"
+        ],
+        "problems_count": 2
+      }
+    ],
+    "scraped_at": "2026-01-05T15:55:31.995033"
+  },
+  "711523BCB005": {
+    "username": "ahamed_ammar07",
+    "rating": 1515,
+    "division": "Div 3",
+    "stars": 1,
+    "league": "Bronze",
+    "global_rank": 946,
+    "country_rank": 0,
+    "total_contests": 96,
+    "total_problems_solved": 408,
+    "contest_history": [
+      {
+        "name": "Starters 107 Division 4 (Rated)",
+        "problems_solved": [
+          "Clear Day"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 112 Division 4 (Rated)",
+        "problems_solved": [
+          "Food Costs",
+          "Fair Share Settlement"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 113 Division 4 (Rated)",
+        "problems_solved": [
+          "Thala For A Reason"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 114 Division 4 (Rated)",
+        "problems_solved": [
+          "Christmas Greetings"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 115 Division 4 (Rated)",
+        "problems_solved": [
+          "Chocolate Distribution",
+          "Codechef Round"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 116 Division 4 (Rated)",
+        "problems_solved": [
+          "Minimum Wage"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 119 Division 4 (Rated)",
+        "problems_solved": [
+          "Advitiya"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 120 Division 4 (Rated)",
+        "problems_solved": [
+          "Valentines Contest"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 121 Division 4 (Rated)",
+        "problems_solved": [
+          "Leg Space"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 123 Division 4 (Rated)",
+        "problems_solved": [
+          "Algomaniac Finals"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 122 Division 4 (Rated)",
+        "problems_solved": [
+          "Healthy Sleep",
+          "Problem Reviews"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 124 Division 4 (Rated)",
+        "problems_solved": [
+          "Summer Time",
+          "Cricket Tournament"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 125 Division 4 (Rated)",
+        "problems_solved": [
+          "Overspeeding",
+          "50-50 Rule"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 126 Division 4 (Rated)",
+        "problems_solved": [
+          "AC Please"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 127 Division 4",
+        "problems_solved": [
+          "The Ides of March"
+        ],
+        "problems_count": 1
+      }
+    ],
+    "scraped_at": "2026-01-05T15:55:37.836520"
+  },
+  "711523BCB006": {
+    "username": "kit27csbs06",
+    "rating": 1072,
+    "division": "Div 4",
+    "stars": 1,
+    "league": "Rookie",
+    "global_rank": 7033,
+    "country_rank": 0,
+    "total_contests": 89,
+    "total_problems_solved": 397,
+    "contest_history": [
+      {
+        "name": "Starters 111 Division 4 (Rated)",
+        "problems_solved": [
+          "404 Not Found"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 115 Division 4 (Rated)",
+        "problems_solved": [
+          "Codechef Round"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 116 Division 4 (Rated)",
+        "problems_solved": [
+          "Minimum Wage"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 119 Division 4 (Rated)",
+        "problems_solved": [
+          "Advitiya"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 121 Division 4 (Rated)",
+        "problems_solved": [
+          "Leg Space"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 123 Division 4 (Rated)",
+        "problems_solved": [
+          "Algomaniac Finals"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 122 Division 4 (Rated)",
+        "problems_solved": [
+          "Healthy Sleep"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 124 Division 4 (Rated)",
+        "problems_solved": [
+          "Summer Time",
+          "Cricket Tournament"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 125 Division 4 (Rated)",
+        "problems_solved": [
+          "Overspeeding",
+          "50-50 Rule"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 126 Division 4 (Rated)",
+        "problems_solved": [
+          "AC Please"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 127 Division 4",
+        "problems_solved": [
+          "The Ides of March"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 128 Division 4 (Rated)",
+        "problems_solved": [
+          "Reach 5 Star"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 129 Division 4 (Rated)",
+        "problems_solved": [
+          "Football Training"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 130 Division 4 (Rated)",
+        "problems_solved": [
+          "Giant Wheel"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 131 Division 4 (Rated)",
+        "problems_solved": [
+          "Remaining Neighborhoods"
+        ],
+        "problems_count": 1
+      }
+    ],
+    "scraped_at": "2026-01-05T15:55:43.970306"
+  },
+  "711523BCB007": {
+    "username": "kit27csbs07",
+    "rating": 856,
+    "division": "Div 4",
+    "stars": 1,
+    "league": "Silver",
+    "global_rank": 8469,
+    "country_rank": 0,
+    "total_contests": 85,
+    "total_problems_solved": 267,
+    "contest_history": [
+      {
+        "name": "Starters 123 Division 4 (Rated)",
+        "problems_solved": [
+          "Algomaniac Finals"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 122 Division 4 (Rated)",
+        "problems_solved": [
+          "Healthy Sleep",
+          "Problem Reviews"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 124 Division 4 (Rated)",
+        "problems_solved": [
+          "Summer Time"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 125 Division 4 (Rated)",
+        "problems_solved": [
+          "Overspeeding"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 127 Division 4",
+        "problems_solved": [
+          "The Ides of March"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 128 Division 4 (Rated)",
+        "problems_solved": [
+          "Reach 5 Star"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 130 Division 4 (Rated)",
+        "problems_solved": [
+          "Giant Wheel"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 131 Division 4 (Rated)",
+        "problems_solved": [
+          "Remaining Neighborhoods"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 132 Division 4 (Rated)",
+        "problems_solved": [
+          "ICE CREAM"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 133 Division 4 (Rated)",
+        "problems_solved": [
+          "Devouring Donuts"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 134 Division 4 (Rated)",
+        "problems_solved": [
+          "Morning Run"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 135 Division 4 (Rated)",
+        "problems_solved": [
+          "RCB vs CSK"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 136 Division 4 (Rated)",
+        "problems_solved": [
+          "Who Makes P1"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 137 Division 4 (Rated)",
+        "problems_solved": [
+          "Election Hopes"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 138 Division 4 (Rated)",
+        "problems_solved": [
+          "Heat Wave"
+        ],
+        "problems_count": 1
+      }
+    ],
+    "scraped_at": "2026-01-05T15:55:49.804699"
+  },
+  "711523BCB008": {
+    "username": "kit27csbs08",
+    "rating": 1127,
+    "division": "Div 4",
+    "stars": 1,
+    "league": "Rookie",
+    "global_rank": 2374,
+    "country_rank": 0,
+    "total_contests": 87,
+    "total_problems_solved": 394,
+    "contest_history": [
+      {
+        "name": "Starters 113 Division 4 (Rated)",
+        "problems_solved": [
+          "Thala For A Reason"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 115 Division 4 (Rated)",
+        "problems_solved": [
+          "Codechef Round"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 116 Division 4 (Rated)",
+        "problems_solved": [
+          "Minimum Wage"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 123 Division 4 (Rated)",
+        "problems_solved": [
+          "Algomaniac Finals"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 124 Division 4 (Rated)",
+        "problems_solved": [
+          "Summer Time"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 125 Division 4 (Rated)",
+        "problems_solved": [
+          "Overspeeding"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 126 Division 4 (Rated)",
+        "problems_solved": [
+          "AC Please"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 127 Division 4",
+        "problems_solved": [
+          "The Ides of March"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 128 Division 4 (Rated)",
+        "problems_solved": [
+          "Reach 5 Star"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 129 Division 4 (Rated)",
+        "problems_solved": [
+          "Football Training"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 130 Division 4 (Rated)",
+        "problems_solved": [
+          "Giant Wheel"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 131 Division 4 (Rated)",
+        "problems_solved": [
+          "Remaining Neighborhoods"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 132 Division 4 (Rated)",
+        "problems_solved": [
+          "Change Please",
+          "ICE CREAM"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 133 Division 4 (Rated)",
+        "problems_solved": [
+          "Devouring Donuts"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 134 Division 4 (Rated)",
+        "problems_solved": [
+          "Morning Run",
+          "Money Double"
+        ],
+        "problems_count": 2
+      }
+    ],
+    "scraped_at": "2026-01-05T15:55:55.980795"
+  },
+  "711523BCB009": {
+    "username": "kit27csbs09",
+    "rating": 1265,
+    "division": "Div 4",
+    "stars": 1,
+    "league": "Silver",
+    "global_rank": 1236,
+    "country_rank": 0,
+    "total_contests": 49,
+    "total_problems_solved": 251,
+    "contest_history": [
+      {
+        "name": "Starters 113 Division 4 (Rated)",
+        "problems_solved": [
+          "Thala For A Reason"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 123 Division 4 (Rated)",
+        "problems_solved": [
+          "Algomaniac Finals"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 122 Division 4 (Rated)",
+        "problems_solved": [
+          "Man of the Match",
+          "Healthy Sleep"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 124 Division 4 (Rated)",
+        "problems_solved": [
+          "Summer Time"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 126 Division 4 (Rated)",
+        "problems_solved": [
+          "AC Please"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 127 Division 4",
+        "problems_solved": [
+          "The Ides of March"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 128 Division 4 (Rated)",
+        "problems_solved": [
+          "Reach 5 Star"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 130 Division 4 (Rated)",
+        "problems_solved": [
+          "Giant Wheel"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 132 Division 4 (Rated)",
+        "problems_solved": [
+          "ICE CREAM"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 134 Division 4 (Rated)",
+        "problems_solved": [
+          "Morning Run"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 145 Division 4 (Rated)",
+        "problems_solved": [
+          "Volume Comparison"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 147 Division 4 (Rated till 5 stars)",
+        "problems_solved": [
+          "Gold Coins 101"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 148 Division 4 (Rated)",
+        "problems_solved": [
+          "Clearance Sale"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 149 (Rated)",
+        "problems_solved": [
+          "Approximate Answer"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 156 (Rated)",
+        "problems_solved": [
+          "Sweets Shop"
+        ],
+        "problems_count": 1
+      }
+    ],
+    "scraped_at": "2026-01-05T15:56:02.000109"
+  },
+  "711523BCB010": {
+    "username": "kit27csbs10",
+    "rating": 1132,
+    "division": "Div 4",
+    "stars": 1,
+    "league": "Silver",
+    "global_rank": 4254,
+    "country_rank": 0,
+    "total_contests": 85,
+    "total_problems_solved": 228,
+    "contest_history": [
+      {
+        "name": "Starters 111 Division 4 (Rated)",
+        "problems_solved": [
+          "404 Not Found"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 113 Division 4 (Rated)",
+        "problems_solved": [
+          "Thala For A Reason"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 123 Division 4 (Rated)",
+        "problems_solved": [
+          "Algomaniac Finals"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 124 Division 4 (Rated)",
+        "problems_solved": [
+          "Summer Time"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 125 Division 4 (Rated)",
+        "problems_solved": [
+          "Overspeeding"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 127 Division 4",
+        "problems_solved": [
+          "The Ides of March"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 128 Division 4 (Rated)",
+        "problems_solved": [
+          "Reach 5 Star"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 129 Division 4 (Rated)",
+        "problems_solved": [
+          "Football Training",
+          "Pep Bidding"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 130 Division 4 (Rated)",
+        "problems_solved": [
+          "Giant Wheel"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 131 Division 4 (Rated)",
+        "problems_solved": [
+          "Remaining Neighborhoods"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 133 Division 4 (Rated)",
+        "problems_solved": [
+          "Legs on a Farm",
+          "Devouring Donuts"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 134 Division 4 (Rated)",
+        "problems_solved": [
+          "Morning Run"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 135 Division 4 (Rated)",
+        "problems_solved": [
+          "Football Ties",
+          "RCB vs CSK"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 136 Division 4 (Rated)",
+        "problems_solved": [
+          "Who Makes P1"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 138 Division 4 (Rated)",
+        "problems_solved": [
+          "Heat Wave"
+        ],
+        "problems_count": 1
+      }
+    ],
+    "scraped_at": "2026-01-05T15:56:08.030886"
+  },
+  "711523BCB011": {
+    "username": "kit27csbs11",
+    "rating": 854,
+    "division": "Div 4",
+    "stars": 1,
+    "league": "Gold",
+    "global_rank": 18899,
+    "country_rank": 0,
+    "total_contests": 96,
+    "total_problems_solved": 414,
+    "contest_history": [
+      {
+        "name": "Starters 111 Division 4 (Rated)",
+        "problems_solved": [
+          "404 Not Found"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 113 Division 4 (Rated)",
+        "problems_solved": [
+          "Thala For A Reason"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 115 Division 4 (Rated)",
+        "problems_solved": [
+          "Chocolate Distribution",
+          "Codechef Round"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 120 Division 4 (Rated)",
+        "problems_solved": [
+          "Valentines Contest"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 121 Division 4 (Rated)",
+        "problems_solved": [
+          "Leg Space"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 123 Division 4 (Rated)",
+        "problems_solved": [
+          "Algomaniac Finals"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 122 Division 4 (Rated)",
+        "problems_solved": [
+          "Healthy Sleep"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 124 Division 4 (Rated)",
+        "problems_solved": [
+          "Binary Parity",
+          "Summer Time",
+          "Cricket Tournament"
+        ],
+        "problems_count": 3
+      },
+      {
+        "name": "Starters 125 Division 4 (Rated)",
+        "problems_solved": [
+          "Overspeeding",
+          "50-50 Rule"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 126 Division 4 (Rated)",
+        "problems_solved": [
+          "AC Please"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 127 Division 4",
+        "problems_solved": [
+          "The Ides of March",
+          "Extreme Basketball"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 128 Division 4 (Rated)",
+        "problems_solved": [
+          "Moody Chef",
+          "Reach 5 Star"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 129 Division 4 (Rated)",
+        "problems_solved": [
+          "Football Training",
+          "Pep Bidding"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 130 Division 4 (Rated)",
+        "problems_solved": [
+          "Giant Wheel"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 131 Division 4 (Rated)",
+        "problems_solved": [
+          "Remaining Neighborhoods"
+        ],
+        "problems_count": 1
+      }
+    ],
+    "scraped_at": "2026-01-05T15:56:14.379549"
+  },
+  "711523BCB012": {
+    "username": "kit27csbs12",
+    "rating": 1374,
+    "division": "Div 4",
+    "stars": 1,
+    "league": "",
+    "global_rank": 9455,
+    "country_rank": 0,
+    "total_contests": 55,
+    "total_problems_solved": 139,
+    "contest_history": [
+      {
+        "name": "Starters 109 Division 4 (Rated)",
+        "problems_solved": [
+          "Cricket World Cup Qualifier",
+          "Worth of a Video"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 111 Division 4 (Rated)",
+        "problems_solved": [
+          "Exams",
+          "404 Not Found"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 113 Division 4 (Rated)",
+        "problems_solved": [
+          "Thala For A Reason"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 114 Division 4 (Rated)",
+        "problems_solved": [
+          "Painting Walls",
+          "Christmas Greetings"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 115 Division 4 (Rated)",
+        "problems_solved": [
+          "Chocolate Distribution",
+          "Codechef Round"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 119 Division 4 (Rated)",
+        "problems_solved": [
+          "Advitiya",
+          "Judged"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 120 Division 4 (Rated)",
+        "problems_solved": [
+          "Valentines Contest"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 121 Division 4 (Rated)",
+        "problems_solved": [
+          "Leg Space"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 123 Division 4 (Rated)",
+        "problems_solved": [
+          "Room Allocation",
+          "Algomaniac Finals"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 122 Division 4 (Rated)",
+        "problems_solved": [
+          "Healthy Sleep",
+          "Problem Reviews"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 124 Division 4 (Rated)",
+        "problems_solved": [
+          "Binary Parity",
+          "Summer Time",
+          "Cricket Tournament"
+        ],
+        "problems_count": 3
+      },
+      {
+        "name": "Starters 125 Division 4 (Rated)",
+        "problems_solved": [
+          "Overspeeding",
+          "50-50 Rule"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 126 Division 4 (Rated)",
+        "problems_solved": [
+          "AC Please"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 127 Division 4",
+        "problems_solved": [
+          "The Ides of March"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 128 Division 4 (Rated)",
+        "problems_solved": [
+          "Reach 5 Star"
+        ],
+        "problems_count": 1
+      }
+    ],
+    "scraped_at": "2026-01-05T15:56:20.424638"
+  },
+  "711523BCB013": {
+    "username": "kit27csbs13",
+    "rating": 1220,
+    "division": "Div 4",
+    "stars": 1,
+    "league": "Bronze",
+    "global_rank": 1230,
+    "country_rank": 0,
+    "total_contests": 93,
+    "total_problems_solved": 593,
+    "contest_history": [
+      {
+        "name": "Starters 111 Division 4 (Rated)",
+        "problems_solved": [
+          "404 Not Found"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 113 Division 4 (Rated)",
+        "problems_solved": [
+          "Thala For A Reason"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 114 Division 4 (Rated)",
+        "problems_solved": [
+          "Christmas Greetings"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 115 Division 4 (Rated)",
+        "problems_solved": [
+          "Codechef Round"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 116 Division 4 (Rated)",
+        "problems_solved": [
+          "Minimum Wage"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 120 Division 4 (Rated)",
+        "problems_solved": [
+          "Valentines Contest"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 121 Division 4 (Rated)",
+        "problems_solved": [
+          "Leg Space"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 123 Division 4 (Rated)",
+        "problems_solved": [
+          "Algomaniac Finals"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 122 Division 4 (Rated)",
+        "problems_solved": [
+          "Healthy Sleep"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 124 Division 4 (Rated)",
+        "problems_solved": [
+          "Summer Time",
+          "Cricket Tournament"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 125 Division 4 (Rated)",
+        "problems_solved": [
+          "Overspeeding",
+          "50-50 Rule"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 126 Division 4 (Rated)",
+        "problems_solved": [
+          "AC Please"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 127 Division 4",
+        "problems_solved": [
+          "The Ides of March"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 128 Division 4 (Rated)",
+        "problems_solved": [
+          "Moody Chef",
+          "Reach 5 Star"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 129 Division 4 (Rated)",
+        "problems_solved": [
+          "Football Training",
+          "Pep Bidding",
+          "Ballon d Or"
+        ],
+        "problems_count": 3
+      }
+    ],
+    "scraped_at": "2026-01-05T15:56:26.300521"
+  },
+  "711523BCB014": {
+    "username": "kit27csbs14",
+    "rating": 1155,
+    "division": "Div 4",
+    "stars": 1,
+    "league": "Rookie",
+    "global_rank": 6974,
+    "country_rank": 0,
+    "total_contests": 90,
+    "total_problems_solved": 670,
+    "contest_history": [
+      {
+        "name": "Starters 111 Division 4 (Rated)",
+        "problems_solved": [
+          "Exams",
+          "404 Not Found"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 113 Division 4 (Rated)",
+        "problems_solved": [
+          "Thala For A Reason"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 115 Division 4 (Rated)",
+        "problems_solved": [
+          "Chocolate Distribution",
+          "Codechef Round"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 116 Division 4 (Rated)",
+        "problems_solved": [
+          "Minimum Wage"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 123 Division 4 (Rated)",
+        "problems_solved": [
+          "Algomaniac Finals"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 122 Division 4 (Rated)",
+        "problems_solved": [
+          "Healthy Sleep",
+          "Problem Reviews"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 124 Division 4 (Rated)",
+        "problems_solved": [
+          "Summer Time"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 125 Division 4 (Rated)",
+        "problems_solved": [
+          "Overspeeding",
+          "50-50 Rule"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 126 Division 4 (Rated)",
+        "problems_solved": [
+          "AC Please"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 127 Division 4",
+        "problems_solved": [
+          "The Ides of March"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 128 Division 4 (Rated)",
+        "problems_solved": [
+          "Reach 5 Star"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 129 Division 4 (Rated)",
+        "problems_solved": [
+          "Football Training"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 130 Division 4 (Rated)",
+        "problems_solved": [
+          "Giant Wheel"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 131 Division 4 (Rated)",
+        "problems_solved": [
+          "Remaining Neighborhoods",
+          "Gotta Catch Em All",
+          "Dice Deception"
+        ],
+        "problems_count": 3
+      },
+      {
+        "name": "Starters 132 Division 4 (Rated)",
+        "problems_solved": [
+          "Change Please",
+          "ICE CREAM"
+        ],
+        "problems_count": 2
+      }
+    ],
+    "scraped_at": "2026-01-05T15:56:32.189323"
+  },
+  "711523BCB015": {
+    "username": "kit27csbs15",
+    "rating": 1815,
+    "division": "Div 2",
+    "stars": 1,
+    "league": "Bronze",
+    "global_rank": 169,
+    "country_rank": 0,
+    "total_contests": 112,
+    "total_problems_solved": 490,
+    "contest_history": [
+      {
+        "name": "Starters 107 Division 4 (Rated)",
+        "problems_solved": [
+          "Pending Assignments",
+          "Clear Day"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 108 Division 4 (Rated)",
+        "problems_solved": [
+          "Rivalry"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 109 Division 4 (Rated)",
+        "problems_solved": [
+          "Cricket World Cup Qualifier",
+          "Best of N Sets",
+          "Worth of a Video"
+        ],
+        "problems_count": 3
+      },
+      {
+        "name": "Starters 111 Division 4 (Rated)",
+        "problems_solved": [
+          "Exams",
+          "404 Not Found"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 112 Division 4 (Rated)",
+        "problems_solved": [
+          "Food Costs",
+          "Fair Share Settlement"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 113 Division 4 (Rated)",
+        "problems_solved": [
+          "Make N Zero",
+          "Thala For A Reason"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 114 Division 4 (Rated)",
+        "problems_solved": [
+          "Painting Walls",
+          "Christmas Greetings"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 115 Division 4 (Rated)",
+        "problems_solved": [
+          "Chocolate Distribution",
+          "Codechef Round"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 116 Division 4 (Rated)",
+        "problems_solved": [
+          "Hattrick",
+          "Minimum Wage"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 117 Division 4 (Rated)",
+        "problems_solved": [
+          "Yearly Phone"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 118 Division 4 (Rated)",
+        "problems_solved": [
+          "Literacy Rate",
+          "International Education Day!"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 119 Division 4 (Rated)",
+        "problems_solved": [
+          "Advitiya",
+          "Judged"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 120 Division 4 (Rated)",
+        "problems_solved": [
+          "Valentines Contest"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 121 Division 4 (Rated)",
+        "problems_solved": [
+          "Leg Space",
+          "The Man Code"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 123 Division 4 (Rated)",
+        "problems_solved": [
+          "Room Allocation",
+          "Algomaniac Finals"
+        ],
+        "problems_count": 2
+      }
+    ],
+    "scraped_at": "2026-01-05T15:56:38.314483"
+  },
+  "711523BCB016": {
+    "username": "kit27csbs16",
+    "rating": 1537,
+    "division": "Div 3",
+    "stars": 1,
+    "league": "Bronze",
+    "global_rank": 2345,
+    "country_rank": 0,
+    "total_contests": 106,
+    "total_problems_solved": 815,
+    "contest_history": [
+      {
+        "name": "Starters 107 Division 4 (Rated)",
+        "problems_solved": [
+          "Clear Day"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 109 Division 4 (Rated)",
+        "problems_solved": [
+          "Cricket World Cup Qualifier"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 111 Division 4 (Rated)",
+        "problems_solved": [
+          "Exams",
+          "404 Not Found"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 112 Division 4 (Rated)",
+        "problems_solved": [
+          "Food Costs",
+          "Fair Share Settlement"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 113 Division 4 (Rated)",
+        "problems_solved": [
+          "Thala For A Reason"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 114 Division 4 (Rated)",
+        "problems_solved": [
+          "Painting Walls",
+          "Christmas Greetings"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 115 Division 4 (Rated)",
+        "problems_solved": [
+          "Chocolate Distribution",
+          "Codechef Round"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 116 Division 4 (Rated)",
+        "problems_solved": [
+          "Minimum Wage"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 117 Division 4 (Rated)",
+        "problems_solved": [
+          "Yearly Phone"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 120 Division 4 (Rated)",
+        "problems_solved": [
+          "Valentines Contest"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 121 Division 4 (Rated)",
+        "problems_solved": [
+          "Leg Space"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 123 Division 4 (Rated)",
+        "problems_solved": [
+          "Room Allocation",
+          "Algomaniac Finals"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 122 Division 4 (Rated)",
+        "problems_solved": [
+          "Healthy Sleep",
+          "Problem Reviews"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 124 Division 4 (Rated)",
+        "problems_solved": [
+          "Binary Parity",
+          "Summer Time",
+          "Cricket Tournament"
+        ],
+        "problems_count": 3
+      },
+      {
+        "name": "Starters 125 Division 4 (Rated)",
+        "problems_solved": [
+          "Overspeeding",
+          "50-50 Rule"
+        ],
+        "problems_count": 2
+      }
+    ],
+    "scraped_at": "2026-01-05T15:56:44.192626"
+  },
+  "711523BCB017": {
+    "username": "durga0103",
+    "rating": 1015,
+    "division": "Div 4",
+    "stars": 1,
+    "league": "Silver",
+    "global_rank": 6495,
+    "country_rank": 0,
+    "total_contests": 86,
+    "total_problems_solved": 240,
+    "contest_history": [
+      {
+        "name": "Starters 112 Division 4 (Rated)",
+        "problems_solved": [
+          "Food Costs"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 113 Division 4 (Rated)",
+        "problems_solved": [
+          "Thala For A Reason"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 115 Division 4 (Rated)",
+        "problems_solved": [
+          "Codechef Round"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 116 Division 4 (Rated)",
+        "problems_solved": [
+          "Minimum Wage"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 121 Division 4 (Rated)",
+        "problems_solved": [
+          "Leg Space"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 122 Division 4 (Rated)",
+        "problems_solved": [
+          "Healthy Sleep"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 124 Division 4 (Rated)",
+        "problems_solved": [
+          "Summer Time"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 125 Division 4 (Rated)",
+        "problems_solved": [
+          "Overspeeding",
+          "50-50 Rule"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 126 Division 4 (Rated)",
+        "problems_solved": [
+          "AC Please"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 127 Division 4",
+        "problems_solved": [
+          "The Ides of March"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 128 Division 4 (Rated)",
+        "problems_solved": [
+          "Reach 5 Star"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 129 Division 4 (Rated)",
+        "problems_solved": [
+          "Football Training",
+          "Pep Bidding"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 130 Division 4 (Rated)",
+        "problems_solved": [
+          "Giant Wheel"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 131 Division 4 (Rated)",
+        "problems_solved": [
+          "Remaining Neighborhoods"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 132 Division 4 (Rated)",
+        "problems_solved": [
+          "Change Please",
+          "ICE CREAM"
+        ],
+        "problems_count": 2
+      }
+    ],
+    "scraped_at": "2026-01-05T15:56:50.141862"
+  },
+  "711523BCB018": {
+    "username": "githendran_vfc",
+    "rating": 1142,
+    "division": "Div 4",
+    "stars": 1,
+    "league": "Rookie",
+    "global_rank": 3976,
+    "country_rank": 0,
+    "total_contests": 73,
+    "total_problems_solved": 363,
+    "contest_history": [
+      {
+        "name": "Starters 124 Division 4 (Rated)",
+        "problems_solved": [
+          "Summer Time"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 125 Division 4 (Rated)",
+        "problems_solved": [
+          "Overspeeding",
+          "50-50 Rule"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 126 Division 4 (Rated)",
+        "problems_solved": [
+          "AC Please",
+          "Dice Game 3"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 127 Division 4",
+        "problems_solved": [
+          "The Ides of March"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 128 Division 4 (Rated)",
+        "problems_solved": [
+          "Reach 5 Star"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 129 Division 4 (Rated)",
+        "problems_solved": [
+          "Football Training",
+          "Pep Bidding"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 130 Division 4 (Rated)",
+        "problems_solved": [
+          "Giant Wheel"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 131 Division 4 (Rated)",
+        "problems_solved": [
+          "Remaining Neighborhoods",
+          "Gotta Catch Em All"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 132 Division 4 (Rated)",
+        "problems_solved": [
+          "ICE CREAM"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 133 Division 4 (Rated)",
+        "problems_solved": [
+          "Legs on a Farm",
+          "Devouring Donuts"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 134 Division 4 (Rated)",
+        "problems_solved": [
+          "Morning Run",
+          "Money Double"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 135 Division 4 (Rated)",
+        "problems_solved": [
+          "RCB vs CSK"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 136 Division 4 (Rated)",
+        "problems_solved": [
+          "Who Makes P1"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 138 Division 4 (Rated)",
+        "problems_solved": [
+          "Heat Wave"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 140 Division 4 (Rated)",
+        "problems_solved": [
+          "Yoga Day"
+        ],
+        "problems_count": 1
+      }
+    ],
+    "scraped_at": "2026-01-05T15:56:56.095553"
+  },
+  "711523BCB019": {
+    "username": "arul_gowsi",
+    "rating": 1622,
+    "division": "Div 2",
+    "stars": 1,
+    "league": "Bronze",
+    "global_rank": 765,
+    "country_rank": 0,
+    "total_contests": 98,
+    "total_problems_solved": 606,
+    "contest_history": [
+      {
+        "name": "Starters 113 Division 4 (Rated)",
+        "problems_solved": [
+          "Thala For A Reason"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 114 Division 4 (Rated)",
+        "problems_solved": [
+          "Painting Walls",
+          "Christmas Greetings"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 115 Division 4 (Rated)",
+        "problems_solved": [
+          "Chocolate Distribution",
+          "Codechef Round"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 116 Division 4 (Rated)",
+        "problems_solved": [
+          "Minimum Wage"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 117 Division 4 (Rated)",
+        "problems_solved": [
+          "Yearly Phone"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 118 Division 4 (Rated)",
+        "problems_solved": [
+          "International Education Day!"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 119 Division 4 (Rated)",
+        "problems_solved": [
+          "Advitiya",
+          "Judged"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 120 Division 4 (Rated)",
+        "problems_solved": [
+          "Valentines Contest",
+          "Valentine Gifts"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 121 Division 4 (Rated)",
+        "problems_solved": [
+          "Leg Space"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 123 Division 4 (Rated)",
+        "problems_solved": [
+          "Room Allocation",
+          "Algomaniac Finals"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 122 Division 4 (Rated)",
+        "problems_solved": [
+          "Healthy Sleep",
+          "Problem Reviews"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 124 Division 4 (Rated)",
+        "problems_solved": [
+          "Binary Parity",
+          "Summer Time",
+          "Cricket Tournament"
+        ],
+        "problems_count": 3
+      },
+      {
+        "name": "Starters 125 Division 4 (Rated)",
+        "problems_solved": [
+          "Overspeeding",
+          "50-50 Rule"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 126 Division 4 (Rated)",
+        "problems_solved": [
+          "AC Please"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 127 Division 4",
+        "problems_solved": [
+          "The Ides of March"
+        ],
+        "problems_count": 1
+      }
+    ],
+    "scraped_at": "2026-01-05T15:57:01.990199"
+  },
+  "711523BCB020": {
+    "username": "kit27csbs20",
+    "rating": 1092,
+    "division": "Div 4",
+    "stars": 1,
+    "league": "Rookie",
+    "global_rank": 11967,
+    "country_rank": 0,
+    "total_contests": 89,
+    "total_problems_solved": 396,
+    "contest_history": [
+      {
+        "name": "Starters 116 Division 4 (Rated)",
+        "problems_solved": [
+          "Minimum Wage"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 122 Division 4 (Rated)",
+        "problems_solved": [
+          "Healthy Sleep"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 125 Division 4 (Rated)",
+        "problems_solved": [
+          "Overspeeding",
+          "50-50 Rule"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 126 Division 4 (Rated)",
+        "problems_solved": [
+          "AC Please"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 127 Division 4",
+        "problems_solved": [
+          "The Ides of March"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 128 Division 4 (Rated)",
+        "problems_solved": [
+          "Reach 5 Star"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 129 Division 4 (Rated)",
+        "problems_solved": [
+          "Football Training"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 131 Division 4 (Rated)",
+        "problems_solved": [
+          "Remaining Neighborhoods"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 132 Division 4 (Rated)",
+        "problems_solved": [
+          "ICE CREAM"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 134 Division 4 (Rated)",
+        "problems_solved": [
+          "Morning Run"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 135 Division 4 (Rated)",
+        "problems_solved": [
+          "RCB vs CSK"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 136 Division 4 (Rated)",
+        "problems_solved": [
+          "Who Makes P1"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 137 Division 4 (Rated)",
+        "problems_solved": [
+          "Election Hopes"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 138 Division 4 (Rated)",
+        "problems_solved": [
+          "Heat Wave"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 139 Division 4 (Rated)",
+        "problems_solved": [
+          "Television Channels"
+        ],
+        "problems_count": 1
+      }
+    ],
+    "scraped_at": "2026-01-05T15:57:08.143050"
+  },
+  "711523BCB021": {
+    "username": "kit27csbs21",
+    "rating": 882,
+    "division": "Div 4",
+    "stars": 1,
+    "league": "Bronze",
+    "global_rank": 5777,
+    "country_rank": 0,
+    "total_contests": 101,
+    "total_problems_solved": 351,
+    "contest_history": [
+      {
+        "name": "Starters 113 Division 4 (Rated)",
+        "problems_solved": [
+          "Thala For A Reason"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 116 Division 4 (Rated)",
+        "problems_solved": [
+          "Minimum Wage"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 123 Division 4 (Rated)",
+        "problems_solved": [
+          "Algomaniac Finals"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 122 Division 4 (Rated)",
+        "problems_solved": [
+          "Healthy Sleep",
+          "Problem Reviews"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 124 Division 4 (Rated)",
+        "problems_solved": [
+          "Summer Time"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 125 Division 4 (Rated)",
+        "problems_solved": [
+          "Overspeeding",
+          "50-50 Rule"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 126 Division 4 (Rated)",
+        "problems_solved": [
+          "AC Please"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 127 Division 4",
+        "problems_solved": [
+          "The Ides of March"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 128 Division 4 (Rated)",
+        "problems_solved": [
+          "Reach 5 Star"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 129 Division 4 (Rated)",
+        "problems_solved": [
+          "Football Training"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 130 Division 4 (Rated)",
+        "problems_solved": [
+          "Giant Wheel"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 131 Division 4 (Rated)",
+        "problems_solved": [
+          "Remaining Neighborhoods"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 132 Division 4 (Rated)",
+        "problems_solved": [
+          "ICE CREAM"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 133 Division 4 (Rated)",
+        "problems_solved": [
+          "Devouring Donuts"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 134 Division 4 (Rated)",
+        "problems_solved": [
+          "Morning Run"
+        ],
+        "problems_count": 1
+      }
+    ],
+    "scraped_at": "2026-01-05T15:57:14.388987"
+  },
+  "711523BCB022": {
+    "username": "kit27csbs22",
+    "rating": 795,
+    "division": "Div 4",
+    "stars": 1,
+    "league": "",
+    "global_rank": 13849,
+    "country_rank": 0,
+    "total_contests": 87,
+    "total_problems_solved": 246,
+    "contest_history": [
+      {
+        "name": "Starters 111 Division 4 (Rated)",
+        "problems_solved": [
+          "404 Not Found"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 116 Division 4 (Rated)",
+        "problems_solved": [
+          "Minimum Wage"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 123 Division 4 (Rated)",
+        "problems_solved": [
+          "Algomaniac Finals"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 122 Division 4 (Rated)",
+        "problems_solved": [
+          "Healthy Sleep"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 124 Division 4 (Rated)",
+        "problems_solved": [
+          "Summer Time"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 125 Division 4 (Rated)",
+        "problems_solved": [
+          "Overspeeding",
+          "50-50 Rule"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 126 Division 4 (Rated)",
+        "problems_solved": [
+          "AC Please"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 127 Division 4",
+        "problems_solved": [
+          "The Ides of March"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 128 Division 4 (Rated)",
+        "problems_solved": [
+          "Reach 5 Star"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 129 Division 4 (Rated)",
+        "problems_solved": [
+          "Football Training"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 130 Division 4 (Rated)",
+        "problems_solved": [
+          "Giant Wheel"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 131 Division 4 (Rated)",
+        "problems_solved": [
+          "Remaining Neighborhoods"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 132 Division 4 (Rated)",
+        "problems_solved": [
+          "ICE CREAM"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 135 Division 4 (Rated)",
+        "problems_solved": [
+          "RCB vs CSK"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 136 Division 4 (Rated)",
+        "problems_solved": [
+          "Who Makes P1"
+        ],
+        "problems_count": 1
+      }
+    ],
+    "scraped_at": "2026-01-05T15:57:20.202853"
+  },
+  "711523BCB023": {
+    "username": "kit27csbs23",
+    "rating": 1264,
+    "division": "Div 4",
+    "stars": 1,
+    "league": "Bronze",
+    "global_rank": 1672,
+    "country_rank": 0,
+    "total_contests": 96,
+    "total_problems_solved": 500,
+    "contest_history": [
+      {
+        "name": "Starters 111 Division 4 (Rated)",
+        "problems_solved": [
+          "404 Not Found"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 112 Division 4 (Rated)",
+        "problems_solved": [
+          "Food Costs"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 114 Division 4 (Rated)",
+        "problems_solved": [
+          "Christmas Greetings"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 121 Division 4 (Rated)",
+        "problems_solved": [
+          "Leg Space"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 123 Division 4 (Rated)",
+        "problems_solved": [
+          "Room Allocation",
+          "Algomaniac Finals"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 122 Division 4 (Rated)",
+        "problems_solved": [
+          "Healthy Sleep",
+          "Problem Reviews"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 124 Division 4 (Rated)",
+        "problems_solved": [
+          "Summer Time"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 125 Division 4 (Rated)",
+        "problems_solved": [
+          "Overspeeding",
+          "50-50 Rule"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 126 Division 4 (Rated)",
+        "problems_solved": [
+          "AC Please"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 127 Division 4",
+        "problems_solved": [
+          "The Ides of March"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 128 Division 4 (Rated)",
+        "problems_solved": [
+          "Reach 5 Star"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 129 Division 4 (Rated)",
+        "problems_solved": [
+          "Football Training"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 130 Division 4 (Rated)",
+        "problems_solved": [
+          "Giant Wheel"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 131 Division 4 (Rated)",
+        "problems_solved": [
+          "Remaining Neighborhoods"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 132 Division 4 (Rated)",
+        "problems_solved": [
+          "Change Please",
+          "ICE CREAM"
+        ],
+        "problems_count": 2
+      }
+    ],
+    "scraped_at": "2026-01-05T15:57:26.022529"
+  },
+  "711523BCB024": {
+    "username": "kit27csbs24",
+    "rating": 1048,
+    "division": "Div 4",
+    "stars": 1,
+    "league": "Bronze",
+    "global_rank": 10012,
+    "country_rank": 0,
+    "total_contests": 82,
+    "total_problems_solved": 310,
+    "contest_history": [
+      {
+        "name": "Starters 116 Division 4 (Rated)",
+        "problems_solved": [
+          "Minimum Wage"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 119 Division 4 (Rated)",
+        "problems_solved": [
+          "Advitiya"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 123 Division 4 (Rated)",
+        "problems_solved": [
+          "Algomaniac Finals"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 124 Division 4 (Rated)",
+        "problems_solved": [
+          "Summer Time",
+          "Cricket Tournament"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 125 Division 4 (Rated)",
+        "problems_solved": [
+          "Overspeeding",
+          "50-50 Rule"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 126 Division 4 (Rated)",
+        "problems_solved": [
+          "AC Please"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 127 Division 4",
+        "problems_solved": [
+          "The Ides of March"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 130 Division 4 (Rated)",
+        "problems_solved": [
+          "Giant Wheel"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 131 Division 4 (Rated)",
+        "problems_solved": [
+          "Remaining Neighborhoods"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 132 Division 4 (Rated)",
+        "problems_solved": [
+          "ICE CREAM"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 133 Division 4 (Rated)",
+        "problems_solved": [
+          "Devouring Donuts"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 134 Division 4 (Rated)",
+        "problems_solved": [
+          "Morning Run"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 135 Division 4 (Rated)",
+        "problems_solved": [
+          "RCB vs CSK"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 136 Division 4 (Rated)",
+        "problems_solved": [
+          "Who Makes P1"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 137 Division 4 (Rated)",
+        "problems_solved": [
+          "Election Hopes"
+        ],
+        "problems_count": 1
+      }
+    ],
+    "scraped_at": "2026-01-05T15:57:32.005940"
+  },
+  "711523BCB025": {
+    "username": "imirin",
+    "rating": 1230,
+    "division": "Div 4",
+    "stars": 1,
+    "league": "Bronze",
+    "global_rank": 841,
+    "country_rank": 0,
+    "total_contests": 35,
+    "total_problems_solved": 229,
+    "contest_history": [
+      {
+        "name": "Starters 161 (Rated)",
+        "problems_solved": [
+          "Selling Donuts",
+          "Moneymaking"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 162 (Rated)",
+        "problems_solved": [
+          "Calorie Intake"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 163 (Rated)",
+        "problems_solved": [
+          "Chef and Socks"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 165 (Rated)",
+        "problems_solved": [
+          "Christmas Cake",
+          "Poster Perimeter",
+          "Bulk Discount"
+        ],
+        "problems_count": 3
+      },
+      {
+        "name": "Starters 168 (Rated)",
+        "problems_solved": [
+          "Can You Bench",
+          "Big Achiever"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 170 (Rated)",
+        "problems_solved": [
+          "Access Code Equality"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 171 (Rated)",
+        "problems_solved": [
+          "Squid Game - Piggy Bank"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 172 (Rated)",
+        "problems_solved": [
+          "Time Machine",
+          "Small Palindrome"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 173 (Rated upto < 2700)",
+        "problems_solved": [
+          "Time Penalty"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 174 (Rated)",
+        "problems_solved": [
+          "Too Much Homework!"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 175 (Rated)",
+        "problems_solved": [
+          "Assignment Due",
+          "Technex Tickets"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 176 (Rated)",
+        "problems_solved": [
+          "Run for Fun"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 177 (Rated)",
+        "problems_solved": [
+          "Triangle Checking"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 178 (Rated)",
+        "problems_solved": [
+          "Food Balance"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 179 (Rated)",
+        "problems_solved": [
+          "Lost in the Fest!!",
+          "Conquer the Fest!!"
+        ],
+        "problems_count": 2
+      }
+    ],
+    "scraped_at": "2026-01-05T15:57:38.350402"
+  },
+  "711523BCB026": {
+    "username": "kit27csbs26",
+    "rating": 1344,
+    "division": "Div 4",
+    "stars": 1,
+    "league": "Rookie",
+    "global_rank": 3945,
+    "country_rank": 0,
+    "total_contests": 82,
+    "total_problems_solved": 275,
+    "contest_history": [
+      {
+        "name": "Starters 111 Division 4 (Rated)",
+        "problems_solved": [
+          "Exams",
+          "404 Not Found"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 115 Division 4 (Rated)",
+        "problems_solved": [
+          "Codechef Round"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 116 Division 4 (Rated)",
+        "problems_solved": [
+          "Minimum Wage"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 120 Division 4 (Rated)",
+        "problems_solved": [
+          "Valentines Contest"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 121 Division 4 (Rated)",
+        "problems_solved": [
+          "Leg Space"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 123 Division 4 (Rated)",
+        "problems_solved": [
+          "Algomaniac Finals"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 122 Division 4 (Rated)",
+        "problems_solved": [
+          "Healthy Sleep"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 124 Division 4 (Rated)",
+        "problems_solved": [
+          "Binary Parity",
+          "Summer Time",
+          "Cricket Tournament"
+        ],
+        "problems_count": 3
+      },
+      {
+        "name": "Starters 125 Division 4 (Rated)",
+        "problems_solved": [
+          "Overspeeding",
+          "50-50 Rule"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 126 Division 4 (Rated)",
+        "problems_solved": [
+          "AC Please"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 127 Division 4",
+        "problems_solved": [
+          "The Ides of March"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 128 Division 4 (Rated)",
+        "problems_solved": [
+          "Reach 5 Star"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 129 Division 4 (Rated)",
+        "problems_solved": [
+          "Football Training",
+          "Pep Bidding"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 130 Division 4 (Rated)",
+        "problems_solved": [
+          "Giant Wheel"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 131 Division 4 (Rated)",
+        "problems_solved": [
+          "Remaining Neighborhoods",
+          "Gotta Catch Em All"
+        ],
+        "problems_count": 2
+      }
+    ],
+    "scraped_at": "2026-01-05T15:57:45.497166"
+  },
+  "711523BCB028": {
+    "username": "kit27csbs28",
+    "rating": 1249,
+    "division": "Div 4",
+    "stars": 1,
+    "league": "Silver",
+    "global_rank": 4008,
+    "country_rank": 0,
+    "total_contests": 97,
+    "total_problems_solved": 588,
+    "contest_history": [
+      {
+        "name": "Starters 111 Division 4 (Rated)",
+        "problems_solved": [
+          "404 Not Found"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 113 Division 4 (Rated)",
+        "problems_solved": [
+          "Thala For A Reason"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 115 Division 4 (Rated)",
+        "problems_solved": [
+          "Codechef Round"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 116 Division 4 (Rated)",
+        "problems_solved": [
+          "Minimum Wage"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 120 Division 4 (Rated)",
+        "problems_solved": [
+          "Valentines Contest"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 121 Division 4 (Rated)",
+        "problems_solved": [
+          "Leg Space"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 123 Division 4 (Rated)",
+        "problems_solved": [
+          "Algomaniac Finals"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 122 Division 4 (Rated)",
+        "problems_solved": [
+          "Healthy Sleep"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 124 Division 4 (Rated)",
+        "problems_solved": [
+          "Summer Time",
+          "Cricket Tournament"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 125 Division 4 (Rated)",
+        "problems_solved": [
+          "Overspeeding",
+          "50-50 Rule"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 126 Division 4 (Rated)",
+        "problems_solved": [
+          "AC Please"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 127 Division 4",
+        "problems_solved": [
+          "The Ides of March"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 128 Division 4 (Rated)",
+        "problems_solved": [
+          "Reach 5 Star"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 129 Division 4 (Rated)",
+        "problems_solved": [
+          "Football Training",
+          "Pep Bidding"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 130 Division 4 (Rated)",
+        "problems_solved": [
+          "Giant Wheel"
+        ],
+        "problems_count": 1
+      }
+    ],
+    "scraped_at": "2026-01-05T15:57:51.459618"
+  },
+  "711523BCB029": {
+    "username": "kitcsbs29",
+    "rating": 1591,
+    "division": "Div 3",
+    "stars": 1,
+    "league": "Diamond",
+    "global_rank": 719,
+    "country_rank": 0,
+    "total_contests": 50,
+    "total_problems_solved": 426,
+    "contest_history": [
+      {
+        "name": "Starters 161 (Rated)",
+        "problems_solved": [
+          "Moneymaking",
+          "Selling Donuts"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 162 (Rated)",
+        "problems_solved": [
+          "Adjacent Sum Array",
+          "Calorie Intake",
+          "Assignment Score"
+        ],
+        "problems_count": 3
+      },
+      {
+        "name": "Starters 163 (Rated)",
+        "problems_solved": [
+          "Chef and Socks"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 164 (Rated)",
+        "problems_solved": [
+          "New-Pro Coder",
+          "Itz Simple"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 165 (Rated)",
+        "problems_solved": [
+          "Christmas Cake",
+          "Poster Perimeter",
+          "Bulk Discount"
+        ],
+        "problems_count": 3
+      },
+      {
+        "name": "Starters 166 (Rated)",
+        "problems_solved": [
+          "Christmas Gifts",
+          "Merry Christmas!"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 167 (Rated)",
+        "problems_solved": [
+          "Temperature Balance",
+          "Happy New Year!",
+          "Delete Not Equal"
+        ],
+        "problems_count": 3
+      },
+      {
+        "name": "Starters 168 (Rated)",
+        "problems_solved": [
+          "Can You Bench",
+          "Make Odd",
+          "Big Achiever"
+        ],
+        "problems_count": 3
+      },
+      {
+        "name": "Starters 169 (Rated)",
+        "problems_solved": [
+          "Opposite Attract",
+          "Entry Check"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 170 (Rated)",
+        "problems_solved": [
+          "Access Code Equality",
+          "Monster Monster",
+          "Minimum Bottles"
+        ],
+        "problems_count": 3
+      },
+      {
+        "name": "Starters 171 (Rated)",
+        "problems_solved": [
+          "Squid Game - Piggy Bank",
+          "Swish Game",
+          "Advitiya"
+        ],
+        "problems_count": 3
+      },
+      {
+        "name": "Starters 172 (Rated)",
+        "problems_solved": [
+          "Time Machine",
+          "Small Palindrome"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 174 (Rated)",
+        "problems_solved": [
+          "Too Much Homework!"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 175 (Rated)",
+        "problems_solved": [
+          "Assignment Due",
+          "Technex Tickets"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 176 (Rated)",
+        "problems_solved": [
+          "Clothing Store",
+          "Run for Fun"
+        ],
+        "problems_count": 2
+      }
+    ],
+    "scraped_at": "2026-01-05T15:57:57.513526"
+  },
+  "711523BCB030": {
+    "username": "ki27csbs30",
+    "rating": 1078,
+    "division": "Div 4",
+    "stars": 1,
+    "league": "Rookie",
+    "global_rank": 3501,
+    "country_rank": 0,
+    "total_contests": 64,
+    "total_problems_solved": 592,
+    "contest_history": [
+      {
+        "name": "Starters 124 Division 4 (Rated)",
+        "problems_solved": [
+          "Summer Time"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 125 Division 4 (Rated)",
+        "problems_solved": [
+          "Overspeeding",
+          "50-50 Rule"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 127 Division 4",
+        "problems_solved": [
+          "The Ides of March"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 131 Division 4 (Rated)",
+        "problems_solved": [
+          "Remaining Neighborhoods"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 132 Division 4 (Rated)",
+        "problems_solved": [
+          "ICE CREAM"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 134 Division 4 (Rated)",
+        "problems_solved": [
+          "Morning Run"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 135 Division 4 (Rated)",
+        "problems_solved": [
+          "RCB vs CSK"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 136 Division 4 (Rated)",
+        "problems_solved": [
+          "Who Makes P1"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 142 Division 4 (Rated)",
+        "problems_solved": [
+          "Writing Speed"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 144 Division 4 (Rated)",
+        "problems_solved": [
+          "Capital Gain Tax"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 145 Division 4 (Rated)",
+        "problems_solved": [
+          "Volume Comparison"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 146 Division 4 (Rated till 5 stars)",
+        "problems_solved": [
+          "Olympics 2024"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 149 (Rated)",
+        "problems_solved": [
+          "Approximate Answer"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 151 (rated)",
+        "problems_solved": [
+          "Weightlifting"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 152 (Rated)",
+        "problems_solved": [
+          "Chess Olympiad"
+        ],
+        "problems_count": 1
+      }
+    ],
+    "scraped_at": "2026-01-05T15:58:03.768131"
+  },
+  "711523BCB031": {
+    "username": "lakshana_11",
+    "rating": 1677,
+    "division": "Div 2",
+    "stars": 1,
+    "league": "Gold",
+    "global_rank": 286,
+    "country_rank": 0,
+    "total_contests": 109,
+    "total_problems_solved": 595,
+    "contest_history": [
+      {
+        "name": "Starters 108 Division 4 (Rated)",
+        "problems_solved": [
+          "Rivalry"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 109 Division 4 (Rated)",
+        "problems_solved": [
+          "Cricket World Cup Qualifier",
+          "Worth of a Video"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 111 Division 4 (Rated)",
+        "problems_solved": [
+          "Exams",
+          "404 Not Found"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 112 Division 4 (Rated)",
+        "problems_solved": [
+          "Food Costs",
+          "Fair Share Settlement"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 113 Division 4 (Rated)",
+        "problems_solved": [
+          "Thala For A Reason"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 114 Division 4 (Rated)",
+        "problems_solved": [
+          "Christmas Greetings"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 115 Division 4 (Rated)",
+        "problems_solved": [
+          "Chocolate Distribution",
+          "Codechef Round"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 116 Division 4 (Rated)",
+        "problems_solved": [
+          "Minimum Wage"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 117 Division 4 (Rated)",
+        "problems_solved": [
+          "Yearly Phone"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 119 Division 4 (Rated)",
+        "problems_solved": [
+          "Advitiya",
+          "Judged"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 120 Division 4 (Rated)",
+        "problems_solved": [
+          "Valentines Contest",
+          "Valentine Gifts"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 121 Division 4 (Rated)",
+        "problems_solved": [
+          "Leg Space",
+          "The Man Code"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 123 Division 4 (Rated)",
+        "problems_solved": [
+          "Room Allocation",
+          "Algomaniac Finals"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 122 Division 4 (Rated)",
+        "problems_solved": [
+          "Healthy Sleep",
+          "Problem Reviews"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 124 Division 4 (Rated)",
+        "problems_solved": [
+          "Binary Parity",
+          "Summer Time",
+          "Cricket Tournament"
+        ],
+        "problems_count": 3
+      }
+    ],
+    "scraped_at": "2026-01-05T15:58:09.906397"
+  },
+  "711523BCB032": {
+    "username": "kit27csbs32",
+    "rating": 1173,
+    "division": "Div 4",
+    "stars": 1,
+    "league": "Silver",
+    "global_rank": 3614,
+    "country_rank": 0,
+    "total_contests": 97,
+    "total_problems_solved": 464,
+    "contest_history": [
+      {
+        "name": "Starters 111 Division 4 (Rated)",
+        "problems_solved": [
+          "404 Not Found"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 113 Division 4 (Rated)",
+        "problems_solved": [
+          "Thala For A Reason"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 116 Division 4 (Rated)",
+        "problems_solved": [
+          "Minimum Wage"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 120 Division 4 (Rated)",
+        "problems_solved": [
+          "Valentines Contest"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 121 Division 4 (Rated)",
+        "problems_solved": [
+          "Leg Space"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 123 Division 4 (Rated)",
+        "problems_solved": [
+          "Algomaniac Finals"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 122 Division 4 (Rated)",
+        "problems_solved": [
+          "Healthy Sleep"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 124 Division 4 (Rated)",
+        "problems_solved": [
+          "Summer Time"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 125 Division 4 (Rated)",
+        "problems_solved": [
+          "Overspeeding",
+          "50-50 Rule"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 126 Division 4 (Rated)",
+        "problems_solved": [
+          "AC Please"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 127 Division 4",
+        "problems_solved": [
+          "The Ides of March"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 128 Division 4 (Rated)",
+        "problems_solved": [
+          "Reach 5 Star"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 129 Division 4 (Rated)",
+        "problems_solved": [
+          "Football Training"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 130 Division 4 (Rated)",
+        "problems_solved": [
+          "Giant Wheel"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 132 Division 4 (Rated)",
+        "problems_solved": [
+          "ICE CREAM"
+        ],
+        "problems_count": 1
+      }
+    ],
+    "scraped_at": "2026-01-05T15:58:15.934416"
+  },
+  "711523BCB033": {
+    "username": "kit27csbs33",
+    "rating": 1033,
+    "division": "Div 4",
+    "stars": 1,
+    "league": "Bronze",
+    "global_rank": 7699,
+    "country_rank": 0,
+    "total_contests": 97,
+    "total_problems_solved": 343,
+    "contest_history": [
+      {
+        "name": "Starters 111 Division 4 (Rated)",
+        "problems_solved": [
+          "404 Not Found"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 113 Division 4 (Rated)",
+        "problems_solved": [
+          "Thala For A Reason"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 115 Division 4 (Rated)",
+        "problems_solved": [
+          "Codechef Round"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 116 Division 4 (Rated)",
+        "problems_solved": [
+          "Minimum Wage"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 120 Division 4 (Rated)",
+        "problems_solved": [
+          "Valentines Contest"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 123 Division 4 (Rated)",
+        "problems_solved": [
+          "Algomaniac Finals"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 122 Division 4 (Rated)",
+        "problems_solved": [
+          "Healthy Sleep"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 124 Division 4 (Rated)",
+        "problems_solved": [
+          "Summer Time",
+          "Cricket Tournament"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 125 Division 4 (Rated)",
+        "problems_solved": [
+          "Overspeeding",
+          "50-50 Rule"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 126 Division 4 (Rated)",
+        "problems_solved": [
+          "AC Please"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 127 Division 4",
+        "problems_solved": [
+          "The Ides of March"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 128 Division 4 (Rated)",
+        "problems_solved": [
+          "Reach 5 Star"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 129 Division 4 (Rated)",
+        "problems_solved": [
+          "Football Training"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 130 Division 4 (Rated)",
+        "problems_solved": [
+          "Giant Wheel"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 131 Division 4 (Rated)",
+        "problems_solved": [
+          "Remaining Neighborhoods"
+        ],
+        "problems_count": 1
+      }
+    ],
+    "scraped_at": "2026-01-05T15:58:21.813046"
+  },
+  "711523BCB034": {
+    "username": "kit27csbs34",
+    "rating": 1143,
+    "division": "Div 4",
+    "stars": 1,
+    "league": "Rookie",
+    "global_rank": 7530,
+    "country_rank": 0,
+    "total_contests": 100,
+    "total_problems_solved": 689,
+    "contest_history": [
+      {
+        "name": "Starters 107 Division 4 (Rated)",
+        "problems_solved": [
+          "Clear Day"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 111 Division 4 (Rated)",
+        "problems_solved": [
+          "404 Not Found"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 112 Division 4 (Rated)",
+        "problems_solved": [
+          "Food Costs"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 113 Division 4 (Rated)",
+        "problems_solved": [
+          "Thala For A Reason"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 115 Division 4 (Rated)",
+        "problems_solved": [
+          "Codechef Round"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 116 Division 4 (Rated)",
+        "problems_solved": [
+          "Minimum Wage"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 119 Division 4 (Rated)",
+        "problems_solved": [
+          "Advitiya"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 120 Division 4 (Rated)",
+        "problems_solved": [
+          "Valentines Contest"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 121 Division 4 (Rated)",
+        "problems_solved": [
+          "Leg Space"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 123 Division 4 (Rated)",
+        "problems_solved": [
+          "Algomaniac Finals"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 122 Division 4 (Rated)",
+        "problems_solved": [
+          "Healthy Sleep"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 124 Division 4 (Rated)",
+        "problems_solved": [
+          "Summer Time",
+          "Cricket Tournament"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 125 Division 4 (Rated)",
+        "problems_solved": [
+          "Overspeeding",
+          "50-50 Rule"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 126 Division 4 (Rated)",
+        "problems_solved": [
+          "AC Please"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 127 Division 4",
+        "problems_solved": [
+          "The Ides of March"
+        ],
+        "problems_count": 1
+      }
+    ],
+    "scraped_at": "2026-01-05T15:58:27.892685"
+  },
+  "711523BCB035": {
+    "username": "manonikila",
+    "rating": 1320,
+    "division": "Div 4",
+    "stars": 1,
+    "league": "Bronze",
+    "global_rank": 5574,
+    "country_rank": 0,
+    "total_contests": 81,
+    "total_problems_solved": 408,
+    "contest_history": [
+      {
+        "name": "Starters 134 Division 4 (Rated)",
+        "problems_solved": [
+          "Morning Run"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 135 Division 4 (Rated)",
+        "problems_solved": [
+          "RCB vs CSK"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 136 Division 4 (Rated)",
+        "problems_solved": [
+          "Who Makes P1"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 137 Division 4 (Rated)",
+        "problems_solved": [
+          "Election Hopes"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 138 Division 4 (Rated)",
+        "problems_solved": [
+          "Heat Wave"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 139 Division 4 (Rated)",
+        "problems_solved": [
+          "Television Channels"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 140 Division 4 (Rated)",
+        "problems_solved": [
+          "Yoga Day"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 141 Division 4 (Rated)",
+        "problems_solved": [
+          "Lucky Clover"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 142 Division 4 (Rated)",
+        "problems_solved": [
+          "Writing Speed",
+          "Penalty Shoot-out"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 143 Division 4 (Rated)",
+        "problems_solved": [
+          "International Justice Day"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 144 Division 4 (Rated)",
+        "problems_solved": [
+          "Capital Gain Tax"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 145 Division 4 (Rated)",
+        "problems_solved": [
+          "Volume Comparison"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 146 Division 4 (Rated till 5 stars)",
+        "problems_solved": [
+          "Olympics 2024"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 147 Division 4 (Rated till 5 stars)",
+        "problems_solved": [
+          "Gold Coins 101"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 148 Division 4 (Rated)",
+        "problems_solved": [
+          "Clearance Sale"
+        ],
+        "problems_count": 1
+      }
+    ],
+    "scraped_at": "2026-01-05T15:58:33.703133"
+  },
+  "711523BCB036": {
+    "username": "syfudeen",
+    "rating": 1306,
+    "division": "Div 4",
+    "stars": 1,
+    "league": "Silver",
+    "global_rank": 4235,
+    "country_rank": 0,
+    "total_contests": 88,
+    "total_problems_solved": 354,
+    "contest_history": [
+      {
+        "name": "Starters 113 Division 4 (Rated)",
+        "problems_solved": [
+          "Thala For A Reason"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 114 Division 4 (Rated)",
+        "problems_solved": [
+          "Christmas Greetings"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 115 Division 4 (Rated)",
+        "problems_solved": [
+          "Chocolate Distribution",
+          "Codechef Round"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 120 Division 4 (Rated)",
+        "problems_solved": [
+          "Valentines Contest"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 121 Division 4 (Rated)",
+        "problems_solved": [
+          "Leg Space"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 123 Division 4 (Rated)",
+        "problems_solved": [
+          "Algomaniac Finals"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 122 Division 4 (Rated)",
+        "problems_solved": [
+          "Healthy Sleep"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 124 Division 4 (Rated)",
+        "problems_solved": [
+          "Summer Time",
+          "Cricket Tournament"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 125 Division 4 (Rated)",
+        "problems_solved": [
+          "Overspeeding"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 126 Division 4 (Rated)",
+        "problems_solved": [
+          "AC Please"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 127 Division 4",
+        "problems_solved": [
+          "The Ides of March"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 128 Division 4 (Rated)",
+        "problems_solved": [
+          "Reach 5 Star"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 129 Division 4 (Rated)",
+        "problems_solved": [
+          "Football Training"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 130 Division 4 (Rated)",
+        "problems_solved": [
+          "Giant Wheel",
+          "Swapping Marks Digits"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 131 Division 4 (Rated)",
+        "problems_solved": [
+          "Remaining Neighborhoods"
+        ],
+        "problems_count": 1
+      }
+    ],
+    "scraped_at": "2026-01-05T15:58:39.618240"
+  },
+  "711523BCB037": {
+    "username": "kit27csbs37",
+    "rating": 1155,
+    "division": "Div 4",
+    "stars": 1,
+    "league": "Rookie",
+    "global_rank": 3012,
+    "country_rank": 0,
+    "total_contests": 95,
+    "total_problems_solved": 278,
+    "contest_history": [
+      {
+        "name": "Starters 113 Division 4 (Rated)",
+        "problems_solved": [
+          "Thala For A Reason"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 114 Division 4 (Rated)",
+        "problems_solved": [
+          "Christmas Greetings"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 115 Division 4 (Rated)",
+        "problems_solved": [
+          "Chocolate Distribution",
+          "Codechef Round"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 116 Division 4 (Rated)",
+        "problems_solved": [
+          "Minimum Wage"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 117 Division 4 (Rated)",
+        "problems_solved": [
+          "Yearly Phone"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 119 Division 4 (Rated)",
+        "problems_solved": [
+          "Advitiya"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 120 Division 4 (Rated)",
+        "problems_solved": [
+          "Valentines Contest"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 123 Division 4 (Rated)",
+        "problems_solved": [
+          "Algomaniac Finals"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 122 Division 4 (Rated)",
+        "problems_solved": [
+          "Healthy Sleep"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 124 Division 4 (Rated)",
+        "problems_solved": [
+          "Summer Time",
+          "Cricket Tournament"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 125 Division 4 (Rated)",
+        "problems_solved": [
+          "Overspeeding",
+          "50-50 Rule"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 126 Division 4 (Rated)",
+        "problems_solved": [
+          "AC Please"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 127 Division 4",
+        "problems_solved": [
+          "The Ides of March",
+          "Extreme Basketball"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 128 Division 4 (Rated)",
+        "problems_solved": [
+          "Moody Chef",
+          "Reach 5 Star"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 129 Division 4 (Rated)",
+        "problems_solved": [
+          "Football Training",
+          "Pep Bidding"
+        ],
+        "problems_count": 2
+      }
+    ],
+    "scraped_at": "2026-01-05T15:58:46.265471"
+  },
+  "711523BCB038": {
+    "username": "kit27csbs38",
+    "rating": 1302,
+    "division": "Div 4",
+    "stars": 1,
+    "league": "Rookie",
+    "global_rank": 7056,
+    "country_rank": 0,
+    "total_contests": 104,
+    "total_problems_solved": 563,
+    "contest_history": [
+      {
+        "name": "Starters 113 Division 4 (Rated)",
+        "problems_solved": [
+          "Thala For A Reason"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 114 Division 4 (Rated)",
+        "problems_solved": [
+          "Christmas Greetings"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 115 Division 4 (Rated)",
+        "problems_solved": [
+          "Codechef Round"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 116 Division 4 (Rated)",
+        "problems_solved": [
+          "Minimum Wage"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 119 Division 4 (Rated)",
+        "problems_solved": [
+          "Advitiya"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 120 Division 4 (Rated)",
+        "problems_solved": [
+          "Valentines Contest"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 121 Division 4 (Rated)",
+        "problems_solved": [
+          "Leg Space"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 123 Division 4 (Rated)",
+        "problems_solved": [
+          "Algomaniac Finals"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 122 Division 4 (Rated)",
+        "problems_solved": [
+          "Healthy Sleep",
+          "Problem Reviews"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 124 Division 4 (Rated)",
+        "problems_solved": [
+          "Summer Time",
+          "Cricket Tournament"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 125 Division 4 (Rated)",
+        "problems_solved": [
+          "Overspeeding",
+          "50-50 Rule"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 126 Division 4 (Rated)",
+        "problems_solved": [
+          "AC Please"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 127 Division 4",
+        "problems_solved": [
+          "The Ides of March",
+          "Extreme Basketball"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 128 Division 4 (Rated)",
+        "problems_solved": [
+          "Reach 5 Star"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 129 Division 4 (Rated)",
+        "problems_solved": [
+          "Football Training"
+        ],
+        "problems_count": 1
+      }
+    ],
+    "scraped_at": "2026-01-05T15:58:52.195957"
+  },
+  "711523BCB039": {
+    "username": "kit27.csbs39",
+    "rating": 0,
+    "division": "Unrated",
+    "stars": 0,
+    "league": "",
+    "global_rank": 0,
+    "country_rank": 0,
+    "total_contests": 0,
+    "total_problems_solved": 0,
+    "contest_history": [],
+    "scraped_at": "2026-01-05T15:58:58.408695"
+  },
+  "711523BCB040": {
+    "username": "kit27csbs40",
+    "rating": 1243,
+    "division": "Div 4",
+    "stars": 1,
+    "league": "Silver",
+    "global_rank": 3543,
+    "country_rank": 0,
+    "total_contests": 88,
+    "total_problems_solved": 421,
+    "contest_history": [
+      {
+        "name": "Starters 115 Division 4 (Rated)",
+        "problems_solved": [
+          "Codechef Round"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 116 Division 4 (Rated)",
+        "problems_solved": [
+          "Minimum Wage"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 120 Division 4 (Rated)",
+        "problems_solved": [
+          "Valentines Contest"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 123 Division 4 (Rated)",
+        "problems_solved": [
+          "Algomaniac Finals"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 122 Division 4 (Rated)",
+        "problems_solved": [
+          "Healthy Sleep"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 124 Division 4 (Rated)",
+        "problems_solved": [
+          "Summer Time",
+          "Cricket Tournament"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 125 Division 4 (Rated)",
+        "problems_solved": [
+          "Overspeeding",
+          "50-50 Rule"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 126 Division 4 (Rated)",
+        "problems_solved": [
+          "AC Please"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 127 Division 4",
+        "problems_solved": [
+          "The Ides of March"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 128 Division 4 (Rated)",
+        "problems_solved": [
+          "Reach 5 Star"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 129 Division 4 (Rated)",
+        "problems_solved": [
+          "Football Training"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 130 Division 4 (Rated)",
+        "problems_solved": [
+          "Giant Wheel",
+          "Swapping Marks Digits"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 131 Division 4 (Rated)",
+        "problems_solved": [
+          "Remaining Neighborhoods"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 132 Division 4 (Rated)",
+        "problems_solved": [
+          "Change Please",
+          "ICE CREAM"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 133 Division 4 (Rated)",
+        "problems_solved": [
+          "Devouring Donuts"
+        ],
+        "problems_count": 1
+      }
+    ],
+    "scraped_at": "2026-01-05T15:59:04.442624"
+  },
+  "711523BCB041": {
+    "username": "prakashb",
+    "rating": 1624,
+    "division": "Div 2",
+    "stars": 1,
+    "league": "Gold",
+    "global_rank": 255,
+    "country_rank": 0,
+    "total_contests": 113,
+    "total_problems_solved": 475,
+    "contest_history": [
+      {
+        "name": "Starters 102 Division 4 (Rated)",
+        "problems_solved": [
+          "Sports Section",
+          "Selling Insurance"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 105 Division 4 (Rated)",
+        "problems_solved": [
+          "Bone Appetit",
+          "Dracula Eats"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 107 Division 4 (Rated)",
+        "problems_solved": [
+          "Pending Assignments",
+          "Clear Day"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 108 Division 4 (Rated)",
+        "problems_solved": [
+          "Rivalry"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 109 Division 4 (Rated)",
+        "problems_solved": [
+          "Cricket World Cup Qualifier",
+          "Worth of a Video"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 111 Division 4 (Rated)",
+        "problems_solved": [
+          "Exams",
+          "404 Not Found"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 112 Division 4 (Rated)",
+        "problems_solved": [
+          "Food Costs"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 113 Division 4 (Rated)",
+        "problems_solved": [
+          "Thala For A Reason"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 114 Division 4 (Rated)",
+        "problems_solved": [
+          "Painting Walls",
+          "Christmas Greetings"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 115 Division 4 (Rated)",
+        "problems_solved": [
+          "Chocolate Distribution",
+          "Codechef Round"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 116 Division 4 (Rated)",
+        "problems_solved": [
+          "Minimum Wage"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 117 Division 4 (Rated)",
+        "problems_solved": [
+          "Yearly Phone"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 118 Division 4 (Rated)",
+        "problems_solved": [
+          "Literacy Rate",
+          "International Education Day!"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 119 Division 4 (Rated)",
+        "problems_solved": [
+          "Advitiya",
+          "Judged"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 120 Division 4 (Rated)",
+        "problems_solved": [
+          "Valentines Contest",
+          "Valentine Gifts"
+        ],
+        "problems_count": 2
+      }
+    ],
+    "scraped_at": "2026-01-05T15:59:10.661649"
+  },
+  "711523BCB042": {
+    "username": "pravin42",
+    "rating": 875,
+    "division": "Div 4",
+    "stars": 1,
+    "league": "Rookie",
+    "global_rank": 3167,
+    "country_rank": 0,
+    "total_contests": 62,
+    "total_problems_solved": 112,
+    "contest_history": [
+      {
+        "name": "Starters 111 Division 4 (Rated)",
+        "problems_solved": [
+          "404 Not Found"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 112 Division 4 (Rated)",
+        "problems_solved": [
+          "Food Costs",
+          "Fair Share Settlement"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 116 Division 4 (Rated)",
+        "problems_solved": [
+          "Minimum Wage"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 122 Division 4 (Rated)",
+        "problems_solved": [
+          "Healthy Sleep"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 124 Division 4 (Rated)",
+        "problems_solved": [
+          "Summer Time",
+          "Cricket Tournament"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 125 Division 4 (Rated)",
+        "problems_solved": [
+          "Overspeeding",
+          "50-50 Rule"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 126 Division 4 (Rated)",
+        "problems_solved": [
+          "AC Please"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 127 Division 4",
+        "problems_solved": [
+          "The Ides of March"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 128 Division 4 (Rated)",
+        "problems_solved": [
+          "Reach 5 Star"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 129 Division 4 (Rated)",
+        "problems_solved": [
+          "Football Training"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 131 Division 4 (Rated)",
+        "problems_solved": [
+          "Remaining Neighborhoods"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 132 Division 4 (Rated)",
+        "problems_solved": [
+          "ICE CREAM"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 133 Division 4 (Rated)",
+        "problems_solved": [
+          "Devouring Donuts"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 134 Division 4 (Rated)",
+        "problems_solved": [
+          "Morning Run"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 135 Division 4 (Rated)",
+        "problems_solved": [
+          "RCB vs CSK"
+        ],
+        "problems_count": 1
+      }
+    ],
+    "scraped_at": "2026-01-05T15:59:16.881842"
+  },
+  "711523BCB043": {
+    "username": "kit27csbs43",
+    "rating": 1193,
+    "division": "Div 4",
+    "stars": 1,
+    "league": "Rookie",
+    "global_rank": 5496,
+    "country_rank": 0,
+    "total_contests": 100,
+    "total_problems_solved": 366,
+    "contest_history": [
+      {
+        "name": "Starters 102 Division 4 (Rated)",
+        "problems_solved": [
+          "Sports Section"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 111 Division 4 (Rated)",
+        "problems_solved": [
+          "404 Not Found"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 113 Division 4 (Rated)",
+        "problems_solved": [
+          "Thala For A Reason"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 114 Division 4 (Rated)",
+        "problems_solved": [
+          "Painting Walls",
+          "Christmas Greetings"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 115 Division 4 (Rated)",
+        "problems_solved": [
+          "Codechef Round"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 116 Division 4 (Rated)",
+        "problems_solved": [
+          "Minimum Wage"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 117 Division 4 (Rated)",
+        "problems_solved": [
+          "Yearly Phone"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 118 Division 4 (Rated)",
+        "problems_solved": [
+          "International Education Day!"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 119 Division 4 (Rated)",
+        "problems_solved": [
+          "Advitiya"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 120 Division 4 (Rated)",
+        "problems_solved": [
+          "Valentines Contest"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 121 Division 4 (Rated)",
+        "problems_solved": [
+          "Leg Space"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 123 Division 4 (Rated)",
+        "problems_solved": [
+          "Algomaniac Finals"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 122 Division 4 (Rated)",
+        "problems_solved": [
+          "Healthy Sleep",
+          "Problem Reviews"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 124 Division 4 (Rated)",
+        "problems_solved": [
+          "Binary Parity",
+          "Summer Time",
+          "Cricket Tournament"
+        ],
+        "problems_count": 3
+      },
+      {
+        "name": "Starters 125 Division 4 (Rated)",
+        "problems_solved": [
+          "Overspeeding",
+          "50-50 Rule"
+        ],
+        "problems_count": 2
+      }
+    ],
+    "scraped_at": "2026-01-05T15:59:23.124046"
+  },
+  "711523BCB044": {
+    "username": "kit27csbs44",
+    "rating": 1223,
+    "division": "Div 4",
+    "stars": 1,
+    "league": "Silver",
+    "global_rank": 1836,
+    "country_rank": 0,
+    "total_contests": 85,
+    "total_problems_solved": 338,
+    "contest_history": [
+      {
+        "name": "Starters 111 Division 4 (Rated)",
+        "problems_solved": [
+          "404 Not Found"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 116 Division 4 (Rated)",
+        "problems_solved": [
+          "Minimum Wage"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 123 Division 4 (Rated)",
+        "problems_solved": [
+          "Algomaniac Finals"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 124 Division 4 (Rated)",
+        "problems_solved": [
+          "Summer Time",
+          "Cricket Tournament"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 125 Division 4 (Rated)",
+        "problems_solved": [
+          "Overspeeding",
+          "50-50 Rule"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 127 Division 4",
+        "problems_solved": [
+          "The Ides of March"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 128 Division 4 (Rated)",
+        "problems_solved": [
+          "Reach 5 Star"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 129 Division 4 (Rated)",
+        "problems_solved": [
+          "Football Training"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 130 Division 4 (Rated)",
+        "problems_solved": [
+          "Giant Wheel"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 131 Division 4 (Rated)",
+        "problems_solved": [
+          "Remaining Neighborhoods"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 132 Division 4 (Rated)",
+        "problems_solved": [
+          "ICE CREAM"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 134 Division 4 (Rated)",
+        "problems_solved": [
+          "Morning Run"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 135 Division 4 (Rated)",
+        "problems_solved": [
+          "RCB vs CSK"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 136 Division 4 (Rated)",
+        "problems_solved": [
+          "Who Makes P1"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 137 Division 4 (Rated)",
+        "problems_solved": [
+          "Election Hopes"
+        ],
+        "problems_count": 1
+      }
+    ],
+    "scraped_at": "2026-01-05T15:59:29.251288"
+  },
+  "711523BCB045": {
+    "username": "rajadurai_31",
+    "rating": 1606,
+    "division": "Div 2",
+    "stars": 1,
+    "league": "Rookie",
+    "global_rank": 803,
+    "country_rank": 0,
+    "total_contests": 20,
+    "total_problems_solved": 270,
+    "contest_history": [
+      {
+        "name": "Starters 197 (Rated)",
+        "problems_solved": [
+          "All Odd Prefix Sums",
+          "Independence Day",
+          "Bowling Balls"
+        ],
+        "problems_count": 3
+      },
+      {
+        "name": "Starters 198 (Rated)",
+        "problems_solved": [
+          "Currency Exchange",
+          "Decoration Discount",
+          "Make Cat"
+        ],
+        "problems_count": 3
+      },
+      {
+        "name": "Starters 199 (Rated)",
+        "problems_solved": [
+          "Fence Colouring",
+          "Grid MEX",
+          "Brick Comparisions",
+          "Cake Making"
+        ],
+        "problems_count": 4
+      },
+      {
+        "name": "Starters 200 (Rated)",
+        "problems_solved": [
+          "Random NIM",
+          "Restrict Palindromes",
+          "Chef Bakes Cake",
+          "Good Subsequence"
+        ],
+        "problems_count": 4
+      },
+      {
+        "name": "Starters 201 (Rated)",
+        "problems_solved": [
+          "Huge Grid (Easy Version)",
+          "Mixing Liquids",
+          "Mark Points"
+        ],
+        "problems_count": 3
+      },
+      {
+        "name": "Starters 202 (Rated)",
+        "problems_solved": [
+          "Two Rolls",
+          "If Only I Could Read",
+          "Endless Play",
+          "Buying Flowers"
+        ],
+        "problems_count": 4
+      },
+      {
+        "name": "Starters 203 (Rated)",
+        "problems_solved": [
+          "Maximum MST",
+          "Cab Rides",
+          "Passing Grade"
+        ],
+        "problems_count": 3
+      },
+      {
+        "name": "Starters 204 (Rated)",
+        "problems_solved": [
+          "Minimize Sum",
+          "Drawing Chances",
+          "Episodes"
+        ],
+        "problems_count": 3
+      },
+      {
+        "name": "Starters 205 (Rated)",
+        "problems_solved": [
+          "Unreachable",
+          "Triplet Maximization",
+          "Mirror Jump"
+        ],
+        "problems_count": 3
+      },
+      {
+        "name": "Starters 206 (Rated)",
+        "problems_solved": [
+          "Cyclic Shift Minimization",
+          "Gladiator Fighting",
+          "Prime Sum",
+          "Expensive Buying"
+        ],
+        "problems_count": 4
+      },
+      {
+        "name": "Starters 207 (Rated)",
+        "problems_solved": [
+          "Tourist",
+          "Make Subarray",
+          "Adjacent Sums"
+        ],
+        "problems_count": 3
+      },
+      {
+        "name": "Starters 208 (Rated)",
+        "problems_solved": [
+          "Sabotage",
+          "Alternate Jumps"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 209 (Rated)",
+        "problems_solved": [
+          "Tactical Conversion",
+          "Small GCD Sort",
+          "Divisible Duel"
+        ],
+        "problems_count": 3
+      },
+      {
+        "name": "Starters 210 (Rated)",
+        "problems_solved": [
+          "Chocolate Eating",
+          "Profits",
+          "First Element Counting"
+        ],
+        "problems_count": 3
+      },
+      {
+        "name": "Starters 211 (Rated)",
+        "problems_solved": [
+          "Subarray Maximums",
+          "Wolf Down",
+          "No Doubling",
+          "Buying Chairs"
+        ],
+        "problems_count": 4
+      }
+    ],
+    "scraped_at": "2026-01-05T15:59:35.497670"
+  },
+  "711523BCB046": {
+    "username": "rishi_tech",
+    "rating": 720,
+    "division": "Div 4",
+    "stars": 1,
+    "league": "",
+    "global_rank": 23707,
+    "country_rank": 0,
+    "total_contests": 42,
+    "total_problems_solved": 252,
+    "contest_history": [
+      {
+        "name": "Starters 113 Division 4 (Rated)",
+        "problems_solved": [
+          "Thala For A Reason"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 124 Division 4 (Rated)",
+        "problems_solved": [
+          "Summer Time"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 125 Division 4 (Rated)",
+        "problems_solved": [
+          "Overspeeding"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 126 Division 4 (Rated)",
+        "problems_solved": [
+          "AC Please"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 127 Division 4",
+        "problems_solved": [
+          "The Ides of March"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 129 Division 4 (Rated)",
+        "problems_solved": [
+          "Football Training"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 131 Division 4 (Rated)",
+        "problems_solved": [
+          "Remaining Neighborhoods"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 133 Division 4 (Rated)",
+        "problems_solved": [
+          "Devouring Donuts"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 134 Division 4 (Rated)",
+        "problems_solved": [
+          "Morning Run"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 135 Division 4 (Rated)",
+        "problems_solved": [
+          "RCB vs CSK"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 136 Division 4 (Rated)",
+        "problems_solved": [
+          "Who Makes P1"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 137 Division 4 (Rated)",
+        "problems_solved": [
+          "Election Hopes"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 138 Division 4 (Rated)",
+        "problems_solved": [
+          "Heat Wave"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 139 Division 4 (Rated)",
+        "problems_solved": [
+          "Television Channels"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 145 Division 4 (Rated)",
+        "problems_solved": [
+          "Volume Comparison"
+        ],
+        "problems_count": 1
+      }
+    ],
+    "scraped_at": "2026-01-05T15:59:41.644151"
+  },
+  "711523BCB047": {
+    "username": "kit27csbs47",
+    "rating": 1748,
+    "division": "Div 2",
+    "stars": 1,
+    "league": "Silver",
+    "global_rank": 105,
+    "country_rank": 0,
+    "total_contests": 61,
+    "total_problems_solved": 196,
+    "contest_history": [
+      {
+        "name": "Starters 123 Division 4 (Rated)",
+        "problems_solved": [
+          "Algomaniac Finals"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 122 Division 4 (Rated)",
+        "problems_solved": [
+          "Healthy Sleep",
+          "Problem Reviews"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 124 Division 4 (Rated)",
+        "problems_solved": [
+          "Summer Time",
+          "Cricket Tournament"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 125 Division 4 (Rated)",
+        "problems_solved": [
+          "Overspeeding",
+          "50-50 Rule"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 126 Division 4 (Rated)",
+        "problems_solved": [
+          "AC Please"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 128 Division 4 (Rated)",
+        "problems_solved": [
+          "Reach 5 Star"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 129 Division 4 (Rated)",
+        "problems_solved": [
+          "Football Training"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 130 Division 4 (Rated)",
+        "problems_solved": [
+          "Giant Wheel",
+          "Swapping Marks Digits"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 131 Division 4 (Rated)",
+        "problems_solved": [
+          "Remaining Neighborhoods"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 132 Division 4 (Rated)",
+        "problems_solved": [
+          "ICE CREAM"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 133 Division 4 (Rated)",
+        "problems_solved": [
+          "Legs on a Farm",
+          "Devouring Donuts"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 134 Division 4 (Rated)",
+        "problems_solved": [
+          "Morning Run"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 135 Division 4 (Rated)",
+        "problems_solved": [
+          "Football Ties",
+          "RCB vs CSK"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 136 Division 4 (Rated)",
+        "problems_solved": [
+          "Who Makes P1"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 137 Division 4 (Rated)",
+        "problems_solved": [
+          "Election Hopes"
+        ],
+        "problems_count": 1
+      }
+    ],
+    "scraped_at": "2026-01-05T15:59:47.940532"
+  },
+  "711523BCB048": {
+    "username": "rudreshrudhu",
+    "rating": 874,
+    "division": "Div 4",
+    "stars": 1,
+    "league": "Rookie",
+    "global_rank": 28663,
+    "country_rank": 0,
+    "total_contests": 73,
+    "total_problems_solved": 231,
+    "contest_history": [
+      {
+        "name": "Starters 111 Division 4 (Rated)",
+        "problems_solved": [
+          "404 Not Found",
+          "Exams"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 113 Division 4 (Rated)",
+        "problems_solved": [
+          "Thala For A Reason"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 115 Division 4 (Rated)",
+        "problems_solved": [
+          "Chocolate Distribution",
+          "Codechef Round"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 116 Division 4 (Rated)",
+        "problems_solved": [
+          "Minimum Wage"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 119 Division 4 (Rated)",
+        "problems_solved": [
+          "Advitiya",
+          "Judged"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 120 Division 4 (Rated)",
+        "problems_solved": [
+          "Valentines Contest"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 121 Division 4 (Rated)",
+        "problems_solved": [
+          "Leg Space"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 123 Division 4 (Rated)",
+        "problems_solved": [
+          "Algomaniac Finals"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 122 Division 4 (Rated)",
+        "problems_solved": [
+          "Healthy Sleep",
+          "Problem Reviews"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 124 Division 4 (Rated)",
+        "problems_solved": [
+          "Cricket Tournament",
+          "Summer Time"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 125 Division 4 (Rated)",
+        "problems_solved": [
+          "Overspeeding",
+          "50-50 Rule"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 127 Division 4",
+        "problems_solved": [
+          "The Ides of March"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 128 Division 4 (Rated)",
+        "problems_solved": [
+          "Reach 5 Star"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 129 Division 4 (Rated)",
+        "problems_solved": [
+          "Football Training"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 131 Division 4 (Rated)",
+        "problems_solved": [
+          "Remaining Neighborhoods"
+        ],
+        "problems_count": 1
+      }
+    ],
+    "scraped_at": "2026-01-05T15:59:54.018678"
+  },
+  "711523BCB049": {
+    "username": "sabariyuhendh",
+    "rating": 1772,
+    "division": "Div 2",
+    "stars": 1,
+    "league": "Silver",
+    "global_rank": 352,
+    "country_rank": 0,
+    "total_contests": 110,
+    "total_problems_solved": 622,
+    "contest_history": [
+      {
+        "name": "Starters 102 Division 4 (Rated)",
+        "problems_solved": [
+          "Sports Section",
+          "Selling Insurance"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 105 Division 4 (Rated)",
+        "problems_solved": [
+          "Bone Appetit",
+          "Dracula Eats"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 107 Division 4 (Rated)",
+        "problems_solved": [
+          "Pending Assignments",
+          "Clear Day"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 108 Division 4 (Rated)",
+        "problems_solved": [
+          "Rivalry"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 109 Division 4 (Rated)",
+        "problems_solved": [
+          "Cricket World Cup Qualifier",
+          "Worth of a Video"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 111 Division 4 (Rated)",
+        "problems_solved": [
+          "Exams",
+          "404 Not Found"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 112 Division 4 (Rated)",
+        "problems_solved": [
+          "Food Costs",
+          "Fair Share Settlement"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 113 Division 4 (Rated)",
+        "problems_solved": [
+          "Make N Zero",
+          "Thala For A Reason"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 114 Division 4 (Rated)",
+        "problems_solved": [
+          "Painting Walls",
+          "Christmas Greetings"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 115 Division 4 (Rated)",
+        "problems_solved": [
+          "Chocolate Distribution",
+          "Codechef Round"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 116 Division 4 (Rated)",
+        "problems_solved": [
+          "Hattrick",
+          "Minimum Wage"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 117 Division 4 (Rated)",
+        "problems_solved": [
+          "Yearly Phone"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 118 Division 4 (Rated)",
+        "problems_solved": [
+          "Literacy Rate",
+          "International Education Day!"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 119 Division 4 (Rated)",
+        "problems_solved": [
+          "Advitiya",
+          "Judged"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 120 Division 4 (Rated)",
+        "problems_solved": [
+          "Valentines Contest",
+          "Sub or Swp",
+          "Valentine Gifts"
+        ],
+        "problems_count": 3
+      }
+    ],
+    "scraped_at": "2026-01-05T16:00:00.321868"
+  },
+  "711523BCB050": {
+    "username": "kit27csbs_50",
+    "rating": 1160,
+    "division": "Div 4",
+    "stars": 1,
+    "league": "Bronze",
+    "global_rank": 5408,
+    "country_rank": 0,
+    "total_contests": 93,
+    "total_problems_solved": 349,
+    "contest_history": [
+      {
+        "name": "Starters 115 Division 4 (Rated)",
+        "problems_solved": [
+          "Codechef Round"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 116 Division 4 (Rated)",
+        "problems_solved": [
+          "Minimum Wage"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 120 Division 4 (Rated)",
+        "problems_solved": [
+          "Valentines Contest"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 123 Division 4 (Rated)",
+        "problems_solved": [
+          "Algomaniac Finals"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 122 Division 4 (Rated)",
+        "problems_solved": [
+          "Healthy Sleep"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 124 Division 4 (Rated)",
+        "problems_solved": [
+          "Summer Time"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 125 Division 4 (Rated)",
+        "problems_solved": [
+          "Overspeeding",
+          "50-50 Rule"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 126 Division 4 (Rated)",
+        "problems_solved": [
+          "AC Please"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 127 Division 4",
+        "problems_solved": [
+          "The Ides of March"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 128 Division 4 (Rated)",
+        "problems_solved": [
+          "Reach 5 Star"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 129 Division 4 (Rated)",
+        "problems_solved": [
+          "Football Training"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 130 Division 4 (Rated)",
+        "problems_solved": [
+          "Giant Wheel"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 131 Division 4 (Rated)",
+        "problems_solved": [
+          "Remaining Neighborhoods"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 132 Division 4 (Rated)",
+        "problems_solved": [
+          "ICE CREAM"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 133 Division 4 (Rated)",
+        "problems_solved": [
+          "Legs on a Farm",
+          "Devouring Donuts"
+        ],
+        "problems_count": 2
+      }
+    ],
+    "scraped_at": "2026-01-05T16:00:06.843652"
+  },
+  "711523BCB051": {
+    "username": "kit27csbs51",
+    "rating": 925,
+    "division": "Div 4",
+    "stars": 1,
+    "league": "Rookie",
+    "global_rank": 4929,
+    "country_rank": 0,
+    "total_contests": 96,
+    "total_problems_solved": 263,
+    "contest_history": [
+      {
+        "name": "Starters 111 Division 4 (Rated)",
+        "problems_solved": [
+          "Exams",
+          "404 Not Found"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 113 Division 4 (Rated)",
+        "problems_solved": [
+          "Thala For A Reason"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 114 Division 4 (Rated)",
+        "problems_solved": [
+          "Christmas Greetings"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 115 Division 4 (Rated)",
+        "problems_solved": [
+          "Codechef Round"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 116 Division 4 (Rated)",
+        "problems_solved": [
+          "Minimum Wage"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 120 Division 4 (Rated)",
+        "problems_solved": [
+          "Valentines Contest"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 121 Division 4 (Rated)",
+        "problems_solved": [
+          "Leg Space"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 123 Division 4 (Rated)",
+        "problems_solved": [
+          "Algomaniac Finals"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 122 Division 4 (Rated)",
+        "problems_solved": [
+          "Healthy Sleep"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 124 Division 4 (Rated)",
+        "problems_solved": [
+          "Summer Time",
+          "Cricket Tournament"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 125 Division 4 (Rated)",
+        "problems_solved": [
+          "Overspeeding",
+          "50-50 Rule"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 126 Division 4 (Rated)",
+        "problems_solved": [
+          "AC Please"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 127 Division 4",
+        "problems_solved": [
+          "The Ides of March"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 128 Division 4 (Rated)",
+        "problems_solved": [
+          "Reach 5 Star"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 129 Division 4 (Rated)",
+        "problems_solved": [
+          "Football Training"
+        ],
+        "problems_count": 1
+      }
+    ],
+    "scraped_at": "2026-01-05T16:00:13.398168"
+  },
+  "711523BCB052": {
+    "username": "kit27csbs52",
+    "rating": 1067,
+    "division": "Div 4",
+    "stars": 1,
+    "league": "Rookie",
+    "global_rank": 5309,
+    "country_rank": 0,
+    "total_contests": 84,
+    "total_problems_solved": 140,
+    "contest_history": [
+      {
+        "name": "Starters 111 Division 4 (Rated)",
+        "problems_solved": [
+          "404 Not Found"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 113 Division 4 (Rated)",
+        "problems_solved": [
+          "Thala For A Reason"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 114 Division 4 (Rated)",
+        "problems_solved": [
+          "Christmas Greetings"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 120 Division 4 (Rated)",
+        "problems_solved": [
+          "Valentines Contest"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 123 Division 4 (Rated)",
+        "problems_solved": [
+          "Algomaniac Finals"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 122 Division 4 (Rated)",
+        "problems_solved": [
+          "Healthy Sleep"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 124 Division 4 (Rated)",
+        "problems_solved": [
+          "Summer Time",
+          "Cricket Tournament"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 125 Division 4 (Rated)",
+        "problems_solved": [
+          "Overspeeding"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 126 Division 4 (Rated)",
+        "problems_solved": [
+          "AC Please"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 127 Division 4",
+        "problems_solved": [
+          "The Ides of March"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 128 Division 4 (Rated)",
+        "problems_solved": [
+          "Reach 5 Star"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 129 Division 4 (Rated)",
+        "problems_solved": [
+          "Football Training"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 130 Division 4 (Rated)",
+        "problems_solved": [
+          "Giant Wheel"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 131 Division 4 (Rated)",
+        "problems_solved": [
+          "Remaining Neighborhoods"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 132 Division 4 (Rated)",
+        "problems_solved": [
+          "Change Please",
+          "ICE CREAM"
+        ],
+        "problems_count": 2
+      }
+    ],
+    "scraped_at": "2026-01-05T16:00:19.530409"
+  },
+  "711523BCB053": {
+    "username": "kit27csbs53",
+    "rating": 1165,
+    "division": "Div 4",
+    "stars": 1,
+    "league": "Silver",
+    "global_rank": 9096,
+    "country_rank": 0,
+    "total_contests": 98,
+    "total_problems_solved": 328,
+    "contest_history": [
+      {
+        "name": "Starters 111 Division 4 (Rated)",
+        "problems_solved": [
+          "404 Not Found"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 113 Division 4 (Rated)",
+        "problems_solved": [
+          "Thala For A Reason"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 114 Division 4 (Rated)",
+        "problems_solved": [
+          "Christmas Greetings"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 115 Division 4 (Rated)",
+        "problems_solved": [
+          "Codechef Round"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 116 Division 4 (Rated)",
+        "problems_solved": [
+          "Minimum Wage"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 120 Division 4 (Rated)",
+        "problems_solved": [
+          "Valentines Contest"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 121 Division 4 (Rated)",
+        "problems_solved": [
+          "Leg Space"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 123 Division 4 (Rated)",
+        "problems_solved": [
+          "Algomaniac Finals"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 122 Division 4 (Rated)",
+        "problems_solved": [
+          "Healthy Sleep"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 124 Division 4 (Rated)",
+        "problems_solved": [
+          "Summer Time",
+          "Cricket Tournament"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 125 Division 4 (Rated)",
+        "problems_solved": [
+          "Overspeeding",
+          "50-50 Rule"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 126 Division 4 (Rated)",
+        "problems_solved": [
+          "AC Please"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 127 Division 4",
+        "problems_solved": [
+          "The Ides of March"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 128 Division 4 (Rated)",
+        "problems_solved": [
+          "Reach 5 Star"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 129 Division 4 (Rated)",
+        "problems_solved": [
+          "Football Training",
+          "Pep Bidding"
+        ],
+        "problems_count": 2
+      }
+    ],
+    "scraped_at": "2026-01-05T16:00:25.438515"
+  },
+  "711523BCB054": {
+    "username": "sharveshl",
+    "rating": 1628,
+    "division": "Div 2",
+    "stars": 1,
+    "league": "Silver",
+    "global_rank": 447,
+    "country_rank": 0,
+    "total_contests": 111,
+    "total_problems_solved": 780,
+    "contest_history": [
+      {
+        "name": "Starters 104 Division 4 (Rated)",
+        "problems_solved": [
+          "Double Rent"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 105 Division 4 (Rated)",
+        "problems_solved": [
+          "Bone Appetit"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 107 Division 4 (Rated)",
+        "problems_solved": [
+          "Pending Assignments",
+          "Clear Day"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 108 Division 4 (Rated)",
+        "problems_solved": [
+          "Rivalry"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 109 Division 4 (Rated)",
+        "problems_solved": [
+          "Cricket World Cup Qualifier",
+          "Best of N Sets",
+          "Worth of a Video"
+        ],
+        "problems_count": 3
+      },
+      {
+        "name": "Starters 111 Division 4 (Rated)",
+        "problems_solved": [
+          "Exams",
+          "404 Not Found"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 112 Division 4 (Rated)",
+        "problems_solved": [
+          "Food Costs",
+          "Fair Share Settlement"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 113 Division 4 (Rated)",
+        "problems_solved": [
+          "Make N Zero",
+          "Thala For A Reason"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 114 Division 4 (Rated)",
+        "problems_solved": [
+          "Painting Walls",
+          "Christmas Greetings"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 115 Division 4 (Rated)",
+        "problems_solved": [
+          "Chocolate Distribution",
+          "Codechef Round"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 116 Division 4 (Rated)",
+        "problems_solved": [
+          "Minimum Wage"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 117 Division 4 (Rated)",
+        "problems_solved": [
+          "Yearly Phone"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 118 Division 4 (Rated)",
+        "problems_solved": [
+          "Literacy Rate",
+          "International Education Day!"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 119 Division 4 (Rated)",
+        "problems_solved": [
+          "Advitiya",
+          "Judged"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 120 Division 4 (Rated)",
+        "problems_solved": [
+          "Valentines Contest",
+          "Valentine Gifts"
+        ],
+        "problems_count": 2
+      }
+    ],
+    "scraped_at": "2026-01-05T16:00:31.452403"
+  },
+  "711523BCB055": {
+    "username": "kit27csbs55",
+    "rating": 1541,
+    "division": "Div 3",
+    "stars": 1,
+    "league": "Silver",
+    "global_rank": 600,
+    "country_rank": 0,
+    "total_contests": 106,
+    "total_problems_solved": 699,
+    "contest_history": [
+      {
+        "name": "Starters 107 Division 4 (Rated)",
+        "problems_solved": [
+          "Clear Day"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 109 Division 4 (Rated)",
+        "problems_solved": [
+          "Cricket World Cup Qualifier"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 111 Division 4 (Rated)",
+        "problems_solved": [
+          "Exams",
+          "404 Not Found"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 112 Division 4 (Rated)",
+        "problems_solved": [
+          "Food Costs",
+          "Fair Share Settlement"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 113 Division 4 (Rated)",
+        "problems_solved": [
+          "Thala For A Reason"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 114 Division 4 (Rated)",
+        "problems_solved": [
+          "Painting Walls",
+          "Christmas Greetings"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 115 Division 4 (Rated)",
+        "problems_solved": [
+          "Chocolate Distribution",
+          "Codechef Round"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 116 Division 4 (Rated)",
+        "problems_solved": [
+          "Minimum Wage"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 120 Division 4 (Rated)",
+        "problems_solved": [
+          "Valentines Contest"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 121 Division 4 (Rated)",
+        "problems_solved": [
+          "Leg Space"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 123 Division 4 (Rated)",
+        "problems_solved": [
+          "Room Allocation",
+          "Algomaniac Finals"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 122 Division 4 (Rated)",
+        "problems_solved": [
+          "Healthy Sleep",
+          "Problem Reviews"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 124 Division 4 (Rated)",
+        "problems_solved": [
+          "Binary Parity",
+          "Summer Time",
+          "Cricket Tournament"
+        ],
+        "problems_count": 3
+      },
+      {
+        "name": "Starters 125 Division 4 (Rated)",
+        "problems_solved": [
+          "Overspeeding",
+          "50-50 Rule"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 126 Division 4 (Rated)",
+        "problems_solved": [
+          "AC Please"
+        ],
+        "problems_count": 1
+      }
+    ],
+    "scraped_at": "2026-01-05T16:00:37.529285"
+  },
+  "711523BCB056": {
+    "username": "sowmiyasr",
+    "rating": 1582,
+    "division": "Div 3",
+    "stars": 1,
+    "league": "Rookie",
+    "global_rank": 171,
+    "country_rank": 0,
+    "total_contests": 111,
+    "total_problems_solved": 668,
+    "contest_history": [
+      {
+        "name": "Starters 107 Division 4 (Rated)",
+        "problems_solved": [
+          "Clear Day"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 109 Division 4 (Rated)",
+        "problems_solved": [
+          "Cricket World Cup Qualifier",
+          "Best of N Sets",
+          "Worth of a Video"
+        ],
+        "problems_count": 3
+      },
+      {
+        "name": "Starters 111 Division 4 (Rated)",
+        "problems_solved": [
+          "Exams",
+          "404 Not Found"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 112 Division 4 (Rated)",
+        "problems_solved": [
+          "Food Costs",
+          "Fair Share Settlement"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 113 Division 4 (Rated)",
+        "problems_solved": [
+          "Thala For A Reason"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 114 Division 4 (Rated)",
+        "problems_solved": [
+          "Painting Walls",
+          "Christmas Greetings"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 115 Division 4 (Rated)",
+        "problems_solved": [
+          "Chocolate Distribution",
+          "Codechef Round"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 116 Division 4 (Rated)",
+        "problems_solved": [
+          "Minimum Wage"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 117 Division 4 (Rated)",
+        "problems_solved": [
+          "Yearly Phone"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 119 Division 4 (Rated)",
+        "problems_solved": [
+          "Advitiya"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 120 Division 4 (Rated)",
+        "problems_solved": [
+          "Valentines Contest"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 121 Division 4 (Rated)",
+        "problems_solved": [
+          "Leg Space"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 123 Division 4 (Rated)",
+        "problems_solved": [
+          "Room Allocation",
+          "Algomaniac Finals"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 122 Division 4 (Rated)",
+        "problems_solved": [
+          "Healthy Sleep",
+          "Problem Reviews"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 124 Division 4 (Rated)",
+        "problems_solved": [
+          "Binary Parity",
+          "Summer Time",
+          "Cricket Tournament"
+        ],
+        "problems_count": 3
+      }
+    ],
+    "scraped_at": "2026-01-05T16:00:43.555265"
+  },
+  "711523BCB057": {
+    "username": "thecode_1215",
+    "rating": 1412,
+    "division": "Div 3",
+    "stars": 1,
+    "league": "Bronze",
+    "global_rank": 1521,
+    "country_rank": 0,
+    "total_contests": 23,
+    "total_problems_solved": 308,
+    "contest_history": [
+      {
+        "name": "Starters 190 (Rated)",
+        "problems_solved": [
+          "Number Reduction",
+          "Min-Max Deletion",
+          "Maximum Slams"
+        ],
+        "problems_count": 3
+      },
+      {
+        "name": "Starters 191 (Rated)",
+        "problems_solved": [
+          "Add to get GCD",
+          "Divide into 3",
+          "Nearest Square"
+        ],
+        "problems_count": 3
+      },
+      {
+        "name": "Starters 192 (Rated)",
+        "problems_solved": [
+          "Missing Shoes",
+          "No Odd Sum"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 193 (Rated)",
+        "problems_solved": [
+          "Count Odd Even Divisors",
+          "Rectangle and Square",
+          "Check Odd Even Divisors",
+          "Add Permutation"
+        ],
+        "problems_count": 4
+      },
+      {
+        "name": "Starters 194 (Rated)",
+        "problems_solved": [
+          "Chef Bakes Cake 1",
+          "Chef Bakes Cake 2",
+          "Chef Bakes Cake 3"
+        ],
+        "problems_count": 3
+      },
+      {
+        "name": "Starters 195 (Rated)",
+        "problems_solved": [
+          "Selling Sandwiches",
+          "Failing Grades",
+          "Marble Collector"
+        ],
+        "problems_count": 3
+      },
+      {
+        "name": "Starters 196 (Rated)",
+        "problems_solved": [
+          "Cloud Watching",
+          "Sugar Limit",
+          "More Cookies"
+        ],
+        "problems_count": 3
+      },
+      {
+        "name": "Starters 197 (Rated)",
+        "problems_solved": [
+          "Independence Day",
+          "All Odd Prefix Sums",
+          "Bowling Balls"
+        ],
+        "problems_count": 3
+      },
+      {
+        "name": "Starters 198 (Rated)",
+        "problems_solved": [
+          "Currency Exchange",
+          "Make Cat",
+          "Decoration Discount"
+        ],
+        "problems_count": 3
+      },
+      {
+        "name": "Starters 199 (Rated)",
+        "problems_solved": [
+          "Subtract or Divide",
+          "Brick Comparisions",
+          "Grid MEX",
+          "Fence Colouring"
+        ],
+        "problems_count": 4
+      },
+      {
+        "name": "Starters 200 (Rated)",
+        "problems_solved": [
+          "Random NIM",
+          "Chef Bakes Cake",
+          "Good Subsequence"
+        ],
+        "problems_count": 3
+      },
+      {
+        "name": "Starters 201 (Rated)",
+        "problems_solved": [
+          "Mixing Liquids",
+          "Mark Points"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 202 (Rated)",
+        "problems_solved": [
+          "Endless Play",
+          "Two Rolls",
+          "Buying Flowers"
+        ],
+        "problems_count": 3
+      },
+      {
+        "name": "Starters 204 (Rated)",
+        "problems_solved": [
+          "Minimize Sum",
+          "Drawing Chances",
+          "Episodes"
+        ],
+        "problems_count": 3
+      },
+      {
+        "name": "Starters 205 (Rated)",
+        "problems_solved": [
+          "Unreachable",
+          "Mirror Jump",
+          "Triplet Maximization"
+        ],
+        "problems_count": 3
+      }
+    ],
+    "scraped_at": "2026-01-05T16:00:49.536966"
+  },
+  "711523BCB058": {
+    "username": "kit27csbs58",
+    "rating": 1384,
+    "division": "Div 4",
+    "stars": 1,
+    "league": "Bronze",
+    "global_rank": 14063,
+    "country_rank": 0,
+    "total_contests": 104,
+    "total_problems_solved": 717,
+    "contest_history": [
+      {
+        "name": "Starters 107 Division 4 (Rated)",
+        "problems_solved": [
+          "Clear Day"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 111 Division 4 (Rated)",
+        "problems_solved": [
+          "Exams",
+          "404 Not Found"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 112 Division 4 (Rated)",
+        "problems_solved": [
+          "Food Costs",
+          "Fair Share Settlement"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 114 Division 4 (Rated)",
+        "problems_solved": [
+          "Christmas Greetings"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 116 Division 4 (Rated)",
+        "problems_solved": [
+          "Minimum Wage"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 117 Division 4 (Rated)",
+        "problems_solved": [
+          "Yearly Phone"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 119 Division 4 (Rated)",
+        "problems_solved": [
+          "Advitiya",
+          "Judged"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 120 Division 4 (Rated)",
+        "problems_solved": [
+          "Valentines Contest"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 121 Division 4 (Rated)",
+        "problems_solved": [
+          "Leg Space"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 123 Division 4 (Rated)",
+        "problems_solved": [
+          "Algomaniac Finals"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 122 Division 4 (Rated)",
+        "problems_solved": [
+          "Healthy Sleep"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 124 Division 4 (Rated)",
+        "problems_solved": [
+          "Summer Time",
+          "Cricket Tournament"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 125 Division 4 (Rated)",
+        "problems_solved": [
+          "Overspeeding",
+          "50-50 Rule"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 126 Division 4 (Rated)",
+        "problems_solved": [
+          "AC Please"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 127 Division 4",
+        "problems_solved": [
+          "The Ides of March",
+          "Extreme Basketball"
+        ],
+        "problems_count": 2
+      }
+    ],
+    "scraped_at": "2026-01-05T16:00:55.629144"
+  },
+  "711523BCB059": {
+    "username": "vignesh_59",
+    "rating": 700,
+    "division": "Div 4",
+    "stars": 1,
+    "league": "Rookie",
+    "global_rank": 11792,
+    "country_rank": 0,
+    "total_contests": 44,
+    "total_problems_solved": 68,
+    "contest_history": [
+      {
+        "name": "Starters 114 Division 4 (Rated)",
+        "problems_solved": [
+          "Christmas Greetings"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 123 Division 4 (Rated)",
+        "problems_solved": [
+          "Algomaniac Finals"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 124 Division 4 (Rated)",
+        "problems_solved": [
+          "Cricket Tournament",
+          "Summer Time"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 125 Division 4 (Rated)",
+        "problems_solved": [
+          "Overspeeding",
+          "50-50 Rule"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 127 Division 4",
+        "problems_solved": [
+          "The Ides of March",
+          "Extreme Basketball"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 129 Division 4 (Rated)",
+        "problems_solved": [
+          "Football Training"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 130 Division 4 (Rated)",
+        "problems_solved": [
+          "Giant Wheel"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 131 Division 4 (Rated)",
+        "problems_solved": [
+          "Remaining Neighborhoods"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 134 Division 4 (Rated)",
+        "problems_solved": [
+          "Morning Run"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 135 Division 4 (Rated)",
+        "problems_solved": [
+          "RCB vs CSK"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 136 Division 4 (Rated)",
+        "problems_solved": [
+          "Who Makes P1"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 138 Division 4 (Rated)",
+        "problems_solved": [
+          "Heat Wave"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 140 Division 4 (Rated)",
+        "problems_solved": [
+          "Yoga Day"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 141 Division 4 (Rated)",
+        "problems_solved": [
+          "Lucky Clover"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 142 Division 4 (Rated)",
+        "problems_solved": [
+          "Writing Speed"
+        ],
+        "problems_count": 1
+      }
+    ],
+    "scraped_at": "2026-01-05T16:01:01.648896"
+  },
+  "711523BCB060": {
+    "username": "kit27csbs60",
+    "rating": 1338,
+    "division": "Div 4",
+    "stars": 1,
+    "league": "Rookie",
+    "global_rank": 1833,
+    "country_rank": 0,
+    "total_contests": 95,
+    "total_problems_solved": 660,
+    "contest_history": [
+      {
+        "name": "Starters 115 Division 4 (Rated)",
+        "problems_solved": [
+          "Codechef Round"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 116 Division 4 (Rated)",
+        "problems_solved": [
+          "Minimum Wage"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 123 Division 4 (Rated)",
+        "problems_solved": [
+          "Algomaniac Finals"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 122 Division 4 (Rated)",
+        "problems_solved": [
+          "Healthy Sleep"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 124 Division 4 (Rated)",
+        "problems_solved": [
+          "Summer Time",
+          "Cricket Tournament"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 125 Division 4 (Rated)",
+        "problems_solved": [
+          "Overspeeding",
+          "50-50 Rule"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 126 Division 4 (Rated)",
+        "problems_solved": [
+          "AC Please"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 127 Division 4",
+        "problems_solved": [
+          "The Ides of March"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 128 Division 4 (Rated)",
+        "problems_solved": [
+          "Reach 5 Star"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 129 Division 4 (Rated)",
+        "problems_solved": [
+          "Football Training",
+          "Pep Bidding"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 130 Division 4 (Rated)",
+        "problems_solved": [
+          "Giant Wheel"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 131 Division 4 (Rated)",
+        "problems_solved": [
+          "Remaining Neighborhoods"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 132 Division 4 (Rated)",
+        "problems_solved": [
+          "ICE CREAM"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 133 Division 4 (Rated)",
+        "problems_solved": [
+          "Devouring Donuts"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 134 Division 4 (Rated)",
+        "problems_solved": [
+          "Morning Run",
+          "Money Double"
+        ],
+        "problems_count": 2
+      }
+    ],
+    "scraped_at": "2026-01-05T16:01:07.624067"
+  },
+  "711523BCB061": {
+    "username": "kit27csbs61",
+    "rating": 970,
+    "division": "Div 4",
+    "stars": 1,
+    "league": "Diamond",
+    "global_rank": 5925,
+    "country_rank": 0,
+    "total_contests": 82,
+    "total_problems_solved": 414,
+    "contest_history": [
+      {
+        "name": "Starters 115 Division 4 (Rated)",
+        "problems_solved": [
+          "Codechef Round"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 123 Division 4 (Rated)",
+        "problems_solved": [
+          "Algomaniac Finals"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 122 Division 4 (Rated)",
+        "problems_solved": [
+          "Healthy Sleep"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 124 Division 4 (Rated)",
+        "problems_solved": [
+          "Summer Time"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 125 Division 4 (Rated)",
+        "problems_solved": [
+          "50-50 Rule",
+          "Overspeeding"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 126 Division 4 (Rated)",
+        "problems_solved": [
+          "AC Please"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 127 Division 4",
+        "problems_solved": [
+          "The Ides of March"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 128 Division 4 (Rated)",
+        "problems_solved": [
+          "Reach 5 Star"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 130 Division 4 (Rated)",
+        "problems_solved": [
+          "Giant Wheel"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 131 Division 4 (Rated)",
+        "problems_solved": [
+          "Remaining Neighborhoods"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 132 Division 4 (Rated)",
+        "problems_solved": [
+          "ICE CREAM"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 133 Division 4 (Rated)",
+        "problems_solved": [
+          "Devouring Donuts"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 134 Division 4 (Rated)",
+        "problems_solved": [
+          "Morning Run",
+          "Money Double"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 135 Division 4 (Rated)",
+        "problems_solved": [
+          "RCB vs CSK"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 136 Division 4 (Rated)",
+        "problems_solved": [
+          "Who Makes P1"
+        ],
+        "problems_count": 1
+      }
+    ],
+    "scraped_at": "2026-01-05T16:01:14.024417"
+  },
+  "711523BCB063": {
+    "username": "kit27csbs63",
+    "rating": 889,
+    "division": "Div 4",
+    "stars": 1,
+    "league": "Rookie",
+    "global_rank": 13614,
+    "country_rank": 0,
+    "total_contests": 57,
+    "total_problems_solved": 155,
+    "contest_history": [
+      {
+        "name": "Starters 115 Division 4 (Rated)",
+        "problems_solved": [
+          "Codechef Round"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 122 Division 4 (Rated)",
+        "problems_solved": [
+          "Healthy Sleep"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 124 Division 4 (Rated)",
+        "problems_solved": [
+          "Cricket Tournament",
+          "Summer Time"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 125 Division 4 (Rated)",
+        "problems_solved": [
+          "Overspeeding",
+          "50-50 Rule"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 126 Division 4 (Rated)",
+        "problems_solved": [
+          "AC Please"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 127 Division 4",
+        "problems_solved": [
+          "The Ides of March"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 128 Division 4 (Rated)",
+        "problems_solved": [
+          "Reach 5 Star"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 129 Division 4 (Rated)",
+        "problems_solved": [
+          "Football Training"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 130 Division 4 (Rated)",
+        "problems_solved": [
+          "Giant Wheel",
+          "Swapping Marks Digits"
+        ],
+        "problems_count": 2
+      },
+      {
+        "name": "Starters 131 Division 4 (Rated)",
+        "problems_solved": [
+          "Remaining Neighborhoods"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 132 Division 4 (Rated)",
+        "problems_solved": [
+          "ICE CREAM"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 134 Division 4 (Rated)",
+        "problems_solved": [
+          "Morning Run"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 135 Division 4 (Rated)",
+        "problems_solved": [
+          "RCB vs CSK"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 136 Division 4 (Rated)",
+        "problems_solved": [
+          "Who Makes P1"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 137 Division 4 (Rated)",
+        "problems_solved": [
+          "Election Hopes"
+        ],
+        "problems_count": 1
+      }
+    ],
+    "scraped_at": "2026-01-05T16:01:19.914669"
+  },
+  "711523BCB302": {
+    "username": "kit27csbs302",
+    "rating": 946,
+    "division": "Div 4",
+    "stars": 1,
+    "league": "Bronze",
+    "global_rank": 4831,
+    "country_rank": 0,
+    "total_contests": 28,
+    "total_problems_solved": 198,
+    "contest_history": [
+      {
+        "name": "Starters 149 (Rated)",
+        "problems_solved": [
+          "Approximate Answer"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 150 (Rated)",
+        "problems_solved": [
+          "IOI 2024"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 151 (rated)",
+        "problems_solved": [
+          "Weightlifting"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 158 (Rated)",
+        "problems_solved": [
+          "Diwali Discount"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 159 (Rated)",
+        "problems_solved": [
+          "Icecream and Cone"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 171 (Rated)",
+        "problems_solved": [
+          "Squid Game - Piggy Bank"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 175 (Rated)",
+        "problems_solved": [
+          "Assignment Due"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 176 (Rated)",
+        "problems_solved": [
+          "Run for Fun"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 179 (Rated)",
+        "problems_solved": [
+          "Conquer the Fest!!"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 180 (Rated)",
+        "problems_solved": [
+          "CodeMat"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 182 (Rated)",
+        "problems_solved": [
+          "IPL"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 183 (Rated)",
+        "problems_solved": [
+          "Max Sixers"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 185 (Rated)",
+        "problems_solved": [
+          "Pizza Split"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 192 (Rated)",
+        "problems_solved": [
+          "Missing Shoes"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 194 (Rated)",
+        "problems_solved": [
+          "Chef Bakes Cake 1",
+          "Chef Bakes Cake 2"
+        ],
+        "problems_count": 2
+      }
+    ],
+    "scraped_at": "2026-01-05T16:01:25.883359"
+  },
+  "711523BCB320": {
+    "username": "nish_m_20",
+    "rating": 983,
+    "division": "Div 4",
+    "stars": 1,
+    "league": "Silver",
+    "global_rank": 5905,
+    "country_rank": 0,
+    "total_contests": 35,
+    "total_problems_solved": 215,
+    "contest_history": [
+      {
+        "name": "Starters 168 (Rated)",
+        "problems_solved": [
+          "Can You Bench"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 171 (Rated)",
+        "problems_solved": [
+          "Squid Game - Piggy Bank"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 172 (Rated)",
+        "problems_solved": [
+          "Time Machine"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 173 (Rated upto < 2700)",
+        "problems_solved": [
+          "Time Penalty"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 175 (Rated)",
+        "problems_solved": [
+          "Assignment Due"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 176 (Rated)",
+        "problems_solved": [
+          "Run for Fun"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 177 (Rated)",
+        "problems_solved": [
+          "Triangle Checking"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 178 (Rated)",
+        "problems_solved": [
+          "Food Balance"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 179 (Rated)",
+        "problems_solved": [
+          "Conquer the Fest!!"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 180 (Rated)",
+        "problems_solved": [
+          "CodeMat"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 181 (Rated)",
+        "problems_solved": [
+          "Move Grid"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 182 (Rated)",
+        "problems_solved": [
+          "IPL"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 192 (Rated)",
+        "problems_solved": [
+          "Missing Shoes"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 195 (Rated)",
+        "problems_solved": [
+          "Selling Sandwiches"
+        ],
+        "problems_count": 1
+      },
+      {
+        "name": "Starters 196 (Rated)",
+        "problems_solved": [
+          "Cloud Watching"
+        ],
+        "problems_count": 1
+      }
+    ],
+    "scraped_at": "2026-01-05T16:01:32.692488"
+  }
+}
