@@ -1,7 +1,24 @@
-<<<<<<< HEAD
 # GO Tracker - Student Performance Dashboard
 
 A comprehensive student performance tracking system that monitors coding progress across multiple platforms including LeetCode, CodeChef, Codeforces, GitHub, and Codolio.
+
+## 📸 Application Screenshots
+
+### 🏠 Landing Page
+![Landing Page](./docs/images/landing-page.png)
+*Welcome page with three portals: Staff Portal, ByteBuster Admin, and Student Portal*
+
+### 👤 Student Dashboard  
+![Student Dashboard](./docs/images/student-dashboard.png)
+*Individual student dashboard showing profile, resume management, and project repositories*
+
+### 📊 Staff Analytics Dashboard
+![Staff Analytics](./docs/images/staff-analytics.png)
+*Staff view for monitoring student performance across all batches with detailed analytics*
+
+### 🏆 Contest Tracker
+![Contest Tracker](./docs/images/contest-tracker.png)
+*Real-time contest monitoring showing student progress in live coding competitions*
 
 ## 🚀 Features
 
