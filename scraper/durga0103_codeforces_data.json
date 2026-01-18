@@ -1,0 +1,108 @@
+{
+  "username": "durga0103",
+  "profileUrl": "https://codeforces.com/profile/durga0103",
+  "scrapedAt": "2026-01-07T16:20:45.758208",
+  "userInfo": {
+    "handle": "durga0103",
+    "firstName": "",
+    "lastName": "",
+    "country": "",
+    "city": "",
+    "organization": "",
+    "rank": "newbie",
+    "maxRank": "newbie",
+    "rating": 363,
+    "maxRating": 363,
+    "contribution": 0,
+    "friendOfCount": 0,
+    "avatar": "https://userpic.codeforces.org/no-title.jpg",
+    "registrationTime": 1761802677
+  },
+  "ratingHistory": [
+    {
+      "contestId": 2178,
+      "contestName": "Good Bye 2025",
+      "handle": "durga0103",
+      "rank": 17509,
+      "ratingUpdateTimeSeconds": 1766856900,
+      "oldRating": 0,
+      "newRating": 363
+    }
+  ],
+  "contestStats": {
+    "totalContests": 1,
+    "maxRating": 363,
+    "minRating": 363,
+    "bestPerformance": 363,
+    "worstPerformance": 363
+  },
+  "totalSubmissions": 17,
+  "recentContests": [
+    {
+      "contestId": 2178,
+      "contestName": "Good Bye 2025",
+      "date": "2025-12-27",
+      "time": "23:05:00",
+      "datetime": "2025-12-27T23:05:00",
+      "rank": 17509,
+      "oldRating": 0,
+      "newRating": 363,
+      "ratingChange": 363,
+      "problemsSolved": 0,
+      "problemsAttempted": 1,
+      "solvedProblems": [],
+      "contestUrl": "https://codeforces.com/contest/2178"
+    }
+  ],
+  "problemStats": {
+    "totalSolved": 11,
+    "totalSubmissions": 17,
+    "acceptedSubmissions": 12,
+    "acceptanceRate": 70.59,
+    "byRating": {
+      "800": 10
+    },
+    "byTag": {
+      "implementation": 5,
+      "strings": 4,
+      "brute force": 3,
+      "greedy": 2,
+      "math": 4,
+      "*special": 1
+    }
+  },
+  "heatmap": [
+    {
+      "date": "2025-12-05",
+      "count": 2
+    },
+    {
+      "date": "2025-12-11",
+      "count": 1
+    },
+    {
+      "date": "2025-12-16",
+      "count": 1
+    },
+    {
+      "date": "2025-12-23",
+      "count": 1
+    },
+    {
+      "date": "2025-12-28",
+      "count": 1
+    },
+    {
+      "date": "2025-12-29",
+      "count": 2
+    },
+    {
+      "date": "2026-01-03",
+      "count": 2
+    },
+    {
+      "date": "2026-01-05",
+      "count": 2
+    }
+  ]
+}

@@ -1,0 +1,334 @@
+{
+  "username": "Arjun_VB",
+  "profileUrl": "https://codeforces.com/profile/Arjun_VB",
+  "scrapedAt": "2026-01-07T16:09:15.543836",
+  "userInfo": {
+    "handle": "Arjun_VB",
+    "firstName": "",
+    "lastName": "",
+    "country": "",
+    "city": "",
+    "organization": "",
+    "rank": "newbie",
+    "maxRank": "newbie",
+    "rating": 1010,
+    "maxRating": 1128,
+    "contribution": 0,
+    "friendOfCount": 0,
+    "avatar": "https://userpic.codeforces.org/no-title.jpg",
+    "registrationTime": 1761804167
+  },
+  "ratingHistory": [
+    {
+      "contestId": 2182,
+      "contestName": "Educational Codeforces Round 186 (Rated for Div. 2)",
+      "handle": "Arjun_VB",
+      "rank": 12048,
+      "ratingUpdateTimeSeconds": 1767026100,
+      "oldRating": 1063,
+      "newRating": 1010
+    },
+    {
+      "contestId": 2178,
+      "contestName": "Good Bye 2025",
+      "handle": "Arjun_VB",
+      "rank": 17509,
+      "ratingUpdateTimeSeconds": 1766856900,
+      "oldRating": 1128,
+      "newRating": 1063
+    },
+    {
+      "contestId": 2179,
+      "contestName": "Codeforces Round 1071 (Div. 3)",
+      "handle": "Arjun_VB",
+      "rank": 11718,
+      "ratingUpdateTimeSeconds": 1766510100,
+      "oldRating": 1070,
+      "newRating": 1128
+    },
+    {
+      "contestId": 2180,
+      "contestName": "Codeforces Global Round 31 (Div. 1 + Div. 2)",
+      "handle": "Arjun_VB",
+      "rank": 12635,
+      "ratingUpdateTimeSeconds": 1766163900,
+      "oldRating": 1010,
+      "newRating": 1070
+    },
+    {
+      "contestId": 2173,
+      "contestName": "Codeforces Round 1068 (Div. 2)",
+      "handle": "Arjun_VB",
+      "rank": 6369,
+      "ratingUpdateTimeSeconds": 1764952500,
+      "oldRating": 791,
+      "newRating": 1010
+    },
+    {
+      "contestId": 2158,
+      "contestName": "Codeforces Round 1067 (Div. 2)",
+      "handle": "Arjun_VB",
+      "rank": 4994,
+      "ratingUpdateTimeSeconds": 1764434100,
+      "oldRating": 460,
+      "newRating": 791
+    },
+    {
+      "contestId": 2157,
+      "contestName": "Codeforces Round 1066 (Div. 1 + Div. 2)",
+      "handle": "Arjun_VB",
+      "rank": 4870,
+      "ratingUpdateTimeSeconds": 1763901300,
+      "oldRating": 0,
+      "newRating": 460
+    }
+  ],
+  "contestStats": {
+    "totalContests": 7,
+    "maxRating": 1128,
+    "minRating": 460,
+    "bestPerformance": 460,
+    "worstPerformance": -65
+  },
+  "totalSubmissions": 42,
+  "recentContests": [
+    {
+      "contestId": 2182,
+      "contestName": "Educational Codeforces Round 186 (Rated for Div. 2)",
+      "date": "2025-12-29",
+      "time": "22:05:00",
+      "datetime": "2025-12-29T22:05:00",
+      "rank": 12048,
+      "oldRating": 1063,
+      "newRating": 1010,
+      "ratingChange": -53,
+      "problemsSolved": 2,
+      "problemsAttempted": 5,
+      "solvedProblems": [
+        {
+          "index": "B",
+          "name": "New Year Cake",
+          "rating": "N/A",
+          "solved_time": "2025-12-29 21:09:13"
+        },
+        {
+          "index": "A",
+          "name": "New Year String",
+          "rating": "N/A",
+          "solved_time": "2025-12-29 20:53:55"
+        }
+      ],
+      "contestUrl": "https://codeforces.com/contest/2182"
+    },
+    {
+      "contestId": 2178,
+      "contestName": "Good Bye 2025",
+      "date": "2025-12-27",
+      "time": "23:05:00",
+      "datetime": "2025-12-27T23:05:00",
+      "rank": 17509,
+      "oldRating": 1128,
+      "newRating": 1063,
+      "ratingChange": -65,
+      "problemsSolved": 0,
+      "problemsAttempted": 2,
+      "solvedProblems": [],
+      "contestUrl": "https://codeforces.com/contest/2178"
+    },
+    {
+      "contestId": 2179,
+      "contestName": "Codeforces Round 1071 (Div. 3)",
+      "date": "2025-12-23",
+      "time": "22:45:00",
+      "datetime": "2025-12-23T22:45:00",
+      "rank": 11718,
+      "oldRating": 1070,
+      "newRating": 1128,
+      "ratingChange": 58,
+      "problemsSolved": 3,
+      "problemsAttempted": 5,
+      "solvedProblems": [
+        {
+          "index": "C",
+          "name": "Blackslex and Number Theory",
+          "rating": "N/A",
+          "solved_time": "2025-12-23 21:45:49"
+        },
+        {
+          "index": "B",
+          "name": "Blackslex and Showering",
+          "rating": "N/A",
+          "solved_time": "2025-12-23 21:43:09"
+        },
+        {
+          "index": "A",
+          "name": "Blackslex and Password",
+          "rating": "N/A",
+          "solved_time": "2025-12-23 20:33:33"
+        }
+      ],
+      "contestUrl": "https://codeforces.com/contest/2179"
+    },
+    {
+      "contestId": 2180,
+      "contestName": "Codeforces Global Round 31 (Div. 1 + Div. 2)",
+      "date": "2025-12-19",
+      "time": "22:35:00",
+      "datetime": "2025-12-19T22:35:00",
+      "rank": 12635,
+      "oldRating": 1010,
+      "newRating": 1070,
+      "ratingChange": 60,
+      "problemsSolved": 2,
+      "problemsAttempted": 3,
+      "solvedProblems": [
+        {
+          "index": "B",
+          "name": "Ashmal",
+          "rating": 800,
+          "solved_time": "2025-12-19 22:03:37"
+        },
+        {
+          "index": "A",
+          "name": "Carnival Wheel",
+          "rating": 800,
+          "solved_time": "2025-12-19 21:49:24"
+        }
+      ],
+      "contestUrl": "https://codeforces.com/contest/2180"
+    },
+    {
+      "contestId": 2173,
+      "contestName": "Codeforces Round 1068 (Div. 2)",
+      "date": "2025-12-05",
+      "time": "22:05:00",
+      "datetime": "2025-12-05T22:05:00",
+      "rank": 6369,
+      "oldRating": 791,
+      "newRating": 1010,
+      "ratingChange": 219,
+      "problemsSolved": 2,
+      "problemsAttempted": 2,
+      "solvedProblems": [
+        {
+          "index": "B",
+          "name": "Niko's Tactical Cards",
+          "rating": 1100,
+          "solved_time": "2025-12-05 20:50:44"
+        },
+        {
+          "index": "A",
+          "name": "Sleeping Through Classes",
+          "rating": 800,
+          "solved_time": "2025-12-05 20:16:03"
+        }
+      ],
+      "contestUrl": "https://codeforces.com/contest/2173"
+    },
+    {
+      "contestId": 2158,
+      "contestName": "Codeforces Round 1067 (Div. 2)",
+      "date": "2025-11-29",
+      "time": "22:05:00",
+      "datetime": "2025-11-29T22:05:00",
+      "rank": 4994,
+      "oldRating": 460,
+      "newRating": 791,
+      "ratingChange": 331,
+      "problemsSolved": 2,
+      "problemsAttempted": 2,
+      "solvedProblems": [
+        {
+          "index": "B",
+          "name": "Split",
+          "rating": 1200,
+          "solved_time": "2025-11-29 20:44:47"
+        },
+        {
+          "index": "A",
+          "name": "Suspension",
+          "rating": 800,
+          "solved_time": "2025-11-29 20:34:24"
+        }
+      ],
+      "contestUrl": "https://codeforces.com/contest/2158"
+    },
+    {
+      "contestId": 2157,
+      "contestName": "Codeforces Round 1066 (Div. 1 + Div. 2)",
+      "date": "2025-11-23",
+      "time": "18:05:00",
+      "datetime": "2025-11-23T18:05:00",
+      "rank": 4870,
+      "oldRating": 0,
+      "newRating": 460,
+      "ratingChange": 460,
+      "problemsSolved": 2,
+      "problemsAttempted": 2,
+      "solvedProblems": [
+        {
+          "index": "B",
+          "name": "Expansion Plan 2",
+          "rating": 900,
+          "solved_time": "2025-11-23 15:39:17"
+        },
+        {
+          "index": "A",
+          "name": "Dungeon Equilibrium",
+          "rating": 800,
+          "solved_time": "2025-11-23 15:36:27"
+        }
+      ],
+      "contestUrl": "https://codeforces.com/contest/2157"
+    }
+  ],
+  "problemStats": {
+    "totalSolved": 13,
+    "totalSubmissions": 42,
+    "acceptedSubmissions": 13,
+    "acceptanceRate": 30.95,
+    "byRating": {
+      "800": 5,
+      "1100": 1,
+      "1200": 1,
+      "900": 1
+    },
+    "byTag": {
+      "brute force": 2,
+      "constructive algorithms": 3,
+      "greedy": 8,
+      "implementation": 6,
+      "strings": 3,
+      "math": 6,
+      "number theory": 2,
+      "sortings": 2,
+      "dp": 2
+    }
+  },
+  "heatmap": [
+    {
+      "date": "2025-11-23",
+      "count": 2
+    },
+    {
+      "date": "2025-11-29",
+      "count": 2
+    },
+    {
+      "date": "2025-12-05",
+      "count": 2
+    },
+    {
+      "date": "2025-12-19",
+      "count": 2
+    },
+    {
+      "date": "2025-12-23",
+      "count": 3
+    },
+    {
+      "date": "2025-12-29",
+      "count": 2
+    }
+  ]
+}

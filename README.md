@@ -203,7 +203,7 @@ The application will be available at:
 ### Admin Login
 - **URL**: http://localhost:5173/login/owner
 - **Email**: `owner@bytebuster.com`
-- **Password**: `thotupar@123`
+- **Password**: `thotuparu@123`
 
 ## 📊 Data Scraping
 

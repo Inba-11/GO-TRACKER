@@ -34,9 +34,9 @@ const App = () => (
             <Route path="/staff/dashboard" element={<StaffDashboard />} />
             <Route path="/staff/contest-tracker" element={<BatchContestTracker />} />
             <Route path="/staff/analytics" element={<Analytics />} />
-            <Route path="/staff/student/:id" element={<StudentProfile />} />
+            <Route path="/staff/student/:id" element={<StudentDashboard />} />
             <Route path="/owner/dashboard" element={<OwnerDashboard />} />
-            <Route path="/student/dashboard" element={<StudentDashboard />} />
+            <Route path="/student/dashboard/:id" element={<StudentDashboard />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </BrowserRouter>

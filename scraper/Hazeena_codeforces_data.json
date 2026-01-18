@@ -1,0 +1,278 @@
+{
+  "username": "Hazeena",
+  "profileUrl": "https://codeforces.com/profile/Hazeena",
+  "scrapedAt": "2026-01-07T16:12:39.638730",
+  "userInfo": {
+    "handle": "Hazeena",
+    "firstName": "HAZEENA",
+    "lastName": "",
+    "country": "",
+    "city": "",
+    "organization": "",
+    "rank": "newbie",
+    "maxRank": "newbie",
+    "rating": 1199,
+    "maxRating": 1199,
+    "contribution": 0,
+    "friendOfCount": 0,
+    "avatar": "https://userpic.codeforces.org/no-title.jpg",
+    "registrationTime": 1716478406
+  },
+  "ratingHistory": [
+    {
+      "contestId": 2176,
+      "contestName": "Codeforces Round 1070 (Div. 2)",
+      "handle": "Hazeena",
+      "rank": 9282,
+      "ratingUpdateTimeSeconds": 1765470900,
+      "oldRating": 1161,
+      "newRating": 1199
+    },
+    {
+      "contestId": 2173,
+      "contestName": "Codeforces Round 1068 (Div. 2)",
+      "handle": "Hazeena",
+      "rank": 5425,
+      "ratingUpdateTimeSeconds": 1764952500,
+      "oldRating": 1021,
+      "newRating": 1161
+    },
+    {
+      "contestId": 2171,
+      "contestName": "Codeforces Round 1065 (Div. 3)",
+      "handle": "Hazeena",
+      "rank": 8679,
+      "ratingUpdateTimeSeconds": 1763658300,
+      "oldRating": 853,
+      "newRating": 1021
+    },
+    {
+      "contestId": 2166,
+      "contestName": "Codeforces Round 1064 (Div. 2)",
+      "handle": "Hazeena",
+      "rank": 1654,
+      "ratingUpdateTimeSeconds": 1763310900,
+      "oldRating": 424,
+      "newRating": 853
+    },
+    {
+      "contestId": 2169,
+      "contestName": "Educational Codeforces Round 184 (Rated for Div. 2)",
+      "handle": "Hazeena",
+      "rank": 8744,
+      "ratingUpdateTimeSeconds": 1763138100,
+      "oldRating": 0,
+      "newRating": 424
+    }
+  ],
+  "contestStats": {
+    "totalContests": 5,
+    "maxRating": 1199,
+    "minRating": 424,
+    "bestPerformance": 429,
+    "worstPerformance": 38
+  },
+  "totalSubmissions": 41,
+  "recentContests": [
+    {
+      "contestId": 2176,
+      "contestName": "Codeforces Round 1070 (Div. 2)",
+      "date": "2025-12-11",
+      "time": "22:05:00",
+      "datetime": "2025-12-11T22:05:00",
+      "rank": 9282,
+      "oldRating": 1161,
+      "newRating": 1199,
+      "ratingChange": 38,
+      "problemsSolved": 2,
+      "problemsAttempted": 3,
+      "solvedProblems": [
+        {
+          "index": "A",
+          "name": "Operations with Inversions",
+          "rating": 800,
+          "solved_time": "2025-12-11 20:41:30"
+        },
+        {
+          "index": "B",
+          "name": "Optimal Shifts",
+          "rating": 1000,
+          "solved_time": "2025-12-11 20:38:05"
+        }
+      ],
+      "contestUrl": "https://codeforces.com/contest/2176"
+    },
+    {
+      "contestId": 2173,
+      "contestName": "Codeforces Round 1068 (Div. 2)",
+      "date": "2025-12-05",
+      "time": "22:05:00",
+      "datetime": "2025-12-05T22:05:00",
+      "rank": 5425,
+      "oldRating": 1021,
+      "newRating": 1161,
+      "ratingChange": 140,
+      "problemsSolved": 2,
+      "problemsAttempted": 3,
+      "solvedProblems": [
+        {
+          "index": "A",
+          "name": "Sleeping Through Classes",
+          "rating": 800,
+          "solved_time": "2025-12-05 20:21:26"
+        },
+        {
+          "index": "B",
+          "name": "Niko's Tactical Cards",
+          "rating": 1100,
+          "solved_time": "2025-12-05 20:13:54"
+        }
+      ],
+      "contestUrl": "https://codeforces.com/contest/2173"
+    },
+    {
+      "contestId": 2171,
+      "contestName": "Codeforces Round 1065 (Div. 3)",
+      "date": "2025-11-20",
+      "time": "22:35:00",
+      "datetime": "2025-11-20T22:35:00",
+      "rank": 8679,
+      "oldRating": 853,
+      "newRating": 1021,
+      "ratingChange": 168,
+      "problemsSolved": 2,
+      "problemsAttempted": 2,
+      "solvedProblems": [
+        {
+          "index": "B",
+          "name": "Yuu Koito and Minimum Absolute Sum",
+          "rating": 900,
+          "solved_time": "2025-11-20 20:18:48"
+        },
+        {
+          "index": "A",
+          "name": "Shizuku Hoshikawa and Farm Legs",
+          "rating": 800,
+          "solved_time": "2025-11-20 20:10:16"
+        }
+      ],
+      "contestUrl": "https://codeforces.com/contest/2171"
+    },
+    {
+      "contestId": 2166,
+      "contestName": "Codeforces Round 1064 (Div. 2)",
+      "date": "2025-11-16",
+      "time": "22:05:00",
+      "datetime": "2025-11-16T22:05:00",
+      "rank": 1654,
+      "oldRating": 424,
+      "newRating": 853,
+      "ratingChange": 429,
+      "problemsSolved": 3,
+      "problemsAttempted": 3,
+      "solvedProblems": [
+        {
+          "index": "C",
+          "name": "Cyclic Merging",
+          "rating": 1300,
+          "solved_time": "2025-11-16 20:38:50"
+        },
+        {
+          "index": "B",
+          "name": "Tab Closing",
+          "rating": 900,
+          "solved_time": "2025-11-16 20:36:32"
+        },
+        {
+          "index": "A",
+          "name": "Same Difference",
+          "rating": 800,
+          "solved_time": "2025-11-16 20:15:25"
+        }
+      ],
+      "contestUrl": "https://codeforces.com/contest/2166"
+    },
+    {
+      "contestId": 2169,
+      "contestName": "Educational Codeforces Round 184 (Rated for Div. 2)",
+      "date": "2025-11-14",
+      "time": "22:05:00",
+      "datetime": "2025-11-14T22:05:00",
+      "rank": 8744,
+      "oldRating": 0,
+      "newRating": 424,
+      "ratingChange": 424,
+      "problemsSolved": 1,
+      "problemsAttempted": 2,
+      "solvedProblems": [
+        {
+          "index": "A",
+          "name": "Alice and Bob",
+          "rating": 900,
+          "solved_time": "2025-11-14 21:00:15"
+        }
+      ],
+      "contestUrl": "https://codeforces.com/contest/2169"
+    }
+  ],
+  "problemStats": {
+    "totalSolved": 13,
+    "totalSubmissions": 41,
+    "acceptedSubmissions": 13,
+    "acceptanceRate": 31.71,
+    "byRating": {
+      "800": 7,
+      "1000": 1,
+      "1100": 1,
+      "900": 3,
+      "1300": 1
+    },
+    "byTag": {
+      "greedy": 8,
+      "implementation": 4,
+      "math": 8,
+      "bitmasks": 2,
+      "strings": 2,
+      "dp": 1,
+      "brute force": 4,
+      "constructive algorithms": 1,
+      "data structures": 1,
+      "dsu": 1,
+      "sortings": 1
+    }
+  },
+  "heatmap": [
+    {
+      "date": "2025-11-04",
+      "count": 1
+    },
+    {
+      "date": "2025-11-05",
+      "count": 1
+    },
+    {
+      "date": "2025-11-14",
+      "count": 1
+    },
+    {
+      "date": "2025-11-16",
+      "count": 3
+    },
+    {
+      "date": "2025-11-20",
+      "count": 2
+    },
+    {
+      "date": "2025-11-28",
+      "count": 1
+    },
+    {
+      "date": "2025-12-05",
+      "count": 2
+    },
+    {
+      "date": "2025-12-11",
+      "count": 2
+    }
+  ]
+}

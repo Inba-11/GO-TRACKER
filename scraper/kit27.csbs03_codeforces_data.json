@@ -1,0 +1,273 @@
+{
+  "username": "kit27.csbs03",
+  "profileUrl": "https://codeforces.com/profile/kit27.csbs03",
+  "scrapedAt": "2026-01-07T13:55:59.313563",
+  "userInfo": {
+    "handle": "kit27.csbs03",
+    "firstName": "MDPNDgGp",
+    "lastName": "",
+    "country": "",
+    "city": "",
+    "organization": "",
+    "rank": "newbie",
+    "maxRank": "newbie",
+    "rating": 869,
+    "maxRating": 869,
+    "contribution": 0,
+    "friendOfCount": 0,
+    "avatar": "https://userpic.codeforces.org/no-title.jpg",
+    "registrationTime": 1761802378
+  },
+  "ratingHistory": [
+    {
+      "contestId": 2182,
+      "contestName": "Educational Codeforces Round 186 (Rated for Div. 2)",
+      "handle": "kit27.csbs03",
+      "rank": 14570,
+      "ratingUpdateTimeSeconds": 1767026100,
+      "oldRating": 860,
+      "newRating": 869
+    },
+    {
+      "contestId": 2178,
+      "contestName": "Good Bye 2025",
+      "handle": "kit27.csbs03",
+      "rank": 16823,
+      "ratingUpdateTimeSeconds": 1766856900,
+      "oldRating": 785,
+      "newRating": 860
+    },
+    {
+      "contestId": 2180,
+      "contestName": "Codeforces Global Round 31 (Div. 1 + Div. 2)",
+      "handle": "kit27.csbs03",
+      "rank": 13289,
+      "ratingUpdateTimeSeconds": 1766163900,
+      "oldRating": 606,
+      "newRating": 785
+    },
+    {
+      "contestId": 2176,
+      "contestName": "Codeforces Round 1070 (Div. 2)",
+      "handle": "kit27.csbs03",
+      "rank": 15323,
+      "ratingUpdateTimeSeconds": 1765470900,
+      "oldRating": 388,
+      "newRating": 606
+    },
+    {
+      "contestId": 2173,
+      "contestName": "Codeforces Round 1068 (Div. 2)",
+      "handle": "kit27.csbs03",
+      "rank": 12591,
+      "ratingUpdateTimeSeconds": 1764952500,
+      "oldRating": 0,
+      "newRating": 388
+    }
+  ],
+  "contestStats": {
+    "totalContests": 5,
+    "maxRating": 869,
+    "minRating": 388,
+    "bestPerformance": 388,
+    "worstPerformance": 9
+  },
+  "totalSubmissions": 77,
+  "recentContests": [
+    {
+      "contestId": 2182,
+      "contestName": "Educational Codeforces Round 186 (Rated for Div. 2)",
+      "date": "2025-12-29",
+      "time": "22:05:00",
+      "datetime": "2025-12-29T22:05:00",
+      "rank": 14570,
+      "oldRating": 860,
+      "newRating": 869,
+      "ratingChange": 9,
+      "problemsSolved": 1,
+      "problemsAttempted": 1,
+      "solvedProblems": [
+        {
+          "index": "A",
+          "name": "New Year String",
+          "rating": "N/A",
+          "solved_time": "2025-12-29 21:39:28"
+        }
+      ],
+      "contestUrl": "https://codeforces.com/contest/2182"
+    },
+    {
+      "contestId": 2178,
+      "contestName": "Good Bye 2025",
+      "date": "2025-12-27",
+      "time": "23:05:00",
+      "datetime": "2025-12-27T23:05:00",
+      "rank": 16823,
+      "oldRating": 785,
+      "newRating": 860,
+      "ratingChange": 75,
+      "problemsSolved": 1,
+      "problemsAttempted": 2,
+      "solvedProblems": [
+        {
+          "index": "A",
+          "name": "Yes or Yes",
+          "rating": "N/A",
+          "solved_time": "2025-12-27 21:07:42"
+        }
+      ],
+      "contestUrl": "https://codeforces.com/contest/2178"
+    },
+    {
+      "contestId": 2180,
+      "contestName": "Codeforces Global Round 31 (Div. 1 + Div. 2)",
+      "date": "2025-12-19",
+      "time": "22:35:00",
+      "datetime": "2025-12-19T22:35:00",
+      "rank": 13289,
+      "oldRating": 606,
+      "newRating": 785,
+      "ratingChange": 179,
+      "problemsSolved": 1,
+      "problemsAttempted": 2,
+      "solvedProblems": [
+        {
+          "index": "B",
+          "name": "Ashmal",
+          "rating": 800,
+          "solved_time": "2025-12-19 21:47:45"
+        }
+      ],
+      "contestUrl": "https://codeforces.com/contest/2180"
+    },
+    {
+      "contestId": 2176,
+      "contestName": "Codeforces Round 1070 (Div. 2)",
+      "date": "2025-12-11",
+      "time": "22:05:00",
+      "datetime": "2025-12-11T22:05:00",
+      "rank": 15323,
+      "oldRating": 388,
+      "newRating": 606,
+      "ratingChange": 218,
+      "problemsSolved": 0,
+      "problemsAttempted": 1,
+      "solvedProblems": [],
+      "contestUrl": "https://codeforces.com/contest/2176"
+    },
+    {
+      "contestId": 2173,
+      "contestName": "Codeforces Round 1068 (Div. 2)",
+      "date": "2025-12-05",
+      "time": "22:05:00",
+      "datetime": "2025-12-05T22:05:00",
+      "rank": 12591,
+      "oldRating": 0,
+      "newRating": 388,
+      "ratingChange": 388,
+      "problemsSolved": 1,
+      "problemsAttempted": 1,
+      "solvedProblems": [
+        {
+          "index": "A",
+          "name": "Sleeping Through Classes",
+          "rating": 800,
+          "solved_time": "2025-12-05 21:10:04"
+        }
+      ],
+      "contestUrl": "https://codeforces.com/contest/2173"
+    }
+  ],
+  "problemStats": {
+    "totalSolved": 20,
+    "totalSubmissions": 77,
+    "acceptedSubmissions": 20,
+    "acceptanceRate": 25.97,
+    "byRating": {
+      "800": 17
+    },
+    "byTag": {
+      "greedy": 7,
+      "implementation": 9,
+      "sortings": 2,
+      "strings": 8,
+      "constructive algorithms": 1,
+      "math": 8,
+      "brute force": 3
+    }
+  },
+  "heatmap": [
+    {
+      "date": "2025-11-26",
+      "count": 1
+    },
+    {
+      "date": "2025-11-27",
+      "count": 1
+    },
+    {
+      "date": "2025-11-28",
+      "count": 1
+    },
+    {
+      "date": "2025-11-29",
+      "count": 1
+    },
+    {
+      "date": "2025-11-30",
+      "count": 1
+    },
+    {
+      "date": "2025-12-01",
+      "count": 1
+    },
+    {
+      "date": "2025-12-02",
+      "count": 1
+    },
+    {
+      "date": "2025-12-05",
+      "count": 1
+    },
+    {
+      "date": "2025-12-14",
+      "count": 1
+    },
+    {
+      "date": "2025-12-15",
+      "count": 1
+    },
+    {
+      "date": "2025-12-18",
+      "count": 1
+    },
+    {
+      "date": "2025-12-19",
+      "count": 1
+    },
+    {
+      "date": "2025-12-20",
+      "count": 1
+    },
+    {
+      "date": "2025-12-23",
+      "count": 3
+    },
+    {
+      "date": "2025-12-27",
+      "count": 1
+    },
+    {
+      "date": "2025-12-29",
+      "count": 1
+    },
+    {
+      "date": "2026-01-03",
+      "count": 1
+    },
+    {
+      "date": "2026-01-06",
+      "count": 1
+    }
+  ]
+}

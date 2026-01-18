@@ -82,7 +82,7 @@
 1. Click "Owner" card
 2. Enter credentials:
    - **Email**: `owner@bytebuster.com`
-   - **Password**: `thotupar@123`
+   - **Password**: `thotuparu@123`
 3. Click "Sign In"
 4. Owner dashboard loads
 
@@ -115,7 +115,7 @@
 ### Owner (1 total)
 | Email | Password |
 |-------|----------|
-| owner@bytebuster.com | thotupar@123 |
+| owner@bytebuster.com | thotuparu@123 |
 
 ---
 

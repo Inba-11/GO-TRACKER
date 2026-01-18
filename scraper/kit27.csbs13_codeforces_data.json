@@ -1,0 +1,210 @@
+{
+  "username": "kit27.csbs13",
+  "profileUrl": "https://codeforces.com/profile/kit27.csbs13",
+  "scrapedAt": "2026-01-07T16:15:17.935489",
+  "userInfo": {
+    "handle": "kit27.csbs13",
+    "firstName": "axdgBPPj",
+    "lastName": "",
+    "country": "",
+    "city": "",
+    "organization": "",
+    "rank": "newbie",
+    "maxRank": "newbie",
+    "rating": 960,
+    "maxRating": 960,
+    "contribution": 0,
+    "friendOfCount": 0,
+    "avatar": "https://userpic.codeforces.org/no-title.jpg",
+    "registrationTime": 1709218472
+  },
+  "ratingHistory": [
+    {
+      "contestId": 2178,
+      "contestName": "Good Bye 2025",
+      "handle": "kit27.csbs13",
+      "rank": 16527,
+      "ratingUpdateTimeSeconds": 1766856900,
+      "oldRating": 899,
+      "newRating": 960
+    },
+    {
+      "contestId": 2180,
+      "contestName": "Codeforces Global Round 31 (Div. 1 + Div. 2)",
+      "handle": "kit27.csbs13",
+      "rank": 7613,
+      "ratingUpdateTimeSeconds": 1766163900,
+      "oldRating": 641,
+      "newRating": 899
+    },
+    {
+      "contestId": 2176,
+      "contestName": "Codeforces Round 1070 (Div. 2)",
+      "handle": "kit27.csbs13",
+      "rank": 14311,
+      "ratingUpdateTimeSeconds": 1765470900,
+      "oldRating": 406,
+      "newRating": 641
+    },
+    {
+      "contestId": 2173,
+      "contestName": "Codeforces Round 1068 (Div. 2)",
+      "handle": "kit27.csbs13",
+      "rank": 10833,
+      "ratingUpdateTimeSeconds": 1764952500,
+      "oldRating": 0,
+      "newRating": 406
+    }
+  ],
+  "contestStats": {
+    "totalContests": 4,
+    "maxRating": 960,
+    "minRating": 406,
+    "bestPerformance": 406,
+    "worstPerformance": 61
+  },
+  "totalSubmissions": 25,
+  "recentContests": [
+    {
+      "contestId": 2178,
+      "contestName": "Good Bye 2025",
+      "date": "2025-12-27",
+      "time": "23:05:00",
+      "datetime": "2025-12-27T23:05:00",
+      "rank": 16527,
+      "oldRating": 899,
+      "newRating": 960,
+      "ratingChange": 61,
+      "problemsSolved": 1,
+      "problemsAttempted": 2,
+      "solvedProblems": [
+        {
+          "index": "A",
+          "name": "Yes or Yes",
+          "rating": "N/A",
+          "solved_time": "2025-12-27 21:16:47"
+        }
+      ],
+      "contestUrl": "https://codeforces.com/contest/2178"
+    },
+    {
+      "contestId": 2180,
+      "contestName": "Codeforces Global Round 31 (Div. 1 + Div. 2)",
+      "date": "2025-12-19",
+      "time": "22:35:00",
+      "datetime": "2025-12-19T22:35:00",
+      "rank": 7613,
+      "oldRating": 641,
+      "newRating": 899,
+      "ratingChange": 258,
+      "problemsSolved": 2,
+      "problemsAttempted": 2,
+      "solvedProblems": [
+        {
+          "index": "B",
+          "name": "Ashmal",
+          "rating": 800,
+          "solved_time": "2025-12-19 20:51:18"
+        },
+        {
+          "index": "A",
+          "name": "Carnival Wheel",
+          "rating": 800,
+          "solved_time": "2025-12-19 20:26:42"
+        }
+      ],
+      "contestUrl": "https://codeforces.com/contest/2180"
+    },
+    {
+      "contestId": 2176,
+      "contestName": "Codeforces Round 1070 (Div. 2)",
+      "date": "2025-12-11",
+      "time": "22:05:00",
+      "datetime": "2025-12-11T22:05:00",
+      "rank": 14311,
+      "oldRating": 406,
+      "newRating": 641,
+      "ratingChange": 235,
+      "problemsSolved": 1,
+      "problemsAttempted": 1,
+      "solvedProblems": [
+        {
+          "index": "A",
+          "name": "Operations with Inversions",
+          "rating": 800,
+          "solved_time": "2025-12-11 21:04:54"
+        }
+      ],
+      "contestUrl": "https://codeforces.com/contest/2176"
+    },
+    {
+      "contestId": 2173,
+      "contestName": "Codeforces Round 1068 (Div. 2)",
+      "date": "2025-12-05",
+      "time": "22:05:00",
+      "datetime": "2025-12-05T22:05:00",
+      "rank": 10833,
+      "oldRating": 0,
+      "newRating": 406,
+      "ratingChange": 406,
+      "problemsSolved": 1,
+      "problemsAttempted": 1,
+      "solvedProblems": [
+        {
+          "index": "A",
+          "name": "Sleeping Through Classes",
+          "rating": 800,
+          "solved_time": "2025-12-05 20:22:52"
+        }
+      ],
+      "contestUrl": "https://codeforces.com/contest/2173"
+    }
+  ],
+  "problemStats": {
+    "totalSolved": 9,
+    "totalSubmissions": 25,
+    "acceptedSubmissions": 9,
+    "acceptanceRate": 36.0,
+    "byRating": {
+      "800": 8
+    },
+    "byTag": {
+      "greedy": 5,
+      "strings": 3,
+      "brute force": 3,
+      "number theory": 1,
+      "implementation": 3,
+      "math": 2
+    }
+  },
+  "heatmap": [
+    {
+      "date": "2025-04-10",
+      "count": 2
+    },
+    {
+      "date": "2025-04-11",
+      "count": 1
+    },
+    {
+      "date": "2025-04-13",
+      "count": 1
+    },
+    {
+      "date": "2025-12-05",
+      "count": 1
+    },
+    {
+      "date": "2025-12-11",
+      "count": 1
+    },
+    {
+      "date": "2025-12-19",
+      "count": 2
+    },
+    {
+      "date": "2025-12-27",
+      "count": 1
+    }
+  ]
+}

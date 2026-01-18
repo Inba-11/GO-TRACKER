@@ -1,0 +1,187 @@
+{
+  "username": "shanmugapriya--006",
+  "profileUrl": "https://codeforces.com/profile/shanmugapriya--006",
+  "scrapedAt": "2026-01-11T07:43:54.847611",
+  "userInfo": {
+    "handle": "shanmugapriya--006",
+    "firstName": "MtLTQqsu",
+    "lastName": "",
+    "country": "",
+    "city": "",
+    "organization": "",
+    "rank": "newbie",
+    "maxRank": "newbie",
+    "rating": 853,
+    "maxRating": 853,
+    "contribution": 0,
+    "friendOfCount": 0,
+    "avatar": "https://userpic.codeforces.org/no-title.jpg",
+    "registrationTime": 1761278932
+  },
+  "ratingHistory": [
+    {
+      "contestId": 2183,
+      "contestName": "Hello 2026",
+      "handle": "shanmugapriya--006",
+      "rank": 16873,
+      "ratingUpdateTimeSeconds": 1767807300,
+      "oldRating": 805,
+      "newRating": 853
+    },
+    {
+      "contestId": 2180,
+      "contestName": "Codeforces Global Round 31 (Div. 1 + Div. 2)",
+      "handle": "shanmugapriya--006",
+      "rank": 14066,
+      "ratingUpdateTimeSeconds": 1766163900,
+      "oldRating": 644,
+      "newRating": 805
+    },
+    {
+      "contestId": 2176,
+      "contestName": "Codeforces Round 1070 (Div. 2)",
+      "handle": "shanmugapriya--006",
+      "rank": 13155,
+      "ratingUpdateTimeSeconds": 1765470900,
+      "oldRating": 397,
+      "newRating": 644
+    },
+    {
+      "contestId": 2173,
+      "contestName": "Codeforces Round 1068 (Div. 2)",
+      "handle": "shanmugapriya--006",
+      "rank": 11685,
+      "ratingUpdateTimeSeconds": 1764952500,
+      "oldRating": 0,
+      "newRating": 397
+    }
+  ],
+  "contestStats": {
+    "totalContests": 4,
+    "maxRating": 853,
+    "minRating": 397,
+    "bestPerformance": 397,
+    "worstPerformance": 48
+  },
+  "totalSubmissions": 24,
+  "recentContests": [
+    {
+      "contestId": 2183,
+      "contestName": "Hello 2026",
+      "date": "2026-01-07",
+      "time": "23:05:00",
+      "datetime": "2026-01-07T23:05:00",
+      "rank": 16873,
+      "oldRating": 805,
+      "newRating": 853,
+      "ratingChange": 48,
+      "problemsSolved": 0,
+      "problemsAttempted": 1,
+      "solvedProblems": [],
+      "contestUrl": "https://codeforces.com/contest/2183"
+    },
+    {
+      "contestId": 2180,
+      "contestName": "Codeforces Global Round 31 (Div. 1 + Div. 2)",
+      "date": "2025-12-19",
+      "time": "22:35:00",
+      "datetime": "2025-12-19T22:35:00",
+      "rank": 14066,
+      "oldRating": 644,
+      "newRating": 805,
+      "ratingChange": 161,
+      "problemsSolved": 1,
+      "problemsAttempted": 1,
+      "solvedProblems": [
+        {
+          "index": "A",
+          "name": "Carnival Wheel",
+          "rating": 800,
+          "solved_time": "2025-12-19 20:29:16"
+        }
+      ],
+      "contestUrl": "https://codeforces.com/contest/2180"
+    },
+    {
+      "contestId": 2176,
+      "contestName": "Codeforces Round 1070 (Div. 2)",
+      "date": "2025-12-11",
+      "time": "22:05:00",
+      "datetime": "2025-12-11T22:05:00",
+      "rank": 13155,
+      "oldRating": 397,
+      "newRating": 644,
+      "ratingChange": 247,
+      "problemsSolved": 1,
+      "problemsAttempted": 1,
+      "solvedProblems": [
+        {
+          "index": "A",
+          "name": "Operations with Inversions",
+          "rating": 800,
+          "solved_time": "2025-12-11 20:29:47"
+        }
+      ],
+      "contestUrl": "https://codeforces.com/contest/2176"
+    },
+    {
+      "contestId": 2173,
+      "contestName": "Codeforces Round 1068 (Div. 2)",
+      "date": "2025-12-05",
+      "time": "22:05:00",
+      "datetime": "2025-12-05T22:05:00",
+      "rank": 11685,
+      "oldRating": 0,
+      "newRating": 397,
+      "ratingChange": 397,
+      "problemsSolved": 1,
+      "problemsAttempted": 1,
+      "solvedProblems": [
+        {
+          "index": "A",
+          "name": "Sleeping Through Classes",
+          "rating": 800,
+          "solved_time": "2025-12-05 20:47:10"
+        }
+      ],
+      "contestUrl": "https://codeforces.com/contest/2173"
+    }
+  ],
+  "problemStats": {
+    "totalSolved": 12,
+    "totalSubmissions": 24,
+    "acceptedSubmissions": 12,
+    "acceptanceRate": 50.0,
+    "byRating": {
+      "800": 10,
+      "900": 1
+    },
+    "byTag": {
+      "math": 7,
+      "implementation": 3,
+      "greedy": 5,
+      "strings": 2,
+      "sortings": 2,
+      "brute force": 1,
+      "number theory": 1
+    }
+  },
+  "heatmap": [
+    {
+      "date": "2025-12-05",
+      "count": 1
+    },
+    {
+      "date": "2025-12-11",
+      "count": 1
+    },
+    {
+      "date": "2025-12-19",
+      "count": 1
+    },
+    {
+      "date": "2026-01-05",
+      "count": 9
+    }
+  ]
+}

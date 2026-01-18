@@ -1,0 +1,275 @@
+{
+  "username": "githendran_k",
+  "profileUrl": "https://codeforces.com/profile/githendran_k",
+  "scrapedAt": "2026-01-08T06:36:46.696270",
+  "userInfo": {
+    "handle": "githendran_k",
+    "firstName": "",
+    "lastName": "",
+    "country": "",
+    "city": "",
+    "organization": "",
+    "rank": "newbie",
+    "maxRank": "newbie",
+    "rating": 974,
+    "maxRating": 985,
+    "contribution": 0,
+    "friendOfCount": 0,
+    "avatar": "https://userpic.codeforces.org/no-title.jpg",
+    "registrationTime": 1761278378
+  },
+  "ratingHistory": [
+    {
+      "contestId": 2183,
+      "contestName": "Hello 2026",
+      "handle": "githendran_k",
+      "rank": 16518,
+      "ratingUpdateTimeSeconds": 1767807300,
+      "oldRating": 985,
+      "newRating": 974
+    },
+    {
+      "contestId": 2179,
+      "contestName": "Codeforces Round 1071 (Div. 3)",
+      "handle": "githendran_k",
+      "rank": 19192,
+      "ratingUpdateTimeSeconds": 1766510100,
+      "oldRating": 965,
+      "newRating": 985
+    },
+    {
+      "contestId": 2180,
+      "contestName": "Codeforces Global Round 31 (Div. 1 + Div. 2)",
+      "handle": "githendran_k",
+      "rank": 8158,
+      "ratingUpdateTimeSeconds": 1766163900,
+      "oldRating": 788,
+      "newRating": 965
+    },
+    {
+      "contestId": 2173,
+      "contestName": "Codeforces Round 1068 (Div. 2)",
+      "handle": "githendran_k",
+      "rank": 13456,
+      "ratingUpdateTimeSeconds": 1764952500,
+      "oldRating": 632,
+      "newRating": 788
+    },
+    {
+      "contestId": 2158,
+      "contestName": "Codeforces Round 1067 (Div. 2)",
+      "handle": "githendran_k",
+      "rank": 11829,
+      "ratingUpdateTimeSeconds": 1764434100,
+      "oldRating": 393,
+      "newRating": 632
+    },
+    {
+      "contestId": 2157,
+      "contestName": "Codeforces Round 1066 (Div. 1 + Div. 2)",
+      "handle": "githendran_k",
+      "rank": 7467,
+      "ratingUpdateTimeSeconds": 1763901300,
+      "oldRating": 0,
+      "newRating": 393
+    }
+  ],
+  "contestStats": {
+    "totalContests": 6,
+    "maxRating": 985,
+    "minRating": 393,
+    "bestPerformance": 393,
+    "worstPerformance": -11
+  },
+  "totalSubmissions": 11,
+  "recentContests": [
+    {
+      "contestId": 2183,
+      "contestName": "Hello 2026",
+      "date": "2026-01-07",
+      "time": "23:05:00",
+      "datetime": "2026-01-07T23:05:00",
+      "rank": 16518,
+      "oldRating": 985,
+      "newRating": 974,
+      "ratingChange": -11,
+      "problemsSolved": 1,
+      "problemsAttempted": 1,
+      "solvedProblems": [
+        {
+          "index": "A",
+          "name": "Binary Array Game",
+          "rating": "N/A",
+          "solved_time": "2026-01-07 22:34:06"
+        }
+      ],
+      "contestUrl": "https://codeforces.com/contest/2183"
+    },
+    {
+      "contestId": 2179,
+      "contestName": "Codeforces Round 1071 (Div. 3)",
+      "date": "2025-12-23",
+      "time": "22:45:00",
+      "datetime": "2025-12-23T22:45:00",
+      "rank": 19192,
+      "oldRating": 965,
+      "newRating": 985,
+      "ratingChange": 20,
+      "problemsSolved": 1,
+      "problemsAttempted": 1,
+      "solvedProblems": [
+        {
+          "index": "A",
+          "name": "Blackslex and Password",
+          "rating": "N/A",
+          "solved_time": "2025-12-23 20:21:02"
+        }
+      ],
+      "contestUrl": "https://codeforces.com/contest/2179"
+    },
+    {
+      "contestId": 2180,
+      "contestName": "Codeforces Global Round 31 (Div. 1 + Div. 2)",
+      "date": "2025-12-19",
+      "time": "22:35:00",
+      "datetime": "2025-12-19T22:35:00",
+      "rank": 8158,
+      "oldRating": 788,
+      "newRating": 965,
+      "ratingChange": 177,
+      "problemsSolved": 2,
+      "problemsAttempted": 2,
+      "solvedProblems": [
+        {
+          "index": "B",
+          "name": "Ashmal",
+          "rating": 800,
+          "solved_time": "2025-12-19 20:58:57"
+        },
+        {
+          "index": "A",
+          "name": "Carnival Wheel",
+          "rating": 800,
+          "solved_time": "2025-12-19 20:25:41"
+        }
+      ],
+      "contestUrl": "https://codeforces.com/contest/2180"
+    },
+    {
+      "contestId": 2173,
+      "contestName": "Codeforces Round 1068 (Div. 2)",
+      "date": "2025-12-05",
+      "time": "22:05:00",
+      "datetime": "2025-12-05T22:05:00",
+      "rank": 13456,
+      "oldRating": 632,
+      "newRating": 788,
+      "ratingChange": 156,
+      "problemsSolved": 1,
+      "problemsAttempted": 1,
+      "solvedProblems": [
+        {
+          "index": "A",
+          "name": "Sleeping Through Classes",
+          "rating": 800,
+          "solved_time": "2025-12-05 20:55:10"
+        }
+      ],
+      "contestUrl": "https://codeforces.com/contest/2173"
+    },
+    {
+      "contestId": 2158,
+      "contestName": "Codeforces Round 1067 (Div. 2)",
+      "date": "2025-11-29",
+      "time": "22:05:00",
+      "datetime": "2025-11-29T22:05:00",
+      "rank": 11829,
+      "oldRating": 393,
+      "newRating": 632,
+      "ratingChange": 239,
+      "problemsSolved": 1,
+      "problemsAttempted": 1,
+      "solvedProblems": [
+        {
+          "index": "A",
+          "name": "Suspension",
+          "rating": 800,
+          "solved_time": "2025-11-29 20:37:29"
+        }
+      ],
+      "contestUrl": "https://codeforces.com/contest/2158"
+    },
+    {
+      "contestId": 2157,
+      "contestName": "Codeforces Round 1066 (Div. 1 + Div. 2)",
+      "date": "2025-11-23",
+      "time": "18:05:00",
+      "datetime": "2025-11-23T18:05:00",
+      "rank": 7467,
+      "oldRating": 0,
+      "newRating": 393,
+      "ratingChange": 393,
+      "problemsSolved": 1,
+      "problemsAttempted": 1,
+      "solvedProblems": [
+        {
+          "index": "A",
+          "name": "Dungeon Equilibrium",
+          "rating": 800,
+          "solved_time": "2025-11-23 15:53:14"
+        }
+      ],
+      "contestUrl": "https://codeforces.com/contest/2157"
+    }
+  ],
+  "problemStats": {
+    "totalSolved": 8,
+    "totalSubmissions": 11,
+    "acceptedSubmissions": 8,
+    "acceptanceRate": 72.73,
+    "byRating": {
+      "800": 6
+    },
+    "byTag": {
+      "games": 1,
+      "math": 2,
+      "strings": 2,
+      "greedy": 4,
+      "brute force": 1,
+      "number theory": 1,
+      "implementation": 3,
+      "constructive algorithms": 1,
+      "sortings": 1
+    }
+  },
+  "heatmap": [
+    {
+      "date": "2025-11-16",
+      "count": 1
+    },
+    {
+      "date": "2025-11-23",
+      "count": 1
+    },
+    {
+      "date": "2025-11-29",
+      "count": 1
+    },
+    {
+      "date": "2025-12-05",
+      "count": 1
+    },
+    {
+      "date": "2025-12-19",
+      "count": 2
+    },
+    {
+      "date": "2025-12-23",
+      "count": 1
+    },
+    {
+      "date": "2026-01-07",
+      "count": 1
+    }
+  ]
+}

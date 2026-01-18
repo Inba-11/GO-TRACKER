@@ -13,11 +13,15 @@
     "logs": "tail -f production.log"
   },
   "dependencies": {
-    "express": "^4.18.2",
+    "axios": "^1.13.2",
+    "cheerio": "^1.1.2",
     "cors": "^2.8.5",
-    "mongodb": "^6.3.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
     "express-rate-limit": "^7.1.5",
-    "dotenv": "^16.3.1"
+    "mongodb": "^6.3.0",
+    "mongoose": "^9.1.2",
+    "node-cron": "^4.2.1"
   },
   "devDependencies": {
     "nodemon": "^3.0.2"

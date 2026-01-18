@@ -1,0 +1,165 @@
+{
+  "username": "kit27.csbs01",
+  "profileUrl": "https://codeforces.com/profile/kit27.csbs01",
+  "scrapedAt": "2026-01-11T20:39:22.580999",
+  "userInfo": {
+    "handle": "kit27.csbs01",
+    "firstName": "CbakCjwZ",
+    "lastName": "",
+    "country": "",
+    "city": "",
+    "organization": "",
+    "rank": "newbie",
+    "maxRank": "newbie",
+    "rating": 753,
+    "maxRating": 753,
+    "contribution": 0,
+    "friendOfCount": 0,
+    "avatar": "https://userpic.codeforces.org/no-title.jpg",
+    "registrationTime": 1761803132
+  },
+  "ratingHistory": [
+    {
+      "contestId": 2179,
+      "contestName": "Codeforces Round 1071 (Div. 3)",
+      "handle": "kit27.csbs01",
+      "rank": 21955,
+      "ratingUpdateTimeSeconds": 1766510100,
+      "oldRating": 608,
+      "newRating": 753
+    },
+    {
+      "contestId": 2180,
+      "contestName": "Codeforces Global Round 31 (Div. 1 + Div. 2)",
+      "handle": "kit27.csbs01",
+      "rank": 14959,
+      "ratingUpdateTimeSeconds": 1766163900,
+      "oldRating": 367,
+      "newRating": 608
+    },
+    {
+      "contestId": 2158,
+      "contestName": "Codeforces Round 1067 (Div. 2)",
+      "handle": "kit27.csbs01",
+      "rank": 12928,
+      "ratingUpdateTimeSeconds": 1764434100,
+      "oldRating": 0,
+      "newRating": 367
+    }
+  ],
+  "contestStats": {
+    "totalContests": 3,
+    "maxRating": 753,
+    "minRating": 367,
+    "bestPerformance": 367,
+    "worstPerformance": 145
+  },
+  "totalSubmissions": 14,
+  "recentContests": [
+    {
+      "contestId": 2179,
+      "contestName": "Codeforces Round 1071 (Div. 3)",
+      "date": "2025-12-23",
+      "time": "22:45:00",
+      "datetime": "2025-12-23T22:45:00",
+      "rank": 21955,
+      "oldRating": 608,
+      "newRating": 753,
+      "ratingChange": 145,
+      "problemsSolved": 1,
+      "problemsAttempted": 2,
+      "solvedProblems": [
+        {
+          "index": "A",
+          "name": "Blackslex and Password",
+          "rating": "N/A",
+          "solved_time": "2025-12-23 21:02:58"
+        }
+      ],
+      "contestUrl": "https://codeforces.com/contest/2179"
+    },
+    {
+      "contestId": 2180,
+      "contestName": "Codeforces Global Round 31 (Div. 1 + Div. 2)",
+      "date": "2025-12-19",
+      "time": "22:35:00",
+      "datetime": "2025-12-19T22:35:00",
+      "rank": 14959,
+      "oldRating": 367,
+      "newRating": 608,
+      "ratingChange": 241,
+      "problemsSolved": 1,
+      "problemsAttempted": 1,
+      "solvedProblems": [
+        {
+          "index": "A",
+          "name": "Carnival Wheel",
+          "rating": 800,
+          "solved_time": "2025-12-19 21:40:49"
+        }
+      ],
+      "contestUrl": "https://codeforces.com/contest/2180"
+    },
+    {
+      "contestId": 2158,
+      "contestName": "Codeforces Round 1067 (Div. 2)",
+      "date": "2025-11-29",
+      "time": "22:05:00",
+      "datetime": "2025-11-29T22:05:00",
+      "rank": 12928,
+      "oldRating": 0,
+      "newRating": 367,
+      "ratingChange": 367,
+      "problemsSolved": 1,
+      "problemsAttempted": 1,
+      "solvedProblems": [
+        {
+          "index": "A",
+          "name": "Suspension",
+          "rating": 800,
+          "solved_time": "2025-11-29 21:43:50"
+        }
+      ],
+      "contestUrl": "https://codeforces.com/contest/2158"
+    }
+  ],
+  "problemStats": {
+    "totalSolved": 5,
+    "totalSubmissions": 14,
+    "acceptedSubmissions": 5,
+    "acceptanceRate": 35.71,
+    "byRating": {
+      "800": 4
+    },
+    "byTag": {
+      "strings": 2,
+      "brute force": 2,
+      "math": 3,
+      "number theory": 1,
+      "constructive algorithms": 1,
+      "greedy": 1
+    }
+  },
+  "heatmap": [
+    {
+      "date": "2025-11-29",
+      "count": 1
+    },
+    {
+      "date": "2025-12-19",
+      "count": 1
+    },
+    {
+      "date": "2025-12-23",
+      "count": 1
+    },
+    {
+      "date": "2026-01-06",
+      "count": 1
+    },
+    {
+      "date": "2026-01-07",
+      "count": 1
+    }
+  ]
+}

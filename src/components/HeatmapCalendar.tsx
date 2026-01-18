@@ -4,9 +4,16 @@ import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '@/comp
 interface HeatmapCalendarProps {
   data: { date: string; count: number }[];
   title?: string;
+  colorScheme?: 'primary' | 'custom';
+  customColor?: string; // Hex color like '#2DD4BF'
 }
 
-const HeatmapCalendar: React.FC<HeatmapCalendarProps> = ({ data, title = 'Activity Heatmap' }) => {
+const HeatmapCalendar: React.FC<HeatmapCalendarProps> = ({ 
+  data, 
+  title = 'Activity Heatmap',
+  colorScheme = 'primary',
+  customColor = '#2DD4BF'
+}) => {
   // If no data, show empty state
   if (!data || data.length === 0) {
     return (
@@ -22,10 +29,30 @@ const HeatmapCalendar: React.FC<HeatmapCalendarProps> = ({ data, title = 'Activi
 
   const getColor = (count: number) => {
     if (count === 0) return 'bg-secondary/50';
-    if (count <= 2) return 'bg-primary/30';
-    if (count <= 4) return 'bg-primary/50';
-    if (count <= 6) return 'bg-primary/70';
-    return 'bg-primary';
+    if (colorScheme === 'custom') {
+      // For custom colors, we'll use inline styles
+      return '';
+    } else {
+      if (count <= 2) return 'bg-primary/30';
+      if (count <= 4) return 'bg-primary/50';
+      if (count <= 6) return 'bg-primary/70';
+      return 'bg-primary';
+    }
+  };
+
+  const getCustomColorStyle = (count: number) => {
+    if (colorScheme === 'custom' && count > 0) {
+      const opacity = count <= 2 ? 0.3 : count <= 4 ? 0.5 : count <= 6 ? 0.7 : 1.0;
+      // Convert hex color to rgba
+      const hex = customColor.replace('#', '');
+      const r = parseInt(hex.substring(0, 2), 16);
+      const g = parseInt(hex.substring(2, 4), 16);
+      const b = parseInt(hex.substring(4, 6), 16);
+      return {
+        backgroundColor: `rgba(${r}, ${g}, ${b}, ${opacity})`,
+      };
+    }
+    return {};
   };
 
   // Group data by weeks
@@ -71,12 +98,16 @@ const HeatmapCalendar: React.FC<HeatmapCalendarProps> = ({ data, title = 'Activi
               <div key={weekIndex} className="flex flex-col gap-[3px]">
                 {week.map((day) => {
                   const date = new Date(day.date);
+                  const colorClass = getColor(day.count);
+                  const customStyle = getCustomColorStyle(day.count);
+                  const hasCustomStyle = Object.keys(customStyle).length > 0;
                   return (
                     <TooltipProvider key={day.date}>
                       <Tooltip>
                         <TooltipTrigger asChild>
                           <div
-                            className={`w-3 h-3 rounded-sm ${getColor(day.count)} cursor-pointer transition-all hover:ring-2 hover:ring-primary/50`}
+                            className={`w-3 h-3 rounded-sm ${hasCustomStyle ? '' : colorClass} cursor-pointer transition-all hover:ring-2 ${colorScheme === 'custom' ? 'hover:ring-[#2DD4BF]/50' : 'hover:ring-primary/50'}`}
+                            style={hasCustomStyle ? customStyle : undefined}
                           />
                         </TooltipTrigger>
                         <TooltipContent>
@@ -103,10 +134,21 @@ const HeatmapCalendar: React.FC<HeatmapCalendarProps> = ({ data, title = 'Activi
         <span>Less</span>
         <div className="flex gap-1">
           <div className="w-3 h-3 rounded-sm bg-secondary/50" />
-          <div className="w-3 h-3 rounded-sm bg-primary/30" />
-          <div className="w-3 h-3 rounded-sm bg-primary/50" />
-          <div className="w-3 h-3 rounded-sm bg-primary/70" />
-          <div className="w-3 h-3 rounded-sm bg-primary" />
+          {colorScheme === 'custom' ? (
+            <>
+              <div className="w-3 h-3 rounded-sm opacity-30" style={{ backgroundColor: customColor }} />
+              <div className="w-3 h-3 rounded-sm opacity-50" style={{ backgroundColor: customColor }} />
+              <div className="w-3 h-3 rounded-sm opacity-70" style={{ backgroundColor: customColor }} />
+              <div className="w-3 h-3 rounded-sm" style={{ backgroundColor: customColor }} />
+            </>
+          ) : (
+            <>
+              <div className="w-3 h-3 rounded-sm bg-primary/30" />
+              <div className="w-3 h-3 rounded-sm bg-primary/50" />
+              <div className="w-3 h-3 rounded-sm bg-primary/70" />
+              <div className="w-3 h-3 rounded-sm bg-primary" />
+            </>
+          )}
         </div>
         <span>More</span>
       </div>

@@ -3,6 +3,7 @@ const express = require('express');
 const cors = require('cors');
 const helmet = require('helmet');
 const morgan = require('morgan');
+const compression = require('compression');
 const rateLimit = require('express-rate-limit');
 const cron = require('node-cron');
 
@@ -24,12 +25,15 @@ connectDB();
 
 // Middleware
 app.use(helmet());
+app.use(compression()); // Compress all responses
 app.use(morgan('combined'));
 
 // CORS configuration
+const isDevelopment = process.env.NODE_ENV !== 'production';
+
 app.use(cors({
   origin: (origin, callback) => {
-    // Allow non-browser clients (curl, server-to-server, etc.)
+    // Allow non-browser clients (curl, server-to-server, etc.) and file:// protocol for testing
     if (!origin) return callback(null, true);
 
     // Parse multiple frontend URLs from environment variable
@@ -37,31 +41,44 @@ app.use(cors({
     
     const allowedOrigins = new Set([
       ...frontendUrls,
-      'http://localhost:5173',
-      'http://localhost:8080',
-      'http://localhost:8081',
-      'http://localhost:8082',
-      'http://localhost:8084',
-      'http://127.0.0.1:5173',
-      'http://127.0.0.1:8080',
-      'http://127.0.0.1:8081',
-      'http://127.0.0.1:8084',
+      // Development only origins
+      ...(isDevelopment ? [
+        'http://localhost:5173',
+        'http://localhost:8080',
+        'http://localhost:8081',
+        'http://localhost:8082',
+        'http://localhost:8083',
+        'http://localhost:8084',
+        'http://localhost:8085',
+        'http://127.0.0.1:5173',
+        'http://127.0.0.1:8080',
+        'http://127.0.0.1:8081',
+        'http://127.0.0.1:8082',
+        'http://127.0.0.1:8083',
+        'http://127.0.0.1:8084',
+        'http://127.0.0.1:8085',
+        'null' // Allow file:// protocol for local testing
+      ] : [])
     ].filter(Boolean));
 
     if (allowedOrigins.has(origin)) return callback(null, true);
 
-    // Allow private network IPs for dev (10.x.x.x, 192.168.x.x, 172.16-31.x.x)
-    const privateIpOriginRegex = /^http:\/\/(?:10\.\d{1,3}\.\d{1,3}\.\d{1,3}|192\.168\.\d{1,3}\.\d{1,3}|172\.(?:1[6-9]|2\d|3[0-1])\.\d{1,3}\.\d{1,3})(?::\d+)?$/;
-    if (privateIpOriginRegex.test(origin)) return callback(null, true);
+    // Allow private network IPs ONLY in development
+    if (isDevelopment) {
+      const privateIpOriginRegex = /^http:\/\/(?:10\.\d{1,3}\.\d{1,3}\.\d{1,3}|192\.168\.\d{1,3}\.\d{1,3}|172\.(?:1[6-9]|2\d|3[0-1])\.\d{1,3}\.\d{1,3})(?::\d+)?$/;
+      if (privateIpOriginRegex.test(origin)) return callback(null, true);
+    }
 
     console.log(`CORS blocked origin: ${origin}`);
-    console.log(`Allowed origins:`, Array.from(allowedOrigins));
+    if (isDevelopment) {
+      console.log(`Allowed origins:`, Array.from(allowedOrigins));
+    }
     return callback(new Error(`Not allowed by CORS: ${origin}`));
   },
   credentials: true
 }));
 
-// Rate limiting
+// Rate limiting - General API
 const limiter = rateLimit({
   windowMs: (process.env.RATE_LIMIT_WINDOW || 15) * 60 * 1000, // 15 minutes
   max: process.env.RATE_LIMIT_MAX_REQUESTS || 100, // limit each IP to 100 requests per windowMs
@@ -70,7 +87,21 @@ const limiter = rateLimit({
     error: 'Too many requests from this IP, please try again later.'
   }
 });
+
+// Rate limiting - Stricter for auth endpoints (prevent brute force)
+const authLimiter = rateLimit({
+  windowMs: 15 * 60 * 1000, // 15 minutes
+  max: 5, // limit each IP to 5 login requests per 15 minutes
+  message: {
+    success: false,
+    error: 'Too many login attempts from this IP, please try again after 15 minutes.'
+  },
+  standardHeaders: true,
+  legacyHeaders: false,
+});
+
 app.use('/api/', limiter);
+app.use('/api/auth/login', authLimiter);
 
 // Body parsing middleware
 app.use(express.json({ limit: '10mb' }));
@@ -87,11 +118,13 @@ app.get('/health', (req, res) => {
 });
 
 // API Routes
+const manualUpdateRoutes = require('./routes/manualUpdateRoutes');
 app.use('/api/auth', authRoutes);
 app.use('/api/students', studentRoutes);
 app.use('/api/stats', statsRoutes);
 app.use('/api/scraping', scrapingRoutes);
 app.use('/api/admin', adminRoutes);
+app.use('/api/manual-update', manualUpdateRoutes);
 
 // Root endpoint
 app.get('/', (req, res) => {

@@ -1,0 +1,161 @@
+{
+  "username": "Aruna777",
+  "profileUrl": "https://codeforces.com/profile/Aruna777",
+  "scrapedAt": "2026-01-07T16:11:25.096202",
+  "userInfo": {
+    "handle": "Aruna777",
+    "firstName": "dpEFBgLh",
+    "lastName": "",
+    "country": "",
+    "city": "",
+    "organization": "",
+    "rank": "newbie",
+    "maxRank": "newbie",
+    "rating": 379,
+    "maxRating": 379,
+    "contribution": 0,
+    "friendOfCount": 0,
+    "avatar": "https://userpic.codeforces.org/no-title.jpg",
+    "registrationTime": 1761802475
+  },
+  "ratingHistory": [
+    {
+      "contestId": 2173,
+      "contestName": "Codeforces Round 1068 (Div. 2)",
+      "handle": "Aruna777",
+      "rank": 13395,
+      "ratingUpdateTimeSeconds": 1764952500,
+      "oldRating": 0,
+      "newRating": 379
+    }
+  ],
+  "contestStats": {
+    "totalContests": 1,
+    "maxRating": 379,
+    "minRating": 379,
+    "bestPerformance": 379,
+    "worstPerformance": 379
+  },
+  "totalSubmissions": 41,
+  "recentContests": [
+    {
+      "contestId": 2173,
+      "contestName": "Codeforces Round 1068 (Div. 2)",
+      "date": "2025-12-05",
+      "time": "22:05:00",
+      "datetime": "2025-12-05T22:05:00",
+      "rank": 13395,
+      "oldRating": 0,
+      "newRating": 379,
+      "ratingChange": 379,
+      "problemsSolved": 1,
+      "problemsAttempted": 1,
+      "solvedProblems": [
+        {
+          "index": "A",
+          "name": "Sleeping Through Classes",
+          "rating": 800,
+          "solved_time": "2025-12-05 20:52:05"
+        }
+      ],
+      "contestUrl": "https://codeforces.com/contest/2173"
+    }
+  ],
+  "problemStats": {
+    "totalSolved": 28,
+    "totalSubmissions": 41,
+    "acceptedSubmissions": 28,
+    "acceptanceRate": 68.29,
+    "byRating": {
+      "800": 26
+    },
+    "byTag": {
+      "implementation": 19,
+      "brute force": 5,
+      "strings": 10,
+      "math": 6,
+      "greedy": 5,
+      "sortings": 2,
+      "*special": 1,
+      "dp": 1
+    }
+  },
+  "heatmap": [
+    {
+      "date": "2025-12-03",
+      "count": 1
+    },
+    {
+      "date": "2025-12-05",
+      "count": 1
+    },
+    {
+      "date": "2025-12-12",
+      "count": 1
+    },
+    {
+      "date": "2025-12-14",
+      "count": 1
+    },
+    {
+      "date": "2025-12-15",
+      "count": 2
+    },
+    {
+      "date": "2025-12-19",
+      "count": 2
+    },
+    {
+      "date": "2025-12-21",
+      "count": 1
+    },
+    {
+      "date": "2025-12-23",
+      "count": 2
+    },
+    {
+      "date": "2025-12-24",
+      "count": 1
+    },
+    {
+      "date": "2025-12-25",
+      "count": 1
+    },
+    {
+      "date": "2025-12-26",
+      "count": 1
+    },
+    {
+      "date": "2025-12-27",
+      "count": 2
+    },
+    {
+      "date": "2025-12-28",
+      "count": 1
+    },
+    {
+      "date": "2025-12-29",
+      "count": 2
+    },
+    {
+      "date": "2025-12-31",
+      "count": 2
+    },
+    {
+      "date": "2026-01-03",
+      "count": 2
+    },
+    {
+      "date": "2026-01-04",
+      "count": 2
+    },
+    {
+      "date": "2026-01-05",
+      "count": 2
+    },
+    {
+      "date": "2026-01-06",
+      "count": 1
+    }
+  ]
+}

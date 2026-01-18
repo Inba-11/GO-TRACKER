@@ -1,0 +1,34 @@
+{
+  "username": "kit27.csbs02",
+  "profileUrl": "https://codeforces.com/profile/kit27.csbs02",
+  "scrapedAt": "2026-01-07T13:54:13.191710",
+  "userInfo": {
+    "handle": "kit27.csbs02",
+    "firstName": "",
+    "lastName": "",
+    "country": "",
+    "city": "",
+    "organization": "",
+    "rank": "unrated",
+    "maxRank": "unrated",
+    "rating": 0,
+    "maxRating": 0,
+    "contribution": 0,
+    "friendOfCount": 0,
+    "avatar": "https://userpic.codeforces.org/no-title.jpg",
+    "registrationTime": 1709218684
+  },
+  "ratingHistory": [],
+  "contestStats": {},
+  "totalSubmissions": 0,
+  "recentContests": [],
+  "problemStats": {
+    "totalSolved": 0,
+    "totalSubmissions": 0,
+    "acceptedSubmissions": 0,
+    "acceptanceRate": 0,
+    "byRating": {},
+    "byTag": {}
+  },
+  "heatmap": []
+}

@@ -28,8 +28,12 @@ const StaffDashboard = () => {
         setIsLoading(true);
         
         // Fetch students and top performers in parallel
+        // Request limit=100 to get all 63 students (max limit is 100)
         const [studentsResponse, topPerformersResponse] = await Promise.all([
-          studentsAPI.getAll({ batch: selectedBatch === 'ALL' ? undefined : selectedBatch }),
+          studentsAPI.getAll({ 
+            batch: selectedBatch === 'ALL' ? undefined : selectedBatch,
+            limit: 100  // Request up to 100 students to ensure we get all 63
+          }),
           statsAPI.getTopPerformers()
         ]);
 
@@ -60,7 +64,8 @@ const StaffDashboard = () => {
     const fetchStudents = async () => {
       try {
         const response = await studentsAPI.getAll({ 
-          batch: selectedBatch === 'ALL' ? undefined : selectedBatch 
+          batch: selectedBatch === 'ALL' ? undefined : selectedBatch,
+          limit: 100  // Request up to 100 students to ensure we get all students in the batch
         });
         
         if (response.success && response.data) {

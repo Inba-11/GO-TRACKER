@@ -1,0 +1,285 @@
+{
+  "username": "ahamedammar25",
+  "profileUrl": "https://codeforces.com/profile/ahamedammar25",
+  "scrapedAt": "2026-01-07T15:59:30.834152",
+  "userInfo": {
+    "handle": "ahamedammar25",
+    "firstName": "Ahamed",
+    "lastName": "Ammar",
+    "country": "India",
+    "city": "Coimbatore",
+    "organization": "KIT",
+    "rank": "newbie",
+    "maxRank": "newbie",
+    "rating": 1100,
+    "maxRating": 1100,
+    "contribution": 0,
+    "friendOfCount": 0,
+    "avatar": "https://userpic.codeforces.org/4575104/title/f33a1cbac58b3b43.jpg",
+    "registrationTime": 1736871894
+  },
+  "ratingHistory": [
+    {
+      "contestId": 2179,
+      "contestName": "Codeforces Round 1071 (Div. 3)",
+      "handle": "ahamedammar25",
+      "rank": 7971,
+      "ratingUpdateTimeSeconds": 1766510100,
+      "oldRating": 968,
+      "newRating": 1100
+    },
+    {
+      "contestId": 2180,
+      "contestName": "Codeforces Global Round 31 (Div. 1 + Div. 2)",
+      "handle": "ahamedammar25",
+      "rank": 6047,
+      "ratingUpdateTimeSeconds": 1766163900,
+      "oldRating": 696,
+      "newRating": 968
+    },
+    {
+      "contestId": 2176,
+      "contestName": "Codeforces Round 1070 (Div. 2)",
+      "handle": "ahamedammar25",
+      "rank": 12732,
+      "ratingUpdateTimeSeconds": 1765470900,
+      "oldRating": 455,
+      "newRating": 696
+    },
+    {
+      "contestId": 2171,
+      "contestName": "Codeforces Round 1065 (Div. 3)",
+      "handle": "ahamedammar25",
+      "rank": 6422,
+      "ratingUpdateTimeSeconds": 1763658300,
+      "oldRating": 0,
+      "newRating": 455
+    }
+  ],
+  "contestStats": {
+    "totalContests": 4,
+    "maxRating": 1100,
+    "minRating": 455,
+    "bestPerformance": 455,
+    "worstPerformance": 132
+  },
+  "totalSubmissions": 56,
+  "recentContests": [
+    {
+      "contestId": 2179,
+      "contestName": "Codeforces Round 1071 (Div. 3)",
+      "date": "2025-12-23",
+      "time": "22:45:00",
+      "datetime": "2025-12-23T22:45:00",
+      "rank": 7971,
+      "oldRating": 968,
+      "newRating": 1100,
+      "ratingChange": 132,
+      "problemsSolved": 3,
+      "problemsAttempted": 3,
+      "solvedProblems": [
+        {
+          "index": "B",
+          "name": "Blackslex and Showering",
+          "rating": "N/A",
+          "solved_time": "2025-12-23 20:58:30"
+        },
+        {
+          "index": "C",
+          "name": "Blackslex and Number Theory",
+          "rating": "N/A",
+          "solved_time": "2025-12-23 20:56:52"
+        },
+        {
+          "index": "A",
+          "name": "Blackslex and Password",
+          "rating": "N/A",
+          "solved_time": "2025-12-23 20:29:17"
+        }
+      ],
+      "contestUrl": "https://codeforces.com/contest/2179"
+    },
+    {
+      "contestId": 2180,
+      "contestName": "Codeforces Global Round 31 (Div. 1 + Div. 2)",
+      "date": "2025-12-19",
+      "time": "22:35:00",
+      "datetime": "2025-12-19T22:35:00",
+      "rank": 6047,
+      "oldRating": 696,
+      "newRating": 968,
+      "ratingChange": 272,
+      "problemsSolved": 2,
+      "problemsAttempted": 2,
+      "solvedProblems": [
+        {
+          "index": "B",
+          "name": "Ashmal",
+          "rating": 800,
+          "solved_time": "2025-12-19 20:39:32"
+        },
+        {
+          "index": "A",
+          "name": "Carnival Wheel",
+          "rating": 800,
+          "solved_time": "2025-12-19 20:19:46"
+        }
+      ],
+      "contestUrl": "https://codeforces.com/contest/2180"
+    },
+    {
+      "contestId": 2176,
+      "contestName": "Codeforces Round 1070 (Div. 2)",
+      "date": "2025-12-11",
+      "time": "22:05:00",
+      "datetime": "2025-12-11T22:05:00",
+      "rank": 12732,
+      "oldRating": 455,
+      "newRating": 696,
+      "ratingChange": 241,
+      "problemsSolved": 1,
+      "problemsAttempted": 1,
+      "solvedProblems": [
+        {
+          "index": "A",
+          "name": "Operations with Inversions",
+          "rating": 800,
+          "solved_time": "2025-12-11 20:22:27"
+        }
+      ],
+      "contestUrl": "https://codeforces.com/contest/2176"
+    },
+    {
+      "contestId": 2171,
+      "contestName": "Codeforces Round 1065 (Div. 3)",
+      "date": "2025-11-20",
+      "time": "22:35:00",
+      "datetime": "2025-11-20T22:35:00",
+      "rank": 6422,
+      "oldRating": 0,
+      "newRating": 455,
+      "ratingChange": 455,
+      "problemsSolved": 3,
+      "problemsAttempted": 3,
+      "solvedProblems": [
+        {
+          "index": "C1",
+          "name": "Renako Amaori and XOR Game (easy version)",
+          "rating": 1100,
+          "solved_time": "2025-11-20 20:49:08"
+        },
+        {
+          "index": "B",
+          "name": "Yuu Koito and Minimum Absolute Sum",
+          "rating": 900,
+          "solved_time": "2025-11-20 20:47:31"
+        },
+        {
+          "index": "A",
+          "name": "Shizuku Hoshikawa and Farm Legs",
+          "rating": 800,
+          "solved_time": "2025-11-20 20:43:23"
+        }
+      ],
+      "contestUrl": "https://codeforces.com/contest/2171"
+    }
+  ],
+  "problemStats": {
+    "totalSolved": 28,
+    "totalSubmissions": 56,
+    "acceptedSubmissions": 31,
+    "acceptanceRate": 55.36,
+    "byRating": {
+      "800": 21,
+      "1100": 2,
+      "900": 1,
+      "1500": 1
+    },
+    "byTag": {
+      "dp": 1,
+      "greedy": 10,
+      "implementation": 10,
+      "math": 11,
+      "number theory": 3,
+      "sortings": 2,
+      "strings": 7,
+      "brute force": 7,
+      "bitmasks": 1,
+      "games": 2,
+      "*special": 1,
+      "constructive algorithms": 4,
+      "binary search": 1,
+      "two pointers": 1
+    }
+  },
+  "heatmap": [
+    {
+      "date": "2025-04-27",
+      "count": 4
+    },
+    {
+      "date": "2025-05-29",
+      "count": 1
+    },
+    {
+      "date": "2025-06-03",
+      "count": 1
+    },
+    {
+      "date": "2025-06-12",
+      "count": 1
+    },
+    {
+      "date": "2025-08-02",
+      "count": 1
+    },
+    {
+      "date": "2025-08-05",
+      "count": 1
+    },
+    {
+      "date": "2025-08-08",
+      "count": 2
+    },
+    {
+      "date": "2025-08-09",
+      "count": 1
+    },
+    {
+      "date": "2025-08-14",
+      "count": 2
+    },
+    {
+      "date": "2025-08-21",
+      "count": 1
+    },
+    {
+      "date": "2025-08-22",
+      "count": 1
+    },
+    {
+      "date": "2025-09-27",
+      "count": 1
+    },
+    {
+      "date": "2025-11-15",
+      "count": 4
+    },
+    {
+      "date": "2025-11-20",
+      "count": 3
+    },
+    {
+      "date": "2025-12-11",
+      "count": 1
+    },
+    {
+      "date": "2025-12-19",
+      "count": 2
+    },
+    {
+      "date": "2025-12-23",
+      "count": 4
+    }
+  ]
+}

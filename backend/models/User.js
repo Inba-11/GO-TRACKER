@@ -126,8 +126,7 @@ const userSchema = new mongoose.Schema({
 });
 
 // Indexes for better performance
-userSchema.index({ rollNumber: 1 });
-userSchema.index({ email: 1 });
+// Note: rollNumber and email indexes are automatically created by unique: true constraint
 userSchema.index({ batch: 1 });
 userSchema.index({ 'platforms.leetcode.rating': -1 });
 userSchema.index({ 'platforms.codechef.rating': -1 });

@@ -1,0 +1,157 @@
+{
+  "username": "kit27.csbs07",
+  "profileUrl": "https://codeforces.com/profile/kit27.csbs07",
+  "scrapedAt": "2026-01-07T16:04:46.192885",
+  "userInfo": {
+    "handle": "kit27.csbs07",
+    "firstName": "bPflzzCH",
+    "lastName": "",
+    "country": "",
+    "city": "",
+    "organization": "",
+    "rank": "newbie",
+    "maxRank": "newbie",
+    "rating": 796,
+    "maxRating": 796,
+    "contribution": 0,
+    "friendOfCount": 0,
+    "avatar": "https://userpic.codeforces.org/no-title.jpg",
+    "registrationTime": 1761802775
+  },
+  "ratingHistory": [
+    {
+      "contestId": 2178,
+      "contestName": "Good Bye 2025",
+      "handle": "kit27.csbs07",
+      "rank": 15907,
+      "ratingUpdateTimeSeconds": 1766856900,
+      "oldRating": 624,
+      "newRating": 796
+    },
+    {
+      "contestId": 2180,
+      "contestName": "Codeforces Global Round 31 (Div. 1 + Div. 2)",
+      "handle": "kit27.csbs07",
+      "rank": 14877,
+      "ratingUpdateTimeSeconds": 1766163900,
+      "oldRating": 385,
+      "newRating": 624
+    },
+    {
+      "contestId": 2176,
+      "contestName": "Codeforces Round 1070 (Div. 2)",
+      "handle": "kit27.csbs07",
+      "rank": 13492,
+      "ratingUpdateTimeSeconds": 1765470900,
+      "oldRating": 0,
+      "newRating": 385
+    }
+  ],
+  "contestStats": {
+    "totalContests": 3,
+    "maxRating": 796,
+    "minRating": 385,
+    "bestPerformance": 385,
+    "worstPerformance": 172
+  },
+  "totalSubmissions": 9,
+  "recentContests": [
+    {
+      "contestId": 2178,
+      "contestName": "Good Bye 2025",
+      "date": "2025-12-27",
+      "time": "23:05:00",
+      "datetime": "2025-12-27T23:05:00",
+      "rank": 15907,
+      "oldRating": 624,
+      "newRating": 796,
+      "ratingChange": 172,
+      "problemsSolved": 1,
+      "problemsAttempted": 1,
+      "solvedProblems": [
+        {
+          "index": "A",
+          "name": "Yes or Yes",
+          "rating": "N/A",
+          "solved_time": "2025-12-27 20:36:30"
+        }
+      ],
+      "contestUrl": "https://codeforces.com/contest/2178"
+    },
+    {
+      "contestId": 2180,
+      "contestName": "Codeforces Global Round 31 (Div. 1 + Div. 2)",
+      "date": "2025-12-19",
+      "time": "22:35:00",
+      "datetime": "2025-12-19T22:35:00",
+      "rank": 14877,
+      "oldRating": 385,
+      "newRating": 624,
+      "ratingChange": 239,
+      "problemsSolved": 1,
+      "problemsAttempted": 1,
+      "solvedProblems": [
+        {
+          "index": "A",
+          "name": "Carnival Wheel",
+          "rating": 800,
+          "solved_time": "2025-12-19 21:27:57"
+        }
+      ],
+      "contestUrl": "https://codeforces.com/contest/2180"
+    },
+    {
+      "contestId": 2176,
+      "contestName": "Codeforces Round 1070 (Div. 2)",
+      "date": "2025-12-11",
+      "time": "22:05:00",
+      "datetime": "2025-12-11T22:05:00",
+      "rank": 13492,
+      "oldRating": 0,
+      "newRating": 385,
+      "ratingChange": 385,
+      "problemsSolved": 1,
+      "problemsAttempted": 1,
+      "solvedProblems": [
+        {
+          "index": "A",
+          "name": "Operations with Inversions",
+          "rating": 800,
+          "solved_time": "2025-12-11 20:38:58"
+        }
+      ],
+      "contestUrl": "https://codeforces.com/contest/2176"
+    }
+  ],
+  "problemStats": {
+    "totalSolved": 3,
+    "totalSubmissions": 9,
+    "acceptedSubmissions": 3,
+    "acceptanceRate": 33.33,
+    "byRating": {
+      "800": 2
+    },
+    "byTag": {
+      "greedy": 2,
+      "strings": 1,
+      "brute force": 1,
+      "number theory": 1,
+      "implementation": 1,
+      "math": 1
+    }
+  },
+  "heatmap": [
+    {
+      "date": "2025-12-11",
+      "count": 1
+    },
+    {
+      "date": "2025-12-19",
+      "count": 1
+    },
+    {
+      "date": "2025-12-27",
+      "count": 1
+    }
+  ]
+}

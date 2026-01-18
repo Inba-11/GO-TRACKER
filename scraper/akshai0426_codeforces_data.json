@@ -1,0 +1,241 @@
+{
+  "username": "akshai0426",
+  "profileUrl": "https://codeforces.com/profile/akshai0426",
+  "scrapedAt": "2026-01-07T16:03:46.089899",
+  "userInfo": {
+    "handle": "akshai0426",
+    "firstName": "Akshai",
+    "lastName": "Kannaa M B",
+    "country": "India",
+    "city": "Coimbatore",
+    "organization": "",
+    "rank": "newbie",
+    "maxRank": "newbie",
+    "rating": 1076,
+    "maxRating": 1076,
+    "contribution": 0,
+    "friendOfCount": 0,
+    "avatar": "https://userpic.codeforces.org/no-title.jpg",
+    "registrationTime": 1761802199
+  },
+  "ratingHistory": [
+    {
+      "contestId": 2179,
+      "contestName": "Codeforces Round 1071 (Div. 3)",
+      "handle": "akshai0426",
+      "rank": 13476,
+      "ratingUpdateTimeSeconds": 1766510100,
+      "oldRating": 1021,
+      "newRating": 1076
+    },
+    {
+      "contestId": 2180,
+      "contestName": "Codeforces Global Round 31 (Div. 1 + Div. 2)",
+      "handle": "akshai0426",
+      "rank": 5612,
+      "ratingUpdateTimeSeconds": 1766163900,
+      "oldRating": 796,
+      "newRating": 1021
+    },
+    {
+      "contestId": 2176,
+      "contestName": "Codeforces Round 1070 (Div. 2)",
+      "handle": "akshai0426",
+      "rank": 14670,
+      "ratingUpdateTimeSeconds": 1765470900,
+      "oldRating": 651,
+      "newRating": 796
+    },
+    {
+      "contestId": 2173,
+      "contestName": "Codeforces Round 1068 (Div. 2)",
+      "handle": "akshai0426",
+      "rank": 10561,
+      "ratingUpdateTimeSeconds": 1764952500,
+      "oldRating": 376,
+      "newRating": 651
+    },
+    {
+      "contestId": 2158,
+      "contestName": "Codeforces Round 1067 (Div. 2)",
+      "handle": "akshai0426",
+      "rank": 12051,
+      "ratingUpdateTimeSeconds": 1764434100,
+      "oldRating": 0,
+      "newRating": 376
+    }
+  ],
+  "contestStats": {
+    "totalContests": 5,
+    "maxRating": 1076,
+    "minRating": 376,
+    "bestPerformance": 376,
+    "worstPerformance": 55
+  },
+  "totalSubmissions": 11,
+  "recentContests": [
+    {
+      "contestId": 2179,
+      "contestName": "Codeforces Round 1071 (Div. 3)",
+      "date": "2025-12-23",
+      "time": "22:45:00",
+      "datetime": "2025-12-23T22:45:00",
+      "rank": 13476,
+      "oldRating": 1021,
+      "newRating": 1076,
+      "ratingChange": 55,
+      "problemsSolved": 2,
+      "problemsAttempted": 2,
+      "solvedProblems": [
+        {
+          "index": "B",
+          "name": "Blackslex and Showering",
+          "rating": "N/A",
+          "solved_time": "2025-12-23 20:34:50"
+        },
+        {
+          "index": "A",
+          "name": "Blackslex and Password",
+          "rating": "N/A",
+          "solved_time": "2025-12-23 20:22:45"
+        }
+      ],
+      "contestUrl": "https://codeforces.com/contest/2179"
+    },
+    {
+      "contestId": 2180,
+      "contestName": "Codeforces Global Round 31 (Div. 1 + Div. 2)",
+      "date": "2025-12-19",
+      "time": "22:35:00",
+      "datetime": "2025-12-19T22:35:00",
+      "rank": 5612,
+      "oldRating": 796,
+      "newRating": 1021,
+      "ratingChange": 225,
+      "problemsSolved": 2,
+      "problemsAttempted": 2,
+      "solvedProblems": [
+        {
+          "index": "B",
+          "name": "Ashmal",
+          "rating": 800,
+          "solved_time": "2025-12-19 20:32:21"
+        },
+        {
+          "index": "A",
+          "name": "Carnival Wheel",
+          "rating": 800,
+          "solved_time": "2025-12-19 20:22:22"
+        }
+      ],
+      "contestUrl": "https://codeforces.com/contest/2180"
+    },
+    {
+      "contestId": 2176,
+      "contestName": "Codeforces Round 1070 (Div. 2)",
+      "date": "2025-12-11",
+      "time": "22:05:00",
+      "datetime": "2025-12-11T22:05:00",
+      "rank": 14670,
+      "oldRating": 651,
+      "newRating": 796,
+      "ratingChange": 145,
+      "problemsSolved": 1,
+      "problemsAttempted": 1,
+      "solvedProblems": [
+        {
+          "index": "A",
+          "name": "Operations with Inversions",
+          "rating": 800,
+          "solved_time": "2025-12-11 21:22:36"
+        }
+      ],
+      "contestUrl": "https://codeforces.com/contest/2176"
+    },
+    {
+      "contestId": 2173,
+      "contestName": "Codeforces Round 1068 (Div. 2)",
+      "date": "2025-12-05",
+      "time": "22:05:00",
+      "datetime": "2025-12-05T22:05:00",
+      "rank": 10561,
+      "oldRating": 376,
+      "newRating": 651,
+      "ratingChange": 275,
+      "problemsSolved": 1,
+      "problemsAttempted": 1,
+      "solvedProblems": [
+        {
+          "index": "A",
+          "name": "Sleeping Through Classes",
+          "rating": 800,
+          "solved_time": "2025-12-05 20:17:12"
+        }
+      ],
+      "contestUrl": "https://codeforces.com/contest/2173"
+    },
+    {
+      "contestId": 2158,
+      "contestName": "Codeforces Round 1067 (Div. 2)",
+      "date": "2025-11-29",
+      "time": "22:05:00",
+      "datetime": "2025-11-29T22:05:00",
+      "rank": 12051,
+      "oldRating": 0,
+      "newRating": 376,
+      "ratingChange": 376,
+      "problemsSolved": 1,
+      "problemsAttempted": 1,
+      "solvedProblems": [
+        {
+          "index": "A",
+          "name": "Suspension",
+          "rating": 800,
+          "solved_time": "2025-11-29 20:43:01"
+        }
+      ],
+      "contestUrl": "https://codeforces.com/contest/2158"
+    }
+  ],
+  "problemStats": {
+    "totalSolved": 7,
+    "totalSubmissions": 11,
+    "acceptedSubmissions": 7,
+    "acceptanceRate": 63.64,
+    "byRating": {
+      "800": 5
+    },
+    "byTag": {
+      "dp": 1,
+      "greedy": 5,
+      "implementation": 3,
+      "math": 3,
+      "strings": 2,
+      "brute force": 1,
+      "number theory": 1,
+      "constructive algorithms": 1
+    }
+  },
+  "heatmap": [
+    {
+      "date": "2025-11-29",
+      "count": 1
+    },
+    {
+      "date": "2025-12-05",
+      "count": 1
+    },
+    {
+      "date": "2025-12-11",
+      "count": 1
+    },
+    {
+      "date": "2025-12-19",
+      "count": 2
+    },
+    {
+      "date": "2025-12-23",
+      "count": 2
+    }
+  ]
+}

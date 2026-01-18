@@ -15,20 +15,20 @@ const ComparisonPieChart: React.FC<ComparisonPieChartProps> = ({ lastWeek, thisW
   
   if (!hasData) {
     return (
-      <Card className="bg-card border-border/50">
-        <CardHeader className="pb-2">
-          <CardTitle className="text-base font-heading">{title}</CardTitle>
+      <Card className="bg-white border border-slate-200 shadow-sm rounded-lg">
+        <CardHeader className="pb-3">
+          <CardTitle className="text-base font-semibold text-slate-900">{title}</CardTitle>
         </CardHeader>
-        <CardContent>
+        <CardContent className="pt-0">
           <div className="h-[200px] flex items-center justify-center">
             <div className="text-center">
-              <p className="text-sm text-muted-foreground">No data yet</p>
-              <p className="text-xs text-muted-foreground mt-1">Start solving!</p>
+              <p className="text-sm text-slate-600">No data yet</p>
+              <p className="text-xs text-slate-600 mt-1">Start solving!</p>
             </div>
           </div>
           <div className="text-center mt-2">
-            <p className="text-lg font-semibold text-muted-foreground">0 (0%)</p>
-            <p className="text-xs text-muted-foreground">Week over week change</p>
+            <p className="text-lg font-semibold text-slate-600">0 (0%)</p>
+            <p className="text-xs text-slate-600">Week over week change</p>
           </div>
         </CardContent>
       </Card>
@@ -46,11 +46,11 @@ const ComparisonPieChart: React.FC<ComparisonPieChartProps> = ({ lastWeek, thisW
   const improvementPercent = lastWeek > 0 ? ((improvement / lastWeek) * 100).toFixed(1) : '0.0';
 
   return (
-    <Card className="bg-card border-border/50">
-      <CardHeader className="pb-2">
-        <CardTitle className="text-base font-heading">{title}</CardTitle>
+    <Card className="bg-white border border-slate-200 shadow-sm rounded-lg">
+      <CardHeader className="pb-3">
+        <CardTitle className="text-base font-semibold text-slate-900">{title}</CardTitle>
       </CardHeader>
-      <CardContent>
+      <CardContent className="pt-0">
         <ResponsiveContainer width="100%" height={200}>
           <PieChart>
             <Pie
@@ -68,8 +68,8 @@ const ComparisonPieChart: React.FC<ComparisonPieChartProps> = ({ lastWeek, thisW
             </Pie>
             <Tooltip
               contentStyle={{
-                backgroundColor: 'hsl(var(--card))',
-                border: '1px solid hsl(var(--border))',
+                backgroundColor: '#ffffff',
+                border: '1px solid #e2e8f0',
                 borderRadius: '8px',
               }}
             />
@@ -77,10 +77,10 @@ const ComparisonPieChart: React.FC<ComparisonPieChartProps> = ({ lastWeek, thisW
           </PieChart>
         </ResponsiveContainer>
         <div className="text-center mt-2">
-          <p className={`text-lg font-semibold ${improvement >= 0 ? 'text-primary' : 'text-destructive'}`}>
+          <p className={`text-lg font-semibold ${improvement >= 0 ? 'text-indigo-600' : 'text-red-600'}`}>
             {improvement >= 0 ? '+' : ''}{improvement} ({improvement >= 0 ? '+' : ''}{improvementPercent}%)
           </p>
-          <p className="text-xs text-muted-foreground">Week over week change</p>
+          <p className="text-xs text-slate-600">Week over week change</p>
         </div>
       </CardContent>
     </Card>

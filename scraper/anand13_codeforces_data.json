@@ -1,0 +1,98 @@
+{
+  "username": "anand13",
+  "profileUrl": "https://codeforces.com/profile/anand13",
+  "scrapedAt": "2026-01-07T16:05:47.996053",
+  "userInfo": {
+    "handle": "anand13",
+    "firstName": "xOtYKiJd",
+    "lastName": "",
+    "country": "",
+    "city": "",
+    "organization": "",
+    "rank": "newbie",
+    "maxRank": "newbie",
+    "rating": 448,
+    "maxRating": 448,
+    "contribution": 0,
+    "friendOfCount": 0,
+    "avatar": "https://userpic.codeforces.org/no-title.jpg",
+    "registrationTime": 1763988099
+  },
+  "ratingHistory": [
+    {
+      "contestId": 2180,
+      "contestName": "Codeforces Global Round 31 (Div. 1 + Div. 2)",
+      "handle": "anand13",
+      "rank": 8809,
+      "ratingUpdateTimeSeconds": 1766163900,
+      "oldRating": 0,
+      "newRating": 448
+    }
+  ],
+  "contestStats": {
+    "totalContests": 1,
+    "maxRating": 448,
+    "minRating": 448,
+    "bestPerformance": 448,
+    "worstPerformance": 448
+  },
+  "totalSubmissions": 14,
+  "recentContests": [
+    {
+      "contestId": 2180,
+      "contestName": "Codeforces Global Round 31 (Div. 1 + Div. 2)",
+      "date": "2025-12-19",
+      "time": "22:35:00",
+      "datetime": "2025-12-19T22:35:00",
+      "rank": 8809,
+      "oldRating": 0,
+      "newRating": 448,
+      "ratingChange": 448,
+      "problemsSolved": 2,
+      "problemsAttempted": 4,
+      "solvedProblems": [
+        {
+          "index": "B",
+          "name": "Ashmal",
+          "rating": 800,
+          "solved_time": "2025-12-19 20:54:28"
+        },
+        {
+          "index": "A",
+          "name": "Carnival Wheel",
+          "rating": 800,
+          "solved_time": "2025-12-19 20:44:30"
+        }
+      ],
+      "contestUrl": "https://codeforces.com/contest/2180"
+    }
+  ],
+  "problemStats": {
+    "totalSolved": 4,
+    "totalSubmissions": 14,
+    "acceptedSubmissions": 4,
+    "acceptanceRate": 28.57,
+    "byRating": {
+      "800": 2
+    },
+    "byTag": {
+      "dp": 1,
+      "greedy": 2,
+      "implementation": 1,
+      "math": 1,
+      "strings": 2,
+      "brute force": 1,
+      "number theory": 1
+    }
+  },
+  "heatmap": [
+    {
+      "date": "2025-12-19",
+      "count": 2
+    },
+    {
+      "date": "2025-12-23",
+      "count": 2
+    }
+  ]
+}

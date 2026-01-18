@@ -168,7 +168,7 @@ See `LOGIN_CREDENTIALS.md` for complete list of test accounts.
 
 **Owner:**
 - Email: `owner@bytebuster.com`
-- Password: `thotupar@123`
+- Password: `thotuparu@123`
 
 ## Files Created/Modified
 

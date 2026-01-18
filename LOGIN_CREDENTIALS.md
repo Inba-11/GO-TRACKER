@@ -62,13 +62,13 @@
 
 | Email | Password |
 |-------|----------|
-| owner@bytebuster.com | thotupar@123 |
+| owner@bytebuster.com | thotuparu@123 |
 
 **How to Login:**
 1. Go to http://localhost:8080
 2. Click on "Owner" card
 3. Enter email: `owner@bytebuster.com`
-4. Enter password: `thotupar@123`
+4. Enter password: `thotuparu@123`
 5. Click "Sign In"
 
 ## 🔧 Troubleshooting

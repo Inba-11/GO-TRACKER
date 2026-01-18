@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INBATAMIZHAN P - CodeChef Profile Test</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="bg-gray-50">
+    <div class="min-h-screen">
+        <!-- Header -->
+        <div class="bg-white shadow-sm border-b">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="flex items-center justify-between h-16">
+                    <div>
+                        <h1 class="text-xl font-semibold text-gray-900">
+                            INBATAMIZHAN P - CodeChef Profile
+                        </h1>
+                        <p class="text-sm text-gray-500">
+                            Real-time CodeChef performance tracking
+                        </p>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-green-100 text-green-800">
+                            Live Data
+                        </span>
+                        <button id="refreshBtn" class="px-3 py-1 bg-blue-600 text-white rounded text-sm hover:bg-blue-700">
+                            <i class="fas fa-sync-alt mr-1"></i> Refresh
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+            <div id="loading" class="flex items-center justify-center p-8">
+                <div class="animate-spin rounded-full h-8 w-8 border-b-2 border-blue-600"></div>
+                <span class="ml-2">Loading INBATAMIZHAN P data...</span>
+            </div>
+
+            <div id="error" class="hidden bg-red-50 border border-red-200 rounded-lg p-6">
+                <div class="text-red-600 text-center">
+                    <p class="font-semibold">Error loading data</p>
+                    <p class="text-sm mt-1" id="errorMessage"></p>
+                    <button onclick="fetchData()" class="mt-3 px-4 py-2 bg-red-600 text-white rounded hover:bg-red-700">
+                        Try Again
+                    </button>
+                </div>
+            </div>
+
+            <div id="content" class="hidden space-y-6">
+                <!-- Header Card -->
+                <div class="bg-gradient-to-r from-blue-50 to-indigo-50 border border-blue-200 rounded-lg p-6">
+                    <div class="flex items-center justify-between">
+                        <div>
+                            <h2 class="text-2xl font-bold text-blue-900">INBATAMIZHAN P</h2>
+                            <p class="text-blue-700 font-medium">Roll Number: 711523BCB023</p>
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-4 flex-wrap mt-4">
+                        <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-gray-100 text-gray-800">
+                            <i class="fas fa-graduation-cap mr-1"></i> Student
+                        </span>
+                        <span class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-gray-100 text-gray-800">
+                            <i class="fas fa-map-marker-alt mr-1"></i> <span id="country">India</span>
+                        </span>
+                        <span id="leagueBadge" class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-purple-100 text-purple-800">
+                            Bronze League
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Stats Grid -->
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+                    <!-- Rating Card -->
+                    <div class="bg-purple-50 border border-purple-200 rounded-lg p-6">
+                        <div class="flex items-center justify-between">
+                            <div>
+                                <p class="text-sm font-medium text-purple-600">Current Rating</p>
+                                <p class="text-2xl font-bold text-purple-900" id="rating">1264</p>
+                                <p class="text-xs text-purple-500">Max: <span id="maxRating">1314</span></p>
+                            </div>
+                            <div class="flex items-center text-gray-500" id="stars">
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Problems Solved Card -->
+                    <div class="bg-green-50 border border-green-200 rounded-lg p-6">
+                        <div class="flex items-center justify-between">
+                            <div>
+                                <p class="text-sm font-medium text-green-600">Problems Solved</p>
+                                <p class="text-2xl font-bold text-green-900" id="problemsSolved">500</p>
+                                <p class="text-xs text-green-500">Total Submissions</p>
+                            </div>
+                            <i class="fas fa-bullseye text-green-500 text-2xl"></i>
+                        </div>
+                    </div>
+
+                    <!-- Global Rank Card -->
+                    <div class="bg-orange-50 border border-orange-200 rounded-lg p-6">
+                        <div class="flex items-center justify-between">
+                            <div>
+                                <p class="text-sm font-medium text-orange-600">Global Rank</p>
+                                <p class="text-2xl font-bold text-orange-900" id="globalRank">#16,720</p>
+                                <p class="text-xs text-orange-500">Worldwide</p>
+                            </div>
+                            <i class="fas fa-trophy text-orange-500 text-2xl"></i>
+                        </div>
+                    </div>
+
+                    <!-- Contests Card -->
+                    <div class="bg-blue-50 border border-blue-200 rounded-lg p-6">
+                        <div class="flex items-center justify-between">
+                            <div>
+                                <p class="text-sm font-medium text-blue-600">Contests</p>
+                                <p class="text-2xl font-bold text-blue-900" id="contests">96</p>
+                                <p class="text-xs text-blue-500">Participated</p>
+                            </div>
+                            <i class="fas fa-calendar text-blue-500 text-2xl"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Institution Card -->
+                <div class="bg-white border border-gray-200 rounded-lg">
+                    <div class="p-6 border-b border-gray-200">
+                        <h3 class="text-lg font-semibold flex items-center gap-2">
+                            <i class="fas fa-graduation-cap"></i>
+                            Institution Details
+                        </h3>
+                    </div>
+                    <div class="p-6">
+                        <div class="space-y-2">
+                            <p class="font-medium text-gray-900" id="institution">
+                                Kalaignar Karunanidhi Institute of Technology Kannampalayam, Coimbatore, Tamil Nadu
+                            </p>
+                            <div class="flex items-center gap-4 text-sm text-gray-600">
+                                <span>CodeChef Username: <strong id="username">kit27csbs23</strong></span>
+                                <span>•</span>
+                                <span>Last Updated: <span id="lastUpdated">Today</span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Performance Insights -->
+                <div class="bg-indigo-50 border border-indigo-200 rounded-lg">
+                    <div class="p-6 border-b border-indigo-200">
+                        <h3 class="text-lg font-semibold text-indigo-900">Performance Insights</h3>
+                    </div>
+                    <div class="p-6">
+                        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                            <div class="text-center">
+                                <p class="text-2xl font-bold text-indigo-900" id="starsCount">1★</p>
+                                <p class="text-sm text-indigo-600">Star Rating</p>
+                            </div>
+                            <div class="text-center">
+                                <p class="text-2xl font-bold text-indigo-900" id="avgProblems">5.2</p>
+                                <p class="text-sm text-indigo-600">Avg Problems/Contest</p>
+                            </div>
+                            <div class="text-center">
+                                <p class="text-2xl font-bold text-indigo-900" id="ratingChange">+15</p>
+                                <p class="text-sm text-indigo-600">Rating Change</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="bg-white border-t mt-12">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+                <div class="text-center text-sm text-gray-500">
+                    <p>Data automatically updated every hour via enhanced scraper system</p>
+                    <p class="mt-1">Roll Number: 711523BCB023 | CodeChef Username: kit27csbs23</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let isRefreshing = false;
+
+        async function fetchData() {
+            const loading = document.getElementById('loading');
+            const error = document.getElementById('error');
+            const content = document.getElementById('content');
+            
+            loading.classList.remove('hidden');
+            error.classList.add('hidden');
+            content.classList.add('hidden');
+
+            try {
+                const response = await fetch('http://localhost:5000/api/students/inbatamizhan');
+                
+                if (!response.ok) {
+                    throw new Error('Failed to fetch INBATAMIZHAN P data');
+                }
+                
+                const result = await response.json();
+                
+                if (result.success && result.data.platforms?.codechef) {
+                    const data = result.data.platforms.codechef;
+                    updateUI(data);
+                    content.classList.remove('hidden');
+                } else {
+                    throw new Error('CodeChef data not found for INBATAMIZHAN P');
+                }
+                
+            } catch (err) {
+                document.getElementById('errorMessage').textContent = err.message;
+                error.classList.remove('hidden');
+            } finally {
+                loading.classList.add('hidden');
+            }
+        }
+
+        function updateUI(data) {
+            // Update basic info
+            document.getElementById('rating').textContent = data.rating || '1264';
+            document.getElementById('maxRating').textContent = data.maxRating || '1314';
+            document.getElementById('problemsSolved').textContent = data.problemsSolved || '500';
+            document.getElementById('globalRank').textContent = '#' + (data.globalRank || 16720).toLocaleString();
+            document.getElementById('contests').textContent = data.contests || '96';
+            document.getElementById('country').textContent = data.country || 'India';
+            document.getElementById('institution').textContent = data.institution || 'Kalaignar Karunanidhi Institute of Technology Kannampalayam, Coimbatore, Tamil Nadu';
+            document.getElementById('username').textContent = data.username || 'kit27csbs23';
+            
+            // Update stars
+            const starsContainer = document.getElementById('stars');
+            const starCount = data.stars || 1;
+            starsContainer.innerHTML = '';
+            for (let i = 0; i < starCount; i++) {
+                starsContainer.innerHTML += '<i class="fas fa-star text-yellow-500"></i>';
+            }
+            
+            // Update performance insights
+            document.getElementById('starsCount').textContent = starCount + '★';
+            const avgProblems = Math.round((data.problemsSolved / data.contests) * 10) / 10;
+            document.getElementById('avgProblems').textContent = avgProblems || '5.2';
+            
+            const ratingChange = data.rating - (data.lastWeekRating || data.rating - 15);
+            document.getElementById('ratingChange').textContent = (ratingChange > 0 ? '+' : '') + ratingChange;
+            
+            // Update last updated
+            if (data.lastUpdated) {
+                const date = new Date(data.lastUpdated);
+                document.getElementById('lastUpdated').textContent = date.toLocaleDateString();
+            }
+        }
+
+        async function refreshData() {
+            if (isRefreshing) return;
+            
+            isRefreshing = true;
+            const refreshBtn = document.getElementById('refreshBtn');
+            const originalText = refreshBtn.innerHTML;
+            refreshBtn.innerHTML = '<i class="fas fa-spinner fa-spin mr-1"></i> Refreshing...';
+            refreshBtn.disabled = true;
+            
+            try {
+                // Trigger scraper
+                const response = await fetch('http://localhost:5000/api/scraping/inbatamizhan', {
+                    method: 'POST'
+                });
+                
+                if (response.ok) {
+                    // Wait a moment then fetch updated data
+                    setTimeout(() => {
+                        fetchData();
+                    }, 2000);
+                } else {
+                    throw new Error('Failed to refresh data');
+                }
+                
+            } catch (err) {
+                alert('Failed to refresh data: ' + err.message);
+            } finally {
+                setTimeout(() => {
+                    refreshBtn.innerHTML = originalText;
+                    refreshBtn.disabled = false;
+                    isRefreshing = false;
+                }, 3000);
+            }
+        }
+
+        // Event listeners
+        document.getElementById('refreshBtn').addEventListener('click', refreshData);
+
+        // Load data on page load
+        fetchData();
+    </script>
+</body>
+</html>

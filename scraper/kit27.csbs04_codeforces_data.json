@@ -1,0 +1,188 @@
+{
+  "username": "kit27.csbs04",
+  "profileUrl": "https://codeforces.com/profile/kit27.csbs04",
+  "scrapedAt": "2026-01-07T14:05:08.122856",
+  "userInfo": {
+    "handle": "kit27.csbs04",
+    "firstName": "ATaghZGf",
+    "lastName": "",
+    "country": "",
+    "city": "",
+    "organization": "",
+    "rank": "newbie",
+    "maxRank": "newbie",
+    "rating": 898,
+    "maxRating": 898,
+    "contribution": 0,
+    "friendOfCount": 0,
+    "avatar": "https://userpic.codeforces.org/no-title.jpg",
+    "registrationTime": 1761803357
+  },
+  "ratingHistory": [
+    {
+      "contestId": 2182,
+      "contestName": "Educational Codeforces Round 186 (Rated for Div. 2)",
+      "handle": "kit27.csbs04",
+      "rank": 14777,
+      "ratingUpdateTimeSeconds": 1767026100,
+      "oldRating": 865,
+      "newRating": 898
+    },
+    {
+      "contestId": 2180,
+      "contestName": "Codeforces Global Round 31 (Div. 1 + Div. 2)",
+      "handle": "kit27.csbs04",
+      "rank": 10042,
+      "ratingUpdateTimeSeconds": 1766163900,
+      "oldRating": 648,
+      "newRating": 865
+    },
+    {
+      "contestId": 2173,
+      "contestName": "Codeforces Round 1068 (Div. 2)",
+      "handle": "kit27.csbs04",
+      "rank": 10491,
+      "ratingUpdateTimeSeconds": 1764952500,
+      "oldRating": 371,
+      "newRating": 648
+    },
+    {
+      "contestId": 2158,
+      "contestName": "Codeforces Round 1067 (Div. 2)",
+      "handle": "kit27.csbs04",
+      "rank": 12584,
+      "ratingUpdateTimeSeconds": 1764434100,
+      "oldRating": 0,
+      "newRating": 371
+    }
+  ],
+  "contestStats": {
+    "totalContests": 4,
+    "maxRating": 898,
+    "minRating": 371,
+    "bestPerformance": 371,
+    "worstPerformance": 33
+  },
+  "totalSubmissions": 9,
+  "recentContests": [
+    {
+      "contestId": 2182,
+      "contestName": "Educational Codeforces Round 186 (Rated for Div. 2)",
+      "date": "2025-12-29",
+      "time": "22:05:00",
+      "datetime": "2025-12-29T22:05:00",
+      "rank": 14777,
+      "oldRating": 865,
+      "newRating": 898,
+      "ratingChange": 33,
+      "problemsSolved": 0,
+      "problemsAttempted": 1,
+      "solvedProblems": [],
+      "contestUrl": "https://codeforces.com/contest/2182"
+    },
+    {
+      "contestId": 2180,
+      "contestName": "Codeforces Global Round 31 (Div. 1 + Div. 2)",
+      "date": "2025-12-19",
+      "time": "22:35:00",
+      "datetime": "2025-12-19T22:35:00",
+      "rank": 10042,
+      "oldRating": 648,
+      "newRating": 865,
+      "ratingChange": 217,
+      "problemsSolved": 2,
+      "problemsAttempted": 2,
+      "solvedProblems": [
+        {
+          "index": "B",
+          "name": "Ashmal",
+          "rating": 800,
+          "solved_time": "2025-12-19 21:07:30"
+        },
+        {
+          "index": "A",
+          "name": "Carnival Wheel",
+          "rating": 800,
+          "solved_time": "2025-12-19 20:55:42"
+        }
+      ],
+      "contestUrl": "https://codeforces.com/contest/2180"
+    },
+    {
+      "contestId": 2173,
+      "contestName": "Codeforces Round 1068 (Div. 2)",
+      "date": "2025-12-05",
+      "time": "22:05:00",
+      "datetime": "2025-12-05T22:05:00",
+      "rank": 10491,
+      "oldRating": 371,
+      "newRating": 648,
+      "ratingChange": 277,
+      "problemsSolved": 1,
+      "problemsAttempted": 1,
+      "solvedProblems": [
+        {
+          "index": "A",
+          "name": "Sleeping Through Classes",
+          "rating": 800,
+          "solved_time": "2025-12-05 20:16:46"
+        }
+      ],
+      "contestUrl": "https://codeforces.com/contest/2173"
+    },
+    {
+      "contestId": 2158,
+      "contestName": "Codeforces Round 1067 (Div. 2)",
+      "date": "2025-11-29",
+      "time": "22:05:00",
+      "datetime": "2025-11-29T22:05:00",
+      "rank": 12584,
+      "oldRating": 0,
+      "newRating": 371,
+      "ratingChange": 371,
+      "problemsSolved": 1,
+      "problemsAttempted": 1,
+      "solvedProblems": [
+        {
+          "index": "A",
+          "name": "Suspension",
+          "rating": 800,
+          "solved_time": "2025-11-29 21:07:42"
+        }
+      ],
+      "contestUrl": "https://codeforces.com/contest/2158"
+    }
+  ],
+  "problemStats": {
+    "totalSolved": 4,
+    "totalSubmissions": 9,
+    "acceptedSubmissions": 4,
+    "acceptanceRate": 44.44,
+    "byRating": {
+      "800": 4
+    },
+    "byTag": {
+      "greedy": 3,
+      "strings": 1,
+      "brute force": 1,
+      "number theory": 1,
+      "implementation": 1,
+      "constructive algorithms": 1,
+      "math": 1
+    }
+  },
+  "heatmap": [
+    {
+      "date": "2025-11-29",
+      "count": 1
+    },
+    {
+      "date": "2025-12-05",
+      "count": 1
+    },
+    {
+      "date": "2025-12-19",
+      "count": 2
+    }
+  ]
+}

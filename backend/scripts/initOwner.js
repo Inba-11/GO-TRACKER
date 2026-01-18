@@ -6,7 +6,7 @@ const connectDB = require('../config/database');
 // Owner credentials from frontend
 const ownerData = {
   email: "owner@bytebuster.com",
-  password: "thotupar@123"
+  password: "thotuparu@123"
 };
 
 const initOwner = async () => {

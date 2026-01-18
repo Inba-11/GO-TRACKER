@@ -133,7 +133,7 @@ See all students, batch analytics, performance tracking
 ### Owner Account
 ```
 Email: owner@bytebuster.com
-Password: thotupar@123
+Password: thotuparu@123
 ```
 System-wide analytics, manage all users
 

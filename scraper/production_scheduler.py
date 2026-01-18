@@ -4,11 +4,11 @@ Production-Ready Scraping Scheduler
 Clean + Safe + Auto-Updates + Rate-Limited + Logging
 
 Update Strategy:
-- LeetCode: every 30-60 mins (problem solves + rating change slowly)
-- CodeChef: every 1-2 hours (avoids rate limits + fewer contests)
-- Codeforces: every 30-60 mins (safe + stable)
-- GitHub: every 30 mins (commits can happen anytime)
-- Codolio: every 3-6 hours (JS rendering = heavier)
+- LeetCode: every 90 minutes
+- CodeChef: every 90 minutes
+- Codeforces: every 90 minutes
+- GitHub: every 90 minutes
+- Codolio: every 4 hours (JS rendering = heavier)
 - Full refresh: once per day minimum
 """
 
@@ -198,7 +198,7 @@ class ProductionScraper:
         if 'leetcode' not in scrapers:
             logger.error("LeetCode scraper not available")
             return 0, 0, 0
-        return self.scrape_platform_batch('leetcode', scrapers['leetcode'], update_interval_hours=0.5)
+        return self.scrape_platform_batch('leetcode', scrapers['leetcode'], update_interval_hours=1.5)
     
     def scrape_codechef(self):
         """Scrape CodeChef for all students"""
@@ -212,14 +212,14 @@ class ProductionScraper:
         if 'codeforces' not in scrapers:
             logger.error("Codeforces scraper not available")
             return 0, 0, 0
-        return self.scrape_platform_batch('codeforces', scrapers['codeforces'], update_interval_hours=0.5)
+        return self.scrape_platform_batch('codeforces', scrapers['codeforces'], update_interval_hours=1.5)
     
     def scrape_github(self):
         """Scrape GitHub for all students"""
         if 'github' not in scrapers:
             logger.error("GitHub scraper not available")
             return 0, 0, 0
-        return self.scrape_platform_batch('github', scrapers['github'], update_interval_hours=0.5)
+        return self.scrape_platform_batch('github', scrapers['github'], update_interval_hours=1.5)
     
     def scrape_codolio(self):
         """Scrape Codolio for all students (heavy operation)"""
@@ -308,19 +308,19 @@ class ProductionScraper:
         """Start the production scheduler"""
         logger.info("🚀 Starting Production Scraper Scheduler")
         logger.info("📋 Schedule:")
-        logger.info("  - LeetCode: every 45 minutes")
+        logger.info("  - LeetCode: every 90 minutes")
         logger.info("  - CodeChef: every 90 minutes") 
-        logger.info("  - Codeforces: every 45 minutes")
-        logger.info("  - GitHub: every 30 minutes")
+        logger.info("  - Codeforces: every 90 minutes")
+        logger.info("  - GitHub: every 90 minutes")
         logger.info("  - Codolio: every 4 hours")
         logger.info("  - Full refresh: daily at 2:00 AM")
         logger.info("  - Log cleanup: weekly")
         
         # Schedule jobs with staggered timing to avoid conflicts
-        schedule.every(45).minutes.do(self.scrape_leetcode)
+        schedule.every(90).minutes.do(self.scrape_leetcode)
         schedule.every(90).minutes.do(self.scrape_codechef)
-        schedule.every(45).minutes.do(self.scrape_codeforces)
-        schedule.every(30).minutes.do(self.scrape_github)
+        schedule.every(90).minutes.do(self.scrape_codeforces)
+        schedule.every(90).minutes.do(self.scrape_github)
         schedule.every(4).hours.do(self.scrape_codolio)
         
         # Daily and weekly maintenance

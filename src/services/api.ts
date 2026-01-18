@@ -48,12 +48,19 @@ api.interceptors.response.use(
         localStorage.removeItem('user');
         window.location.href = '/';
       }
+      // If no token, silently reject (user needs to log in - don't spam console)
+      // The component will handle this gracefully
     } else if (error.response?.status === 403) {
       // Forbidden - insufficient permissions
       console.error('Access forbidden: Insufficient permissions');
     } else if (error.code === 'ECONNABORTED') {
       // Timeout
       console.error('Request timeout: Please check your connection');
+    } else if (error.code === 'ERR_NETWORK' || error.message?.includes('Network Error')) {
+      // Network errors - only log if it's not a connection refused (expected in some cases)
+      if (!error.message?.includes('ERR_CONNECTION_REFUSED')) {
+        console.error('Network error: Please check your connection');
+      }
     }
     
     return Promise.reject(error);
@@ -210,11 +217,16 @@ export const authAPI = {
     const response = await api.get<ApiResponse>('/auth/me');
     return response.data;
   },
+
+  getStaffUsernames: async (): Promise<ApiResponse<Array<{ username: string; name: string }>>> => {
+    const response = await api.get<ApiResponse<Array<{ username: string; name: string }>>>('/auth/staff/usernames');
+    return response.data;
+  },
 };
 
 // Students API
 export const studentsAPI = {
-  getAll: async (params?: { batch?: string; sortBy?: string; order?: string }): Promise<ApiResponse<Student[]>> => {
+  getAll: async (params?: { batch?: string; sortBy?: string; order?: string; limit?: number; page?: number }): Promise<ApiResponse<Student[]>> => {
     const response = await api.get<ApiResponse<Student[]>>('/students', { params });
     return response.data;
   },
@@ -249,6 +261,11 @@ export const studentsAPI = {
     return response.data;
   },
 
+  updatePlatformLinks: async (platformLinks: { [key: string]: string }, platformUsernames?: { [key: string]: string }): Promise<ApiResponse<Student>> => {
+    const response = await api.put<ApiResponse<Student>>('/students/me/platform-links', { platformLinks, platformUsernames });
+    return response.data;
+  },
+
   addRepository: async (repo: { name: string; url: string; description: string }): Promise<ApiResponse<Student>> => {
     const response = await api.post<ApiResponse<Student>>('/students/me/repositories', repo);
     return response.data;
@@ -260,7 +277,39 @@ export const studentsAPI = {
   },
 
   scrapeData: async (id: string, force?: boolean): Promise<ApiResponse<Student>> => {
-    const response = await api.post<ApiResponse<Student>>(`/students/${id}/scrape`, {}, { params: { force } });
+    const response = await api.post<ApiResponse<Student>>(`/students/${id}/scrape`, {}, { 
+      params: { force },
+      timeout: 120000 // 2 minutes for LeetCode scraping
+    });
+    return response.data;
+  },
+
+  scrapeMyData: async (): Promise<ApiResponse<Student & { scrapingResults?: { successful: string[]; errors: Array<{ platform: string; error: string }> }; message?: string }>> => {
+    // #region agent log
+    fetch('http://127.0.0.1:7242/ingest/dcd2a7de-10a9-40c2-b6f2-81f05b75997f',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({location:'api.ts:281',message:'scrapeMyData API call starting',data:{endpoint:'/students/me/scrape',timeout:360000,timestamp:Date.now()},timestamp:Date.now(),sessionId:'debug-session',runId:'run1',hypothesisId:'A'})}).catch(()=>{});
+    // #endregion
+    try {
+      const response = await api.post<ApiResponse<Student & { scrapingResults?: { successful: string[]; errors: Array<{ platform: string; error: string }> }; message?: string }>>('/students/me/scrape', {}, {
+        timeout: 360000 // 6 minutes (360000ms) - enough time for both CodeChef and Codeforces scraping
+      });
+      // #region agent log
+      fetch('http://127.0.0.1:7242/ingest/dcd2a7de-10a9-40c2-b6f2-81f05b75997f',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({location:'api.ts:285',message:'scrapeMyData API call successful',data:{status:response.status,hasData:!!response.data,dataKeys:response.data?Object.keys(response.data):[],timestamp:Date.now()},timestamp:Date.now(),sessionId:'debug-session',runId:'run1',hypothesisId:'A'})}).catch(()=>{});
+      // #endregion
+      return response.data;
+    } catch (error: any) {
+      // #region agent log
+      fetch('http://127.0.0.1:7242/ingest/dcd2a7de-10a9-40c2-b6f2-81f05b75997f',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({location:'api.ts:289',message:'scrapeMyData API call error',data:{errorMessage:error?.message,errorCode:error?.code,status:error?.response?.status,statusText:error?.response?.statusText,hasTimeout:error?.code==='ECONNABORTED',timestamp:Date.now()},timestamp:Date.now(),sessionId:'debug-session',runId:'run1',hypothesisId:'A'})}).catch(()=>{});
+      // #endregion
+      throw error;
+    }
+  },
+
+  refreshPlatform: async (studentId: string, platform: 'leetcode' | 'codechef' | 'codeforces' | 'github' | 'codolio'): Promise<ApiResponse<Student>> => {
+    // CodeChef uses Selenium which can take 2-3 minutes, so increase timeout
+    const timeout = platform === 'codechef' ? 180000 : 90000; // 180 seconds for CodeChef, 90 for others
+    const response = await api.post<ApiResponse<Student>>(`/scraping/refresh/${studentId}/${platform}`, {}, {
+      timeout: timeout
+    });
     return response.data;
   },
 

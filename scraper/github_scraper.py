@@ -10,7 +10,7 @@ import time
 import random
 import logging
 import os
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -131,10 +131,13 @@ def get_github_contributions_graphql(username):
                     last_week = weeks[-1] if weeks else {}
                     recent_days = last_week.get('contributionDays', [])
                     
-                    cutoff_date = datetime.now() - timedelta(days=7)
+                    cutoff_date = datetime.now(timezone.utc) - timedelta(days=7)
                     
                     for day in recent_days:
                         day_date = datetime.fromisoformat(day.get('date', ''))
+                        # Ensure day_date is timezone-aware
+                        if day_date.tzinfo is None:
+                            day_date = day_date.replace(tzinfo=timezone.utc)
                         if day_date >= cutoff_date:
                             recent_contributions += day.get('contributionCount', 0)
                 
@@ -199,10 +202,13 @@ def scrape_github_user(username):
         recent_prs = 0
         
         if events_data:
-            cutoff_date = datetime.now() - timedelta(days=7)
+            cutoff_date = datetime.now(timezone.utc) - timedelta(days=7)
             
             for event in events_data:
                 event_date = datetime.fromisoformat(event.get('created_at', '').replace('Z', '+00:00'))
+                # Ensure event_date is timezone-aware (should already be from fromisoformat with +00:00)
+                if event_date.tzinfo is None:
+                    event_date = event_date.replace(tzinfo=timezone.utc)
                 
                 if event_date >= cutoff_date:
                     event_type = event.get('type', '')
@@ -233,7 +239,7 @@ def scrape_github_user(username):
             'longestStreak': longest_streak,
             'topLanguages': dict(sorted(languages.items(), key=lambda x: x[1], reverse=True)[:5]),
             'profileCreated': user_data.get('created_at', ''),
-            'lastUpdated': datetime.utcnow(),
+            'lastUpdated': datetime.now(timezone.utc),
             'dataSource': 'github_api_v3'
         }
         

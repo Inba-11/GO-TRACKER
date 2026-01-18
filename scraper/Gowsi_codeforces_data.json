@@ -1,0 +1,632 @@
+{
+  "username": "Gowsi",
+  "profileUrl": "https://codeforces.com/profile/Gowsi",
+  "scrapedAt": "2026-01-08T06:40:17.070392",
+  "userInfo": {
+    "handle": "Gowsi",
+    "firstName": "pmUHiiKq",
+    "lastName": "Sivasamy",
+    "country": "",
+    "city": "",
+    "organization": "",
+    "rank": "newbie",
+    "maxRank": "newbie",
+    "rating": 1113,
+    "maxRating": 1113,
+    "contribution": 0,
+    "friendOfCount": 1,
+    "avatar": "https://userpic.codeforces.org/no-title.jpg",
+    "registrationTime": 1703857804
+  },
+  "ratingHistory": [
+    {
+      "contestId": 1971,
+      "contestName": "Codeforces Round 944 (Div. 4)",
+      "handle": "Gowsi",
+      "rank": 20074,
+      "ratingUpdateTimeSeconds": 1715359800,
+      "oldRating": 0,
+      "newRating": 362
+    },
+    {
+      "contestId": 1985,
+      "contestName": "Codeforces Round 952 (Div. 4)",
+      "handle": "Gowsi",
+      "rank": 24998,
+      "ratingUpdateTimeSeconds": 1718125500,
+      "oldRating": 362,
+      "newRating": 634
+    },
+    {
+      "contestId": 1986,
+      "contestName": "Codeforces Round 954 (Div. 3)",
+      "handle": "Gowsi",
+      "rank": 23431,
+      "ratingUpdateTimeSeconds": 1719162300,
+      "oldRating": 634,
+      "newRating": 763
+    },
+    {
+      "contestId": 1992,
+      "contestName": "Codeforces Round 957 (Div. 3)",
+      "handle": "Gowsi",
+      "rank": 18544,
+      "ratingUpdateTimeSeconds": 1720716600,
+      "oldRating": 763,
+      "newRating": 846
+    },
+    {
+      "contestId": 2050,
+      "contestName": "Codeforces Round 991 (Div. 3)",
+      "handle": "Gowsi",
+      "rank": 14098,
+      "ratingUpdateTimeSeconds": 1733417400,
+      "oldRating": 846,
+      "newRating": 886
+    },
+    {
+      "contestId": 2044,
+      "contestName": "Codeforces Round 993 (Div. 4)",
+      "handle": "Gowsi",
+      "rank": 14925,
+      "ratingUpdateTimeSeconds": 1734281400,
+      "oldRating": 886,
+      "newRating": 905
+    },
+    {
+      "contestId": 2048,
+      "contestName": "Codeforces Global Round 28",
+      "handle": "Gowsi",
+      "rank": 13013,
+      "ratingUpdateTimeSeconds": 1734629700,
+      "oldRating": 905,
+      "newRating": 856
+    },
+    {
+      "contestId": 2169,
+      "contestName": "Educational Codeforces Round 184 (Rated for Div. 2)",
+      "handle": "Gowsi",
+      "rank": 8111,
+      "ratingUpdateTimeSeconds": 1763138100,
+      "oldRating": 856,
+      "newRating": 916
+    },
+    {
+      "contestId": 2166,
+      "contestName": "Codeforces Round 1064 (Div. 2)",
+      "handle": "Gowsi",
+      "rank": 9752,
+      "ratingUpdateTimeSeconds": 1763310900,
+      "oldRating": 916,
+      "newRating": 865
+    },
+    {
+      "contestId": 2171,
+      "contestName": "Codeforces Round 1065 (Div. 3)",
+      "handle": "Gowsi",
+      "rank": 3380,
+      "ratingUpdateTimeSeconds": 1763658300,
+      "oldRating": 865,
+      "newRating": 1031
+    },
+    {
+      "contestId": 2179,
+      "contestName": "Codeforces Round 1071 (Div. 3)",
+      "handle": "Gowsi",
+      "rank": 13992,
+      "ratingUpdateTimeSeconds": 1766510100,
+      "oldRating": 1031,
+      "newRating": 1013
+    },
+    {
+      "contestId": 2182,
+      "contestName": "Educational Codeforces Round 186 (Rated for Div. 2)",
+      "handle": "Gowsi",
+      "rank": 4902,
+      "ratingUpdateTimeSeconds": 1767026100,
+      "oldRating": 1013,
+      "newRating": 1113
+    }
+  ],
+  "contestStats": {
+    "totalContests": 12,
+    "maxRating": 1113,
+    "minRating": 362,
+    "bestPerformance": 362,
+    "worstPerformance": -51
+  },
+  "totalSubmissions": 223,
+  "recentContests": [
+    {
+      "contestId": 2182,
+      "contestName": "Educational Codeforces Round 186 (Rated for Div. 2)",
+      "date": "2025-12-29",
+      "time": "22:05:00",
+      "datetime": "2025-12-29T22:05:00",
+      "rank": 4902,
+      "oldRating": 1013,
+      "newRating": 1113,
+      "ratingChange": 100,
+      "problemsSolved": 3,
+      "problemsAttempted": 4,
+      "solvedProblems": [
+        {
+          "index": "C",
+          "name": "Production of Snowmen",
+          "rating": "N/A",
+          "solved_time": "2025-12-29 20:37:41"
+        },
+        {
+          "index": "B",
+          "name": "New Year Cake",
+          "rating": "N/A",
+          "solved_time": "2025-12-29 20:32:49"
+        },
+        {
+          "index": "A",
+          "name": "New Year String",
+          "rating": "N/A",
+          "solved_time": "2025-12-29 20:29:58"
+        }
+      ],
+      "contestUrl": "https://codeforces.com/contest/2182"
+    },
+    {
+      "contestId": 2179,
+      "contestName": "Codeforces Round 1071 (Div. 3)",
+      "date": "2025-12-23",
+      "time": "22:45:00",
+      "datetime": "2025-12-23T22:45:00",
+      "rank": 13992,
+      "oldRating": 1031,
+      "newRating": 1013,
+      "ratingChange": -18,
+      "problemsSolved": 2,
+      "problemsAttempted": 3,
+      "solvedProblems": [
+        {
+          "index": "B",
+          "name": "Blackslex and Showering",
+          "rating": "N/A",
+          "solved_time": "2025-12-23 20:39:26"
+        },
+        {
+          "index": "A",
+          "name": "Blackslex and Password",
+          "rating": "N/A",
+          "solved_time": "2025-12-23 20:31:34"
+        }
+      ],
+      "contestUrl": "https://codeforces.com/contest/2179"
+    },
+    {
+      "contestId": 2171,
+      "contestName": "Codeforces Round 1065 (Div. 3)",
+      "date": "2025-11-20",
+      "time": "22:35:00",
+      "datetime": "2025-11-20T22:35:00",
+      "rank": 3380,
+      "oldRating": 865,
+      "newRating": 1031,
+      "ratingChange": 166,
+      "problemsSolved": 4,
+      "problemsAttempted": 4,
+      "solvedProblems": [
+        {
+          "index": "C2",
+          "name": "Renako Amaori and XOR Game (hard version)",
+          "rating": 1400,
+          "solved_time": "2025-11-20 20:54:37"
+        },
+        {
+          "index": "C1",
+          "name": "Renako Amaori and XOR Game (easy version)",
+          "rating": 1100,
+          "solved_time": "2025-11-20 20:49:38"
+        },
+        {
+          "index": "B",
+          "name": "Yuu Koito and Minimum Absolute Sum",
+          "rating": 900,
+          "solved_time": "2025-11-20 20:26:04"
+        },
+        {
+          "index": "A",
+          "name": "Shizuku Hoshikawa and Farm Legs",
+          "rating": 800,
+          "solved_time": "2025-11-20 20:13:14"
+        }
+      ],
+      "contestUrl": "https://codeforces.com/contest/2171"
+    },
+    {
+      "contestId": 2166,
+      "contestName": "Codeforces Round 1064 (Div. 2)",
+      "date": "2025-11-16",
+      "time": "22:05:00",
+      "datetime": "2025-11-16T22:05:00",
+      "rank": 9752,
+      "oldRating": 916,
+      "newRating": 865,
+      "ratingChange": -51,
+      "problemsSolved": 1,
+      "problemsAttempted": 2,
+      "solvedProblems": [
+        {
+          "index": "A",
+          "name": "Same Difference",
+          "rating": 800,
+          "solved_time": "2025-11-16 20:23:14"
+        }
+      ],
+      "contestUrl": "https://codeforces.com/contest/2166"
+    },
+    {
+      "contestId": 2169,
+      "contestName": "Educational Codeforces Round 184 (Rated for Div. 2)",
+      "date": "2025-11-14",
+      "time": "22:05:00",
+      "datetime": "2025-11-14T22:05:00",
+      "rank": 8111,
+      "oldRating": 856,
+      "newRating": 916,
+      "ratingChange": 60,
+      "problemsSolved": 1,
+      "problemsAttempted": 2,
+      "solvedProblems": [
+        {
+          "index": "A",
+          "name": "Alice and Bob",
+          "rating": 900,
+          "solved_time": "2025-11-14 20:33:37"
+        }
+      ],
+      "contestUrl": "https://codeforces.com/contest/2169"
+    },
+    {
+      "contestId": 2048,
+      "contestName": "Codeforces Global Round 28",
+      "date": "2024-12-19",
+      "time": "23:05:00",
+      "datetime": "2024-12-19T23:05:00",
+      "rank": 13013,
+      "oldRating": 905,
+      "newRating": 856,
+      "ratingChange": -49,
+      "problemsSolved": 1,
+      "problemsAttempted": 1,
+      "solvedProblems": [
+        {
+          "index": "A",
+          "name": "Kevin and Combination Lock",
+          "rating": 800,
+          "solved_time": "2024-12-19 20:44:40"
+        }
+      ],
+      "contestUrl": "https://codeforces.com/contest/2048"
+    },
+    {
+      "contestId": 2044,
+      "contestName": "Codeforces Round 993 (Div. 4)",
+      "date": "2024-12-15",
+      "time": "22:20:00",
+      "datetime": "2024-12-15T22:20:00",
+      "rank": 14925,
+      "oldRating": 886,
+      "newRating": 905,
+      "ratingChange": 19,
+      "problemsSolved": 3,
+      "problemsAttempted": 3,
+      "solvedProblems": [
+        {
+          "index": "C",
+          "name": "Hard Problem",
+          "rating": 800,
+          "solved_time": "2024-12-15 20:44:43"
+        },
+        {
+          "index": "B",
+          "name": "Normal Problem",
+          "rating": 800,
+          "solved_time": "2024-12-15 20:34:28"
+        },
+        {
+          "index": "A",
+          "name": "Easy Problem",
+          "rating": 800,
+          "solved_time": "2024-12-15 20:19:23"
+        }
+      ],
+      "contestUrl": "https://codeforces.com/contest/2044"
+    },
+    {
+      "contestId": 2050,
+      "contestName": "Codeforces Round 991 (Div. 3)",
+      "date": "2024-12-05",
+      "time": "22:20:00",
+      "datetime": "2024-12-05T22:20:00",
+      "rank": 14098,
+      "oldRating": 846,
+      "newRating": 886,
+      "ratingChange": 40,
+      "problemsSolved": 1,
+      "problemsAttempted": 1,
+      "solvedProblems": [
+        {
+          "index": "A",
+          "name": "Line Breaks",
+          "rating": 800,
+          "solved_time": "2024-12-05 20:32:05"
+        }
+      ],
+      "contestUrl": "https://codeforces.com/contest/2050"
+    }
+  ],
+  "problemStats": {
+    "totalSolved": 114,
+    "totalSubmissions": 223,
+    "acceptedSubmissions": 120,
+    "acceptanceRate": 53.81,
+    "byRating": {
+      "1400": 2,
+      "1100": 7,
+      "900": 10,
+      "800": 67,
+      "1200": 5,
+      "1300": 3,
+      "1000": 8,
+      "1600": 3,
+      "2100": 1,
+      "2700": 1,
+      "1500": 2
+    },
+    "byTag": {
+      "brute force": 27,
+      "combinatorics": 1,
+      "dp": 4,
+      "constructive algorithms": 7,
+      "greedy": 33,
+      "implementation": 59,
+      "strings": 17,
+      "math": 36,
+      "bitmasks": 2,
+      "games": 2,
+      "graphs": 4,
+      "shortest paths": 1,
+      "two pointers": 5,
+      "binary search": 7,
+      "interactive": 1,
+      "number theory": 4,
+      "schedules": 1,
+      "data structures": 3,
+      "geometry": 2,
+      "sortings": 13,
+      "hashing": 1,
+      "dfs and similar": 5,
+      "trees": 2,
+      "*special": 2
+    }
+  },
+  "heatmap": [
+    {
+      "date": "2023-12-29",
+      "count": 2
+    },
+    {
+      "date": "2024-03-08",
+      "count": 1
+    },
+    {
+      "date": "2024-04-06",
+      "count": 4
+    },
+    {
+      "date": "2024-04-08",
+      "count": 1
+    },
+    {
+      "date": "2024-04-17",
+      "count": 1
+    },
+    {
+      "date": "2024-04-18",
+      "count": 6
+    },
+    {
+      "date": "2024-04-25",
+      "count": 1
+    },
+    {
+      "date": "2024-04-30",
+      "count": 5
+    },
+    {
+      "date": "2024-05-05",
+      "count": 2
+    },
+    {
+      "date": "2024-05-06",
+      "count": 7
+    },
+    {
+      "date": "2024-05-09",
+      "count": 2
+    },
+    {
+      "date": "2024-05-10",
+      "count": 2
+    },
+    {
+      "date": "2024-05-11",
+      "count": 1
+    },
+    {
+      "date": "2024-05-13",
+      "count": 1
+    },
+    {
+      "date": "2024-05-24",
+      "count": 2
+    },
+    {
+      "date": "2024-06-11",
+      "count": 2
+    },
+    {
+      "date": "2024-06-14",
+      "count": 1
+    },
+    {
+      "date": "2024-06-23",
+      "count": 1
+    },
+    {
+      "date": "2024-07-06",
+      "count": 4
+    },
+    {
+      "date": "2024-07-11",
+      "count": 2
+    },
+    {
+      "date": "2024-08-08",
+      "count": 1
+    },
+    {
+      "date": "2024-08-16",
+      "count": 1
+    },
+    {
+      "date": "2024-09-24",
+      "count": 1
+    },
+    {
+      "date": "2024-09-25",
+      "count": 1
+    },
+    {
+      "date": "2024-10-06",
+      "count": 1
+    },
+    {
+      "date": "2024-10-07",
+      "count": 1
+    },
+    {
+      "date": "2024-11-05",
+      "count": 1
+    },
+    {
+      "date": "2024-11-12",
+      "count": 7
+    },
+    {
+      "date": "2024-11-25",
+      "count": 1
+    },
+    {
+      "date": "2024-12-05",
+      "count": 1
+    },
+    {
+      "date": "2024-12-06",
+      "count": 1
+    },
+    {
+      "date": "2024-12-15",
+      "count": 3
+    },
+    {
+      "date": "2024-12-19",
+      "count": 1
+    },
+    {
+      "date": "2025-05-28",
+      "count": 1
+    },
+    {
+      "date": "2025-05-29",
+      "count": 5
+    },
+    {
+      "date": "2025-05-30",
+      "count": 2
+    },
+    {
+      "date": "2025-05-31",
+      "count": 4
+    },
+    {
+      "date": "2025-06-02",
+      "count": 3
+    },
+    {
+      "date": "2025-06-03",
+      "count": 3
+    },
+    {
+      "date": "2025-06-04",
+      "count": 1
+    },
+    {
+      "date": "2025-06-12",
+      "count": 2
+    },
+    {
+      "date": "2025-06-14",
+      "count": 2
+    },
+    {
+      "date": "2025-06-19",
+      "count": 2
+    },
+    {
+      "date": "2025-06-26",
+      "count": 1
+    },
+    {
+      "date": "2025-09-22",
+      "count": 3
+    },
+    {
+      "date": "2025-11-11",
+      "count": 3
+    },
+    {
+      "date": "2025-11-12",
+      "count": 2
+    },
+    {
+      "date": "2025-11-13",
+      "count": 2
+    },
+    {
+      "date": "2025-11-14",
+      "count": 1
+    },
+    {
+      "date": "2025-11-15",
+      "count": 2
+    },
+    {
+      "date": "2025-11-16",
+      "count": 1
+    },
+    {
+      "date": "2025-11-17",
+      "count": 2
+    },
+    {
+      "date": "2025-11-20",
+      "count": 4
+    },
+    {
+      "date": "2025-12-23",
+      "count": 2
+    },
+    {
+      "date": "2025-12-29",
+      "count": 3
+    }
+  ]
+}

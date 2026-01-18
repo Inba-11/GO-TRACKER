@@ -1,5 +1,12 @@
 const jwt = require('jsonwebtoken');
 
+// Validate JWT_SECRET is set
+if (!process.env.JWT_SECRET) {
+  console.error('❌ ERROR: JWT_SECRET environment variable is required!');
+  console.error('Please set JWT_SECRET in your .env file');
+  process.exit(1);
+}
+
 const auth = (req, res, next) => {
   try {
     const token = req.header('Authorization')?.replace('Bearer ', '');
@@ -11,7 +18,7 @@ const auth = (req, res, next) => {
       });
     }
 
-    const decoded = jwt.verify(token, process.env.JWT_SECRET || 'go-tracker-super-secret-jwt-key-2024-change-in-production');
+    const decoded = jwt.verify(token, process.env.JWT_SECRET);
     req.user = decoded;
     next();
   } catch (error) {

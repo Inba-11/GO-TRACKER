@@ -1,0 +1,52 @@
+{
+  "username": "DELHI_KRISHNAN_S",
+  "profileUrl": "https://codeforces.com/profile/DELHI_KRISHNAN_S",
+  "scrapedAt": "2026-01-07T16:14:08.654902",
+  "userInfo": {
+    "handle": "DELHI_KRISHNAN_S",
+    "firstName": "",
+    "lastName": "",
+    "country": "",
+    "city": "",
+    "organization": "",
+    "rank": "unrated",
+    "maxRank": "unrated",
+    "rating": 0,
+    "maxRating": 0,
+    "contribution": 0,
+    "friendOfCount": 0,
+    "avatar": "https://userpic.codeforces.org/no-title.jpg",
+    "registrationTime": 1709217560
+  },
+  "ratingHistory": [],
+  "contestStats": {},
+  "totalSubmissions": 11,
+  "recentContests": [],
+  "problemStats": {
+    "totalSolved": 5,
+    "totalSubmissions": 11,
+    "acceptedSubmissions": 5,
+    "acceptanceRate": 45.45,
+    "byRating": {
+      "800": 4,
+      "1000": 1
+    },
+    "byTag": {
+      "implementation": 1,
+      "math": 2,
+      "brute force": 2,
+      "greedy": 1,
+      "strings": 1
+    }
+  },
+  "heatmap": [
+    {
+      "date": "2024-09-03",
+      "count": 4
+    },
+    {
+      "date": "2024-09-04",
+      "count": 1
+    }
+  ]
+}

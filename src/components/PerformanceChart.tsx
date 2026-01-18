@@ -10,39 +10,39 @@ interface PerformanceChartProps {
 
 const PerformanceChart: React.FC<PerformanceChartProps> = ({ data, title }) => {
   return (
-    <Card className="bg-card border-border/50">
-      <CardHeader>
-        <CardTitle className="text-lg font-heading">{title}</CardTitle>
+    <Card className="bg-white border border-slate-200 shadow-sm rounded-lg">
+      <CardHeader className="pb-3">
+        <CardTitle className="text-lg font-semibold text-slate-900">{title}</CardTitle>
       </CardHeader>
-      <CardContent>
+      <CardContent className="pt-0">
         <ResponsiveContainer width="100%" height={300}>
           <LineChart data={data} margin={{ top: 5, right: 30, left: 20, bottom: 5 }}>
-            <CartesianGrid strokeDasharray="3 3" stroke="hsl(var(--border))" />
+            <CartesianGrid strokeDasharray="3 3" stroke="#e2e8f0" />
             <XAxis 
               dataKey="week" 
-              stroke="hsl(var(--muted-foreground))"
+              stroke="#64748b"
               fontSize={12}
             />
             <YAxis 
-              stroke="hsl(var(--muted-foreground))"
+              stroke="#64748b"
               fontSize={12}
             />
             <Tooltip 
               contentStyle={{
-                backgroundColor: 'hsl(var(--card))',
-                border: '1px solid hsl(var(--border))',
+                backgroundColor: '#ffffff',
+                border: '1px solid #e2e8f0',
                 borderRadius: '8px',
               }}
-              labelStyle={{ color: 'hsl(var(--foreground))' }}
+              labelStyle={{ color: '#0f172a' }}
             />
             <Legend />
             <Line 
               type="monotone" 
               dataKey="codechef" 
               name="CodeChef"
-              stroke="#f97316" 
+              stroke="#4f46e5" 
               strokeWidth={2}
-              dot={{ fill: '#f97316', strokeWidth: 2 }}
+              dot={{ fill: '#4f46e5', strokeWidth: 2 }}
             />
             <Line 
               type="monotone" 
@@ -56,17 +56,17 @@ const PerformanceChart: React.FC<PerformanceChartProps> = ({ data, title }) => {
               type="monotone" 
               dataKey="leetcode" 
               name="LeetCode"
-              stroke="#eab308" 
+              stroke="#4f46e5" 
               strokeWidth={2}
-              dot={{ fill: '#eab308', strokeWidth: 2 }}
+              dot={{ fill: '#4f46e5', strokeWidth: 2 }}
             />
             <Line 
               type="monotone" 
               dataKey="atcoder" 
               name="AtCoder"
-              stroke="#3b82f6" 
+              stroke="#6366f1" 
               strokeWidth={2}
-              dot={{ fill: '#3b82f6', strokeWidth: 2 }}
+              dot={{ fill: '#6366f1', strokeWidth: 2 }}
             />
           </LineChart>
         </ResponsiveContainer>

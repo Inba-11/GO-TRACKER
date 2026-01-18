@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
@@ -14,6 +14,7 @@ import {
 import { useAuth, UserRole } from '@/contexts/AuthContext';
 import { ArrowLeft, GraduationCap, Shield, User, Eye, EyeOff, Sparkles, Zap } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';
+import { authAPI } from '@/services/api';
 
 const roleConfig = {
   staff: {
@@ -52,8 +53,35 @@ const Login = () => {
   const [password, setPassword] = useState('');
   const [showPassword, setShowPassword] = useState(false);
   const [isLoading, setIsLoading] = useState(false);
+  const [staffUsernames, setStaffUsernames] = useState<Array<{ username: string; name: string }>>([]);
+  const [loadingStaffUsernames, setLoadingStaffUsernames] = useState(false);
 
   const config = roleConfig[role as keyof typeof roleConfig];
+
+  // Fetch staff usernames when role is 'staff'
+  useEffect(() => {
+    if (role === 'staff') {
+      const fetchStaffUsernames = async () => {
+        try {
+          setLoadingStaffUsernames(true);
+          const response = await authAPI.getStaffUsernames();
+          if (response.success && response.data) {
+            setStaffUsernames(response.data);
+          }
+        } catch (error) {
+          console.error('Failed to fetch staff usernames:', error);
+          toast({
+            title: 'Warning',
+            description: 'Could not load teacher usernames. You can still type manually.',
+            variant: 'default',
+          });
+        } finally {
+          setLoadingStaffUsernames(false);
+        }
+      };
+      fetchStaffUsernames();
+    }
+  }, [role, toast]);
 
   if (!config) {
     navigate('/');
@@ -74,7 +102,22 @@ const Login = () => {
           title: 'Login Successful',
           description: `Welcome to the ${role} portal!`,
         });
-        navigate(config.redirect);
+        
+        // For students, redirect to dashboard with their ID
+        if (role === 'student') {
+          // Get user data from localStorage (set by login function)
+          const userData = JSON.parse(localStorage.getItem('user') || '{}');
+          const userId = userData.id;
+          
+          if (userId) {
+            navigate(`/student/dashboard/${userId}`);
+          } else {
+            // Fallback to old route if ID not available
+            navigate(config.redirect);
+          }
+        } else {
+          navigate(config.redirect);
+        }
       } else {
         toast({
           title: 'Login Failed',
@@ -139,23 +182,43 @@ const Login = () => {
           
           <CardContent className="pb-8">
             <form onSubmit={handleSubmit} className="space-y-5">
-              {/* Username/Email Field */}
+              {/* Username/Email Field - Dropdown for staff, input for others */}
               <div className="space-y-2">
                 <Label htmlFor="username" className="text-sm font-medium">
-                  {role === 'owner' ? 'Email Address' : 'Username'}
+                  {role === 'owner' ? 'Email Address' : role === 'staff' ? 'Teacher Username' : 'Username'}
                 </Label>
-                <div className="relative">
-                  <Input
-                    id="username"
-                    type="text"
-                    placeholder={role === 'owner' ? 'admin@example.com' : 'Enter your username'}
+                {role === 'staff' ? (
+                  <Select
                     value={username}
-                    onChange={(e) => setUsername(e.target.value)}
+                    onValueChange={setUsername}
                     required
-                    className="bg-secondary/50 border-border/50 focus:border-primary/50 transition-colors pl-4"
-                  />
-                  <Zap className="absolute right-3 top-1/2 -translate-y-1/2 w-4 h-4 text-muted-foreground/50" />
-                </div>
+                    disabled={loadingStaffUsernames}
+                  >
+                    <SelectTrigger className="bg-secondary/50 border-border/50 focus:border-primary/50 transition-colors">
+                      <SelectValue placeholder={loadingStaffUsernames ? "Loading teachers..." : "Select teacher username"} />
+                    </SelectTrigger>
+                    <SelectContent>
+                      {staffUsernames.map((staff) => (
+                        <SelectItem key={staff.username} value={staff.username}>
+                          {staff.name} ({staff.username})
+                        </SelectItem>
+                      ))}
+                    </SelectContent>
+                  </Select>
+                ) : (
+                  <div className="relative">
+                    <Input
+                      id="username"
+                      type="text"
+                      placeholder={role === 'owner' ? 'admin@example.com' : 'Enter your username'}
+                      value={username}
+                      onChange={(e) => setUsername(e.target.value)}
+                      required
+                      className="bg-secondary/50 border-border/50 focus:border-primary/50 transition-colors pl-4"
+                    />
+                    <Zap className="absolute right-3 top-1/2 -translate-y-1/2 w-4 h-4 text-muted-foreground/50" />
+                  </div>
+                )}
               </div>
               
               {/* Password Field */}

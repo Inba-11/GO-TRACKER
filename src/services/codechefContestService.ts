@@ -43,33 +43,38 @@ class CodeChefContestService {
   // Fetch total contest count from API or student data
   public async fetchTotalContestsFromAPI(studentData?: any): Promise<number> {
     // First, try to get from student data if provided
-    if (studentData?.platforms?.codechef?.totalContests) {
-      this.totalContestsFromAPI = studentData.platforms.codechef.totalContests;
-      return this.totalContestsFromAPI;
+    if (studentData?.platforms?.codechef) {
+      const codechefData = studentData.platforms.codechef;
+      
+      // Try multiple possible fields for total contests
+      if (codechefData.totalContests) {
+        this.totalContestsFromAPI = codechefData.totalContests;
+        return this.totalContestsFromAPI;
+      }
+      
+      if (codechefData.contestsAttended) {
+        this.totalContestsFromAPI = codechefData.contestsAttended;
+        return this.totalContestsFromAPI;
+      }
+      
+      if (codechefData.contestHistory?.length) {
+        this.totalContestsFromAPI = codechefData.contestHistory.length;
+        return this.totalContestsFromAPI;
+      }
     }
 
-    // Try API call
-    try {
-      const response = await fetch('/api/students/me');
-      if (response.ok) {
-        const data = await response.json();
-        if (data.success && data.data?.platforms?.codechef?.totalContests) {
-          this.totalContestsFromAPI = data.data.platforms.codechef.totalContests;
-          return this.totalContestsFromAPI;
-        }
-      }
-    } catch (error) {
-      console.error('Error fetching total contests from API:', error);
-    }
-    
     // Fallback: Try to get from our scraped data file
     try {
       const scrapedResponse = await fetch('/codechef_contest_count.json');
       if (scrapedResponse.ok) {
-        const scrapedData = await scrapedResponse.json();
-        if (scrapedData.total_contests) {
-          this.totalContestsFromAPI = scrapedData.total_contests;
-          return this.totalContestsFromAPI;
+        const contentType = scrapedResponse.headers.get('content-type');
+        // Check if response is actually JSON before parsing
+        if (contentType && contentType.includes('application/json')) {
+          const scrapedData = await scrapedResponse.json();
+          if (scrapedData.total_contests) {
+            this.totalContestsFromAPI = scrapedData.total_contests;
+            return this.totalContestsFromAPI;
+          }
         }
       }
     } catch (error) {

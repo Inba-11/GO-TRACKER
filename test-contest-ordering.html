@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contest Ordering Test - INBATAMIZHAN P</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 p-8">
+    <div class="max-w-4xl mx-auto">
+        <h1 class="text-3xl font-bold text-gray-800 mb-6">🏆 Contest Ordering Test - INBATAMIZHAN P</h1>
+        
+        <div class="bg-white rounded-lg shadow-lg p-6 mb-6">
+            <h2 class="text-xl font-semibold mb-4">📊 Contest Data Status</h2>
+            <div id="status" class="text-gray-600">Loading...</div>
+        </div>
+
+        <div class="bg-white rounded-lg shadow-lg p-6">
+            <h2 class="text-xl font-semibold mb-4">🎯 Contest List (Latest First)</h2>
+            <div id="contests" class="space-y-3">Loading contests...</div>
+        </div>
+    </div>
+
+    <script>
+        async function testContestOrdering() {
+            try {
+                // Test API endpoint
+                const response = await fetch('http://localhost:5000/api/scraping/inbatamizhan/contests');
+                const result = await response.json();
+                
+                // Calculate total problems from contest data
+                let totalProblems = 0;
+                if (result.data.contests) {
+                    result.data.contests.forEach(contestText => {
+                        // Count problems in each contest (after division info)
+                        const problemsMatch = contestText.match(/Division \d+[^A-Za-z]*(?:\([^)]*\))?\s+(.+)$/);
+                        if (problemsMatch) {
+                            const problems = problemsMatch[1].split(',').filter(p => p.trim().length > 0);
+                            totalProblems += problems.length;
+                        }
+                    });
+                }
+                
+                document.getElementById('status').innerHTML = `
+                    <div class="grid grid-cols-4 gap-4">
+                        <div class="text-center p-3 bg-green-50 rounded">
+                            <div class="text-2xl font-bold text-green-600">${result.success ? '✅' : '❌'}</div>
+                            <div class="text-sm">API Status</div>
+                        </div>
+                        <div class="text-center p-3 bg-blue-50 rounded">
+                            <div class="text-2xl font-bold text-blue-600">${result.data.totalContests}</div>
+                            <div class="text-sm">Total Contests</div>
+                        </div>
+                        <div class="text-center p-3 bg-purple-50 rounded">
+                            <div class="text-2xl font-bold text-purple-600">${result.data.contests.length}</div>
+                            <div class="text-sm">Contest Entries</div>
+                        </div>
+                        <div class="text-center p-3 bg-amber-50 rounded">
+                            <div class="text-2xl font-bold text-amber-600">${totalProblems}</div>
+                            <div class="text-sm">Total Problems</div>
+                        </div>
+                    </div>
+                `;
+
+                // Display first 10 contests to verify ordering with problem counts
+                const contestsHtml = result.data.contests.slice(0, 10).map((contest, index) => {
+                    const contestNumber = result.data.contests.length - index;
+                    
+                    // Extract problems from contest text
+                    const problemsMatch = contest.match(/Division \d+[^A-Za-z]*(?:\([^)]*\))?\s+(.+)$/);
+                    const problems = problemsMatch ? problemsMatch[1].split(',').map(p => p.trim()).filter(p => p.length > 0) : [];
+                    
+                    return `
+                        <div class="p-4 bg-gradient-to-r from-blue-50 to-purple-50 rounded-lg border">
+                            <div class="flex items-start justify-between">
+                                <div class="flex-1">
+                                    <div class="flex items-center gap-3 mb-2">
+                                        <span class="bg-gradient-to-r from-[#3CB8BA] to-[#2DD4BF] text-white px-3 py-1 rounded-full text-sm font-bold">
+                                            #${contestNumber}
+                                        </span>
+                                        <div class="font-semibold text-gray-800">${contest.substring(0, 50)}...</div>
+                                    </div>
+                                    <div class="text-sm text-gray-600 mb-2">Contest ${contestNumber} of ${result.data.totalContests}</div>
+                                    <div class="flex items-center gap-2">
+                                        <span class="bg-amber-100 text-amber-800 px-2 py-1 rounded-full text-xs font-bold">
+                                            ${problems.length} problems
+                                        </span>
+                                        <span class="text-xs text-gray-500">
+                                            ${problems.slice(0, 3).join(', ')}${problems.length > 3 ? '...' : ''}
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                }).join('');
+
+                document.getElementById('contests').innerHTML = contestsHtml;
+
+            } catch (error) {
+                document.getElementById('status').innerHTML = `
+                    <div class="text-red-600">❌ Error: ${error.message}</div>
+                `;
+                document.getElementById('contests').innerHTML = `
+                    <div class="text-red-600">Failed to load contests</div>
+                `;
+            }
+        }
+
+        // Test on page load
+        testContestOrdering();
+        
+        // Auto-refresh every 30 seconds
+        setInterval(testContestOrdering, 30000);
+    </script>
+</body>
+</html>

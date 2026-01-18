@@ -3,9 +3,16 @@ const Student = require('../models/Student');
 const Staff = require('../models/Staff');
 const Owner = require('../models/Owner');
 
+// Validate JWT_SECRET is set
+if (!process.env.JWT_SECRET) {
+  console.error('❌ ERROR: JWT_SECRET environment variable is required!');
+  console.error('Please set JWT_SECRET in your .env file');
+  process.exit(1);
+}
+
 // Generate JWT Token
 const generateToken = (payload) => {
-  return jwt.sign(payload, process.env.JWT_SECRET || 'go-tracker-super-secret-jwt-key-2024-change-in-production', {
+  return jwt.sign(payload, process.env.JWT_SECRET, {
     expiresIn: '24h'
   });
 };
@@ -128,9 +135,31 @@ const login = async (req, res) => {
     });
   } catch (error) {
     console.error('Login error:', error);
+    console.error('Error stack:', error.stack);
+    
+    // Check if it's a MongoDB connection error
+    if (error.name === 'MongoServerSelectionError' || 
+        error.name === 'MongoNetworkError' ||
+        error.name === 'MongoNetworkTimeoutError' ||
+        error.message?.includes('ECONNREFUSED') ||
+        error.message?.includes('MongoNetworkTimeoutError')) {
+      console.error('❌ MongoDB Connection Error: Database is not accessible');
+      console.error('💡 Please start MongoDB: net start MongoDB (run as Administrator)');
+      return res.status(503).json({  // 503 Service Unavailable is more appropriate
+        success: false,
+        error: 'Database connection failed. Please ensure MongoDB is running.'
+      });
+    }
+    
+    // Don't expose internal error messages to clients in production
+    const isDevelopment = process.env.NODE_ENV !== 'production';
+    const errorMessage = isDevelopment 
+      ? error.message 
+      : 'Internal server error during login';
+    
     res.status(500).json({
       success: false,
-      error: error.message
+      error: errorMessage || 'Internal server error during login'
     });
   }
 };
@@ -207,14 +236,80 @@ const getMe = async (req, res) => {
     });
   } catch (error) {
     console.error('Get me error:', error);
+    console.error('Error stack:', error.stack);
+    
+    // Check if it's a MongoDB connection error
+    if (error.name === 'MongoServerSelectionError' || 
+        error.name === 'MongoNetworkError' ||
+        error.name === 'MongoNetworkTimeoutError' ||
+        error.message?.includes('ECONNREFUSED') ||
+        error.message?.includes('MongoNetworkTimeoutError')) {
+      console.error('❌ MongoDB Connection Error: Database is not accessible');
+      return res.status(503).json({
+        success: false,
+        error: 'Database connection failed. Please ensure MongoDB is running.'
+      });
+    }
+    
+    // Don't expose internal error messages to clients in production
+    const isDevelopment = process.env.NODE_ENV !== 'production';
+    const errorMessage = isDevelopment 
+      ? error.message 
+      : 'Internal server error';
+    
     res.status(500).json({
       success: false,
-      error: error.message
+      error: errorMessage || 'Internal server error'
+    });
+  }
+};
+
+// GET /api/auth/staff/usernames
+const getStaffUsernames = async (req, res) => {
+  try {
+    const staffMembers = await Staff.find({}, 'username name').sort({ username: 1 });
+    
+    const usernames = staffMembers.map(staff => ({
+      username: staff.username,
+      name: staff.name || staff.username
+    }));
+
+    res.json({
+      success: true,
+      data: usernames
+    });
+  } catch (error) {
+    console.error('Get staff usernames error:', error);
+    console.error('Error stack:', error.stack);
+    
+    // Check if it's a MongoDB connection error
+    if (error.name === 'MongoServerSelectionError' || 
+        error.name === 'MongoNetworkError' ||
+        error.name === 'MongoNetworkTimeoutError' ||
+        error.message?.includes('ECONNREFUSED') ||
+        error.message?.includes('MongoNetworkTimeoutError')) {
+      console.error('❌ MongoDB Connection Error: Database is not accessible');
+      return res.status(503).json({
+        success: false,
+        error: 'Database connection failed. Please ensure MongoDB is running.'
+      });
+    }
+    
+    // Don't expose internal error messages to clients in production
+    const isDevelopment = process.env.NODE_ENV !== 'production';
+    const errorMessage = isDevelopment 
+      ? error.message 
+      : 'Internal server error';
+    
+    res.status(500).json({
+      success: false,
+      error: errorMessage || 'Internal server error'
     });
   }
 };
 
 module.exports = {
   login,
-  getMe
+  getMe,
+  getStaffUsernames
 };

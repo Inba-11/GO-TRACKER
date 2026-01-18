@@ -70,21 +70,19 @@ class ScraperService {
           rating = parseInt(ratingMatch[1]);
         }
 
-        // If no data found, try alternative approach with realistic mock data
-        if (problemsSolved === 0) {
-          // Use realistic data based on username pattern
-          problemsSolved = Math.floor(Math.random() * 200) + 50; // 50-250 problems
-          rating = Math.floor(Math.random() * 800) + 1200; // 1200-2000 rating
-          contests = Math.floor(Math.random() * 20) + 5; // 5-25 contests
+        // If no data found, return null to indicate scraping failure
+        if (problemsSolved === 0 && rating === 0) {
+          console.warn(`No data found for LeetCode user: ${username}`);
+          return null;
         }
 
         return {
           username,
-          rating,
-          maxRating: rating + Math.floor(Math.random() * 100),
-          problemsSolved,
-          rank: rating > 1500 ? Math.floor(Math.random() * 10000) + 1000 : 0,
-          contests,
+          rating: rating || 0,
+          maxRating: rating || 0,
+          problemsSolved: problemsSolved || 0,
+          rank: rating > 1500 ? 0 : 0, // Will be updated by actual scraping
+          contests: contests || 0,
           lastUpdated: new Date()
         };
       };
@@ -92,16 +90,8 @@ class ScraperService {
       return await this.retryRequest(requestFn);
     } catch (error) {
       console.error('LeetCode scraping error:', error.message);
-      // Return realistic mock data when scraping fails
-      return {
-        username,
-        rating: Math.floor(Math.random() * 800) + 1200,
-        maxRating: Math.floor(Math.random() * 900) + 1300,
-        problemsSolved: Math.floor(Math.random() * 200) + 80,
-        rank: Math.floor(Math.random() * 15000) + 5000,
-        contests: Math.floor(Math.random() * 15) + 8,
-        lastUpdated: new Date()
-      };
+      // Return null instead of mock data - let the caller handle the error
+      throw new Error(`Failed to scrape LeetCode for ${username}: ${error.message}`);
     }
   }
 
@@ -197,20 +187,19 @@ class ScraperService {
           problemsSolved = parseInt(problemsElement.text()) || 0;
         }
 
-        // If no data found, use realistic mock data
-        if (rating === 0) {
-          rating = Math.floor(Math.random() * 600) + 800; // 800-1400
-          maxRating = rating + Math.floor(Math.random() * 300);
-          problemsSolved = Math.floor(Math.random() * 150) + 30; // 30-180 problems
+        // If no data found, return null to indicate scraping failure
+        if (rating === 0 && problemsSolved === 0) {
+          console.warn(`No data found for Codeforces user: ${username}`);
+          return null;
         }
 
         return {
           username,
-          rating,
-          maxRating,
-          problemsSolved,
-          rank: this.getCodeforcesRankNumber(rating > 1200 ? 'specialist' : 'pupil'),
-          contests: Math.floor(Math.random() * 25) + 10,
+          rating: rating || 0,
+          maxRating: maxRating || rating || 0,
+          problemsSolved: problemsSolved || 0,
+          rank: rating > 0 ? this.getCodeforcesRankNumber(rating > 1200 ? 'specialist' : 'pupil') : 0,
+          contests: 0, // Will be updated by actual scraping
           lastUpdated: new Date()
         };
       };
@@ -218,16 +207,8 @@ class ScraperService {
       return await this.retryRequest(requestFn);
     } catch (error) {
       console.error('Codeforces scraping error:', error.message);
-      // Return realistic mock data when scraping fails
-      return {
-        username,
-        rating: Math.floor(Math.random() * 600) + 900,
-        maxRating: Math.floor(Math.random() * 700) + 1000,
-        problemsSolved: Math.floor(Math.random() * 120) + 45,
-        rank: 3, // Specialist
-        contests: Math.floor(Math.random() * 20) + 12,
-        lastUpdated: new Date()
-      };
+      // Throw error instead of returning mock data
+      throw new Error(`Failed to scrape Codeforces for ${username}: ${error.message}`);
     }
   }
 
@@ -300,20 +281,18 @@ class ScraperService {
           }
         }
 
-        // If no data found, generate realistic data based on username
-        if (contributions === 0) {
-          contributions = Math.floor(Math.random() * 800) + 200; // 200-1000 contributions
-          repositories = Math.floor(Math.random() * 25) + 5; // 5-30 repos
-          followers = Math.floor(Math.random() * 50) + 10; // 10-60 followers
-          following = Math.floor(Math.random() * 100) + 20; // 20-120 following
+        // If no data found, return null to indicate scraping failure
+        if (contributions === 0 && repositories === 0) {
+          console.warn(`No data found for GitHub user: ${username}`);
+          return null;
         }
 
         return {
           username,
-          contributions,
-          repositories,
-          followers,
-          following,
+          contributions: contributions || 0,
+          repositories: repositories || 0,
+          followers: followers || 0,
+          following: following || 0,
           lastUpdated: new Date()
         };
       };
@@ -321,15 +300,8 @@ class ScraperService {
       return await this.retryRequest(requestFn);
     } catch (error) {
       console.error('GitHub scraping error:', error.message);
-      // Return realistic mock data when scraping fails
-      return {
-        username,
-        contributions: Math.floor(Math.random() * 600) + 300,
-        repositories: Math.floor(Math.random() * 20) + 8,
-        followers: Math.floor(Math.random() * 40) + 15,
-        following: Math.floor(Math.random() * 80) + 25,
-        lastUpdated: new Date()
-      };
+      // Throw error instead of returning mock data
+      throw new Error(`Failed to scrape GitHub for ${username}: ${error.message}`);
     }
   }
 
@@ -338,29 +310,14 @@ class ScraperService {
     try {
       console.log(`Scraping Codolio for user: ${username}`);
       
-      // Since Codolio might be difficult to scrape, let's provide realistic data
-      // In a real implementation, you'd use Puppeteer here
-      const totalSubmissions = Math.floor(Math.random() * 300) + 100; // 100-400 submissions
-      const currentStreak = Math.floor(Math.random() * 30) + 5; // 5-35 days
-      const maxStreak = currentStreak + Math.floor(Math.random() * 20) + 10; // Higher than current
-
-      return {
-        username,
-        totalSubmissions,
-        currentStreak,
-        maxStreak,
-        lastUpdated: new Date()
-      };
+      // Note: Codolio scraping should be implemented with Puppeteer or similar
+      // For now, return null to indicate scraping is not implemented
+      console.warn(`Codolio scraping not fully implemented for ${username}`);
+      throw new Error('Codolio scraping not implemented - use Python scraper instead');
     } catch (error) {
       console.error('Codolio scraping error:', error.message);
-      // Return realistic mock data when scraping fails
-      return {
-        username,
-        totalSubmissions: Math.floor(Math.random() * 250) + 80,
-        currentStreak: Math.floor(Math.random() * 25) + 3,
-        maxStreak: Math.floor(Math.random() * 40) + 15,
-        lastUpdated: new Date()
-      };
+      // Throw error instead of returning mock data
+      throw new Error(`Failed to scrape Codolio for ${username}: ${error.message}`);
     }
   }
 

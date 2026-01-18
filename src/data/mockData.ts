@@ -388,7 +388,7 @@ export const students: Student[] = realStudentData.map((data, index) => {
 
 export const credentials = {
   staff: staffCredentials,
-  owner: { email: "owner@bytebuster.com", password: "thotupar@123" },
+  owner: { email: "owner@bytebuster.com", password: "thotuparu@123" },
   students: students
     .map(s => ({ 
       username: s.name,  // Use student name as username
