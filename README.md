@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # GO Tracker - Student Performance Dashboard
 
 A comprehensive student performance tracking system that monitors coding progress across multiple platforms including LeetCode, CodeChef, Codeforces, GitHub, and Codolio.
